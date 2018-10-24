@@ -1,0 +1,17 @@
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/LineStyle.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/HtmlReportFactory.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/ConfidenceMap.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/SourceFile.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/MutationTestSummaryDataFileNameComparator.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/LineStatus.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/Line.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/AnnotatedLineFactory.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/MutationTestSummaryData.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/MutationTotals.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/MutationHtmlReportListener.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/PackageSummaryMap.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/MutationGrouping.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/PackageSummaryData.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/InputStreamLineIterable.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/MutationResultList.java
+/Users/carlosortiz/Desktop/Fall18/pitest/pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/ResultComparator.java
