@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.037" tests="40" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/0q/mw5p3tc92g73_nyw6l8f2sdm0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/carlosortiz/apache-maven-3.5.4/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/carlosortiz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/carlosortiz/apache-maven-3.5.4/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="library.jansi.path" value="/Users/carlosortiz/apache-maven-3.5.4/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/carlosortiz"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="carlosortiz"/>
+    <property name="java.class.path" value="/Users/carlosortiz/apache-maven-3.5.4/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="/Users/carlosortiz/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/carlosortiz/apache-maven-3.5.4"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="shouldRegisterNewBlockForAReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.011"/>
+  <testcase name="shouldRegisterNewBlockForFReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldRegisiterNewBlockForJumpInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldRegisterFinallyBlockEndForIReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldRegisterFinallyBlockStartWhenHitsLabelFromNullExceptionHandler" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.002"/>
+  <testcase name="shouldNotRegisterFinallyBlockEndForOtherInsn" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldRegisterNewBlockForIReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldNotRegisterFinallyBlockStartWhenHitsLabelFromNonNullExceptionHandler" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldNotRegisterFinallyBlockStartWhenHitsOtherLabelsFromNonNullExceptionHandler" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldRegisterFinallyBlockEndForAThrowInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldRegisterNewBlockForAThrowInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldRegisterFinallyBlockEndForLReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.003"/>
+  <testcase name="shouldRegisterFinallyBlockEndForAReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldRegisterFinallyBlockEndForFReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldRegisterFinallyBlockEndForReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldRegisterNewBlockForLReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldNotRegisterANewBlockForOtherInsn" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldRegisterNewBlockForReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitLdcInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitCodeCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitParameterAnnotationToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitLocalVariableToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitIntInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitFrameCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitJumpInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitLookupSwitchInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitTryCatchBlockToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitAnnotationDefaultCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitMethodInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitAnnotationCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitEndCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitTableSwitchInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitAttributeCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitMaxsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitFieldInsnCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitLineNumberToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitMultiANewArrayInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitIincInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitLabelToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+</testsuite>
