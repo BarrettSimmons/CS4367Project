@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.statistics.ScoreTest" time="0.004" tests="13" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.statistics.ScoreTest" time="0.006" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -69,11 +69,11 @@
   <testcase name="shouldCalculatePercentageDetectedWhenNoneFound" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0"/>
   <testcase name="shouldCalculateTotalNumberOfDetectedMutationsWhenSomeRegistered" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0"/>
   <testcase name="shouldCalculateTotalNumberOfDectedMutationsWhenNoneRegistered" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0"/>
-  <testcase name="shouldContainEmptyScoreForEachStatusWhenConstructed" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0.004"/>
+  <testcase name="shouldContainEmptyScoreForEachStatusWhenConstructed" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0.003"/>
   <testcase name="shouldCalculateTotalNumberOfMutationsWhenSomeRegistered" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0"/>
-  <testcase name="shouldPrintMutatorNameOnFirstLine" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0"/>
-  <testcase name="shouldCalculatePercentageDetectedWhenAllDetected" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0"/>
-  <testcase name="shouldPrintScoresFourToALine" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0"/>
+  <testcase name="shouldPrintMutatorNameOnFirstLine" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0.001"/>
+  <testcase name="shouldCalculatePercentageDetectedWhenAllDetected" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0.001"/>
+  <testcase name="shouldPrintScoresFourToALine" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0.001"/>
   <testcase name="shouldCalculatePercentageDetectedWhenNoneDetected" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0"/>
   <testcase name="registerResultsShouldIncrementCount" classname="org.pitest.mutationtest.statistics.ScoreTest" time="0"/>
 </testsuite>

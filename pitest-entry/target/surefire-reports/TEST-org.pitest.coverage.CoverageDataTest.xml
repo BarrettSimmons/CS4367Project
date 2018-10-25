@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.coverage.CoverageDataTest" time="0.157" tests="16" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.coverage.CoverageDataTest" time="0.119" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,20 +63,20 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldNotReportAGreenSuiteWhenATestHasFailed" classname="org.pitest.coverage.CoverageDataTest" time="0.022"/>
-  <testcase name="shouldProvideEmptyBlockCoverageListWhenNoCoverage" classname="org.pitest.coverage.CoverageDataTest" time="0.001"/>
-  <testcase name="shouldReportNumberOfCoveredLinesWhenSomeCovered" classname="org.pitest.coverage.CoverageDataTest" time="0.093"/>
-  <testcase name="shouldReturnCoverageIdOf0WhenNoTestsCoverClass" classname="org.pitest.coverage.CoverageDataTest" time="0.001"/>
-  <testcase name="shouldReturnUniqueTestsForClassWhenSomeTestsCoverClass" classname="org.pitest.coverage.CoverageDataTest" time="0.009"/>
+  <testcase name="shouldNotReportAGreenSuiteWhenATestHasFailed" classname="org.pitest.coverage.CoverageDataTest" time="0.016"/>
+  <testcase name="shouldProvideEmptyBlockCoverageListWhenNoCoverage" classname="org.pitest.coverage.CoverageDataTest" time="0.002"/>
+  <testcase name="shouldReportNumberOfCoveredLinesWhenSomeCovered" classname="org.pitest.coverage.CoverageDataTest" time="0.06"/>
+  <testcase name="shouldReturnCoverageIdOf0WhenNoTestsCoverClass" classname="org.pitest.coverage.CoverageDataTest" time="0.002"/>
+  <testcase name="shouldReturnUniqueTestsForClassWhenSomeTestsCoverClass" classname="org.pitest.coverage.CoverageDataTest" time="0.012"/>
   <testcase name="shouldReportAGreenSuiteWhenNoTestHasFailed" classname="org.pitest.coverage.CoverageDataTest" time="0.001"/>
-  <testcase name="shouldStoreExecutionTimesOfTests" classname="org.pitest.coverage.CoverageDataTest" time="0.003"/>
-  <testcase name="shouldReturnNotTestsWhenNoTestsCoverClass" classname="org.pitest.coverage.CoverageDataTest" time="0.001"/>
+  <testcase name="shouldStoreExecutionTimesOfTests" classname="org.pitest.coverage.CoverageDataTest" time="0.001"/>
+  <testcase name="shouldReturnNotTestsWhenNoTestsCoverClass" classname="org.pitest.coverage.CoverageDataTest" time="0"/>
   <testcase name="shouldReturnNoTestsWhenNoTestsCoverALine" classname="org.pitest.coverage.CoverageDataTest" time="0.001"/>
-  <testcase name="shouldMatchPackageWhenFindingSources" classname="org.pitest.coverage.CoverageDataTest" time="0.001"/>
+  <testcase name="shouldMatchPackageWhenFindingSources" classname="org.pitest.coverage.CoverageDataTest" time="0.004"/>
   <testcase name="shouldProvideListOfClassesForSourceFile" classname="org.pitest.coverage.CoverageDataTest" time="0.001"/>
-  <testcase name="shouldReportNumberOfCoveredLinesWhenNoneCovered" classname="org.pitest.coverage.CoverageDataTest" time="0.001"/>
-  <testcase name="shouldIncludeAllCoveredLinesInCoverageSummary" classname="org.pitest.coverage.CoverageDataTest" time="0.003"/>
-  <testcase name="shouldProvideAccessToClassData" classname="org.pitest.coverage.CoverageDataTest" time="0.002"/>
-  <testcase name="shouldProvideCoverageListWhenCoverageRecorded" classname="org.pitest.coverage.CoverageDataTest" time="0.005"/>
-  <testcase name="shouldReturnNonZeroCoverageIdWhenTestsCoverClass" classname="org.pitest.coverage.CoverageDataTest" time="0.012"/>
+  <testcase name="shouldReportNumberOfCoveredLinesWhenNoneCovered" classname="org.pitest.coverage.CoverageDataTest" time="0"/>
+  <testcase name="shouldIncludeAllCoveredLinesInCoverageSummary" classname="org.pitest.coverage.CoverageDataTest" time="0.005"/>
+  <testcase name="shouldProvideAccessToClassData" classname="org.pitest.coverage.CoverageDataTest" time="0.001"/>
+  <testcase name="shouldProvideCoverageListWhenCoverageRecorded" classname="org.pitest.coverage.CoverageDataTest" time="0.004"/>
+  <testcase name="shouldReturnNonZeroCoverageIdWhenTestsCoverClass" classname="org.pitest.coverage.CoverageDataTest" time="0.009"/>
 </testsuite>

@@ -53,6 +53,7 @@
 						<configuration> 
 							<mutators>
 								<mutator>CUSTOM_MUTATOR_ROR</mutator>
+								<mutator>CUSTOM_MUTATOR_AOR</mutator>
 							</mutators>
 						</configuration>
 	  </plugin>

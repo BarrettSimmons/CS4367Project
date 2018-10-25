@@ -63,9 +63,9 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldNotifyChildOfTestSkipped" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0.001"/>
+  <testcase name="shouldNotifyChildOfTestSkipped" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0"/>
   <testcase name="shouldNotifyChildOfTestSuccess" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0"/>
-  <testcase name="shouldRequestStopOnTestFailure" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0"/>
-  <testcase name="shouldNotifyChildOfTestFailure" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0.001"/>
-  <testcase name="shouldNotifyChildOfTestStart" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0"/>
+  <testcase name="shouldRequestStopOnTestFailure" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0.001"/>
+  <testcase name="shouldNotifyChildOfTestFailure" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0"/>
+  <testcase name="shouldNotifyChildOfTestStart" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0.001"/>
 </testsuite>

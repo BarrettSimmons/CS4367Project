@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="1.977" tests="38" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="1.879" tests="38" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -64,41 +64,41 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="subtractLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.043"/>
-  <testcase name="subtract" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.041"/>
-  <testcase name="clearBitLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.083"/>
-  <testcase name="flipBitLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.055"/>
-  <testcase name="xorLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.061"/>
-  <testcase name="andNot" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.058"/>
-  <testcase name="divide" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.032"/>
-  <testcase name="modulo" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.033"/>
-  <testcase name="negate" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.062"/>
-  <testcase name="setBit" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.045"/>
-  <testcase name="maxLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.048"/>
-  <testcase name="flipBit" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.045"/>
+  <testcase name="subtract" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.04"/>
+  <testcase name="clearBitLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.087"/>
+  <testcase name="flipBitLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.049"/>
+  <testcase name="xorLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.058"/>
+  <testcase name="andNot" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.054"/>
+  <testcase name="divide" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.028"/>
+  <testcase name="modulo" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.03"/>
+  <testcase name="negate" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.061"/>
+  <testcase name="setBit" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.042"/>
+  <testcase name="maxLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.047"/>
+  <testcase name="flipBit" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.042"/>
   <testcase name="mutliplyLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.03"/>
   <testcase name="addLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.032"/>
-  <testcase name="negateLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.066"/>
-  <testcase name="minLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.059"/>
-  <testcase name="or" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.075"/>
-  <testcase name="abs" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.059"/>
-  <testcase name="add" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.037"/>
-  <testcase name="and" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.071"/>
-  <testcase name="max" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.054"/>
-  <testcase name="min" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.057"/>
-  <testcase name="not" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.05"/>
-  <testcase name="xor" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.062"/>
-  <testcase name="andLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.102"/>
-  <testcase name="andNotLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.06"/>
-  <testcase name="orLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.054"/>
-  <testcase name="clearBit" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.031"/>
-  <testcase name="mutliply" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.025"/>
-  <testcase name="shiftLeft" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.062"/>
-  <testcase name="setBitLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.04"/>
-  <testcase name="shiftRightLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.072"/>
-  <testcase name="absLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.039"/>
-  <testcase name="notLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.038"/>
-  <testcase name="moduloLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.028"/>
-  <testcase name="shiftLeftLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.071"/>
-  <testcase name="shiftRight" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.062"/>
-  <testcase name="divideLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.035"/>
+  <testcase name="negateLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.06"/>
+  <testcase name="minLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.04"/>
+  <testcase name="or" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.062"/>
+  <testcase name="abs" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.052"/>
+  <testcase name="add" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.056"/>
+  <testcase name="and" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.073"/>
+  <testcase name="max" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.058"/>
+  <testcase name="min" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.047"/>
+  <testcase name="not" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.061"/>
+  <testcase name="xor" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.06"/>
+  <testcase name="andLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.064"/>
+  <testcase name="andNotLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.075"/>
+  <testcase name="orLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.047"/>
+  <testcase name="clearBit" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.03"/>
+  <testcase name="mutliply" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.024"/>
+  <testcase name="shiftLeft" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.061"/>
+  <testcase name="setBitLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.039"/>
+  <testcase name="shiftRightLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.074"/>
+  <testcase name="absLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.035"/>
+  <testcase name="notLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.036"/>
+  <testcase name="moduloLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.024"/>
+  <testcase name="shiftLeftLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.069"/>
+  <testcase name="shiftRight" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.061"/>
+  <testcase name="divideLambda" classname="org.pitest.mutationtest.engine.gregor.mutators.BigIntegerMutatorTest" time="0.028"/>
 </testsuite>

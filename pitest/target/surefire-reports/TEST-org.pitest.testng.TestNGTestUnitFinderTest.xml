@@ -64,7 +64,7 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldFindNoTestUnitsInUnannotatedClasses" classname="org.pitest.testng.TestNGTestUnitFinderTest" time="0"/>
-  <testcase name="shouldIgnoreAbstractClasses" classname="org.pitest.testng.TestNGTestUnitFinderTest" time="0.002"/>
-  <testcase name="shouldFindSingleTestUnitForAllPublicMethodsInAnnotatedClass" classname="org.pitest.testng.TestNGTestUnitFinderTest" time="0.098"/>
-  <testcase name="shouldFindSingleTestUnitClassWithAnnotatedMethods" classname="org.pitest.testng.TestNGTestUnitFinderTest" time="0.004"/>
+  <testcase name="shouldIgnoreAbstractClasses" classname="org.pitest.testng.TestNGTestUnitFinderTest" time="0.001"/>
+  <testcase name="shouldFindSingleTestUnitForAllPublicMethodsInAnnotatedClass" classname="org.pitest.testng.TestNGTestUnitFinderTest" time="0.1"/>
+  <testcase name="shouldFindSingleTestUnitClassWithAnnotatedMethods" classname="org.pitest.testng.TestNGTestUnitFinderTest" time="0.003"/>
 </testsuite>

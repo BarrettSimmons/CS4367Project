@@ -63,8 +63,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldInterceptCallsToOpenClassFileInJavaAssist" classname="org.pitest.mutationtest.mocksupport.JavassistInputStreamInterceptorAdapaterTest" time="0"/>
-  <testcase name="shouldNotInterceptNormalInvokeStaticCalls" classname="org.pitest.mutationtest.mocksupport.JavassistInputStreamInterceptorAdapaterTest" time="0.001"/>
-  <testcase name="shouldNotInterceptNormalInvokeInterfaceCalls" classname="org.pitest.mutationtest.mocksupport.JavassistInputStreamInterceptorAdapaterTest" time="0"/>
-  <testcase name="shouldNotInterceptCallsToMethodsCalledOpenClassFileNotInJavaAssist" classname="org.pitest.mutationtest.mocksupport.JavassistInputStreamInterceptorAdapaterTest" time="0.001"/>
+  <testcase name="shouldInterceptCallsToOpenClassFileInJavaAssist" classname="org.pitest.mutationtest.mocksupport.JavassistInputStreamInterceptorAdapaterTest" time="0.001"/>
+  <testcase name="shouldNotInterceptNormalInvokeStaticCalls" classname="org.pitest.mutationtest.mocksupport.JavassistInputStreamInterceptorAdapaterTest" time="0"/>
+  <testcase name="shouldNotInterceptNormalInvokeInterfaceCalls" classname="org.pitest.mutationtest.mocksupport.JavassistInputStreamInterceptorAdapaterTest" time="0.001"/>
+  <testcase name="shouldNotInterceptCallsToMethodsCalledOpenClassFileNotInJavaAssist" classname="org.pitest.mutationtest.mocksupport.JavassistInputStreamInterceptorAdapaterTest" time="0"/>
 </testsuite>

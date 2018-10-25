@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.PitMojoIT" time="205.021" tests="19" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.PitMojoIT" time="210.011" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -64,23 +64,23 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldReadExclusionsFromSurefireConfig" classname="org.pitest.PitMojoIT" time="10.584"/>
-  <testcase name="shouldFailIfNoPITReportAvailable" classname="org.pitest.PitMojoIT" time="6.477"/>
-  <testcase name="shouldGenerateSiteReportWithSingleTimestampedHtmlReport" classname="org.pitest.PitMojoIT" time="6.304"/>
-  <testcase name="shouldNotHangWhenLargeAmountsOfConsoleOutput" classname="org.pitest.PitMojoIT" time="10.441"/>
-  <testcase name="shouldCopyLatestTimestampedReportWhenMultipleTimestampedReportsExist" classname="org.pitest.PitMojoIT" time="7.242"/>
-  <testcase name="shouldWorkWithGWTMockito" classname="org.pitest.PitMojoIT" time="20.004"/>
-  <testcase name="shouldGenerateSiteReportWithNonTimestampedHtmlReport" classname="org.pitest.PitMojoIT" time="7.765"/>
-  <testcase name="shouldWorkWithTestNG" classname="org.pitest.PitMojoIT" time="12.118"/>
-  <testcase name="shouldSetUserDirToArtefactWorkingDirectory" classname="org.pitest.PitMojoIT" time="4.364"/>
-  <testcase name="shouldWorkWithTestNGAndJMockit" classname="org.pitest.PitMojoIT" time="14.447"/>
-  <testcase name="shouldComputeReportOfTheSubModule" classname="org.pitest.PitMojoIT" time="15.178"/>
-  <testcase name="shouldExcludeSpecifiedJUnitCategories" classname="org.pitest.PitMojoIT" time="9.46"/>
-  <testcase name="shouldWorkWithYatspec" classname="org.pitest.PitMojoIT" time="9.912"/>
-  <testcase name="shouldWorkWithPowerMock" classname="org.pitest.PitMojoIT" time="21.383"/>
-  <testcase name="shouldCorrectlyTargetTestsWhenMultipleBlocksIncludeALine" classname="org.pitest.PitMojoIT" time="10.434"/>
-  <testcase name="shouldCorrectlyHandleOverrides" classname="org.pitest.PitMojoIT" time="7.584"/>
-  <testcase name="shouldSkipSiteReportGeneration" classname="org.pitest.PitMojoIT" time="5.501"/>
-  <testcase name="shouldProduceConsistantCoverageData" classname="org.pitest.PitMojoIT" time="20.147"/>
-  <testcase name="shouldCopyLatestTimestampedOrNonTimestampedReportWhenBothExist" classname="org.pitest.PitMojoIT" time="5.676"/>
+  <testcase name="shouldReadExclusionsFromSurefireConfig" classname="org.pitest.PitMojoIT" time="11.607"/>
+  <testcase name="shouldFailIfNoPITReportAvailable" classname="org.pitest.PitMojoIT" time="7.218"/>
+  <testcase name="shouldGenerateSiteReportWithSingleTimestampedHtmlReport" classname="org.pitest.PitMojoIT" time="7.351"/>
+  <testcase name="shouldNotHangWhenLargeAmountsOfConsoleOutput" classname="org.pitest.PitMojoIT" time="11.53"/>
+  <testcase name="shouldCopyLatestTimestampedReportWhenMultipleTimestampedReportsExist" classname="org.pitest.PitMojoIT" time="7.574"/>
+  <testcase name="shouldWorkWithGWTMockito" classname="org.pitest.PitMojoIT" time="20.248"/>
+  <testcase name="shouldGenerateSiteReportWithNonTimestampedHtmlReport" classname="org.pitest.PitMojoIT" time="8.323"/>
+  <testcase name="shouldWorkWithTestNG" classname="org.pitest.PitMojoIT" time="12.395"/>
+  <testcase name="shouldSetUserDirToArtefactWorkingDirectory" classname="org.pitest.PitMojoIT" time="4.463"/>
+  <testcase name="shouldWorkWithTestNGAndJMockit" classname="org.pitest.PitMojoIT" time="13.824"/>
+  <testcase name="shouldComputeReportOfTheSubModule" classname="org.pitest.PitMojoIT" time="15.085"/>
+  <testcase name="shouldExcludeSpecifiedJUnitCategories" classname="org.pitest.PitMojoIT" time="9.624"/>
+  <testcase name="shouldWorkWithYatspec" classname="org.pitest.PitMojoIT" time="10.169"/>
+  <testcase name="shouldWorkWithPowerMock" classname="org.pitest.PitMojoIT" time="21.116"/>
+  <testcase name="shouldCorrectlyTargetTestsWhenMultipleBlocksIncludeALine" classname="org.pitest.PitMojoIT" time="10.452"/>
+  <testcase name="shouldCorrectlyHandleOverrides" classname="org.pitest.PitMojoIT" time="7.253"/>
+  <testcase name="shouldSkipSiteReportGeneration" classname="org.pitest.PitMojoIT" time="5.625"/>
+  <testcase name="shouldProduceConsistantCoverageData" classname="org.pitest.PitMojoIT" time="20.245"/>
+  <testcase name="shouldCopyLatestTimestampedOrNonTimestampedReportWhenBothExist" classname="org.pitest.PitMojoIT" time="5.909"/>
 </testsuite>

@@ -64,9 +64,9 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldConvertFileInPackageToJavaClassName" classname="org.pitest.maven.PathToJavaClassConverterTest" time="0"/>
+  <testcase name="shouldConvertFileInPackageToJavaClassName" classname="org.pitest.maven.PathToJavaClassConverterTest" time="0.001"/>
   <testcase name="shouldConvertBackslashPathsRegardlessOfOs" classname="org.pitest.maven.PathToJavaClassConverterTest" time="0"/>
-  <testcase name="shouldIncludeWildCardInGeneratedGlobToCatchInnerClasses" classname="org.pitest.maven.PathToJavaClassConverterTest" time="0.001"/>
+  <testcase name="shouldIncludeWildCardInGeneratedGlobToCatchInnerClasses" classname="org.pitest.maven.PathToJavaClassConverterTest" time="0"/>
   <testcase name="shouldReturnNoMatchedForFilesNotUnderSourceTree" classname="org.pitest.maven.PathToJavaClassConverterTest" time="0"/>
   <testcase name="shouldConvertFilesWithOddCaseExtensionsToJavaClassName" classname="org.pitest.maven.PathToJavaClassConverterTest" time="0"/>
   <testcase name="shouldConvertFilesWithDotInPath" classname="org.pitest.maven.PathToJavaClassConverterTest" time="0"/>

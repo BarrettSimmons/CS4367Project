@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.081 sec - in org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.104 sec - in org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest

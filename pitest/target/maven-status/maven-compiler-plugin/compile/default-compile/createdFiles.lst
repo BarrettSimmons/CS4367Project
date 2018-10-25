@@ -61,6 +61,7 @@ org/pitest/util/StreamUtil.class
 org/pitest/coverage/analysis/LocalVariableCoverageMethodVisitor.class
 org/pitest/mutationtest/engine/gregor/mutators/AReturnMethodVisitor$2.class
 org/pitest/testapi/TestSuiteFinder.class
+org/pitest/mutationtest/engine/gregor/mutators/CustomMutatorAORVisitor.class
 org/pitest/classpath/ProjectClassPaths.class
 org/pitest/dependency/DependencyExtractor.class
 org/pitest/help/Help.class
@@ -241,6 +242,7 @@ org/pitest/bytecode/NullVisitor.class
 org/pitest/junit/ParameterisedJUnitTestFinder.class
 org/pitest/mutationtest/engine/gregor/mutators/experimental/BigIntegerMutator$1.class
 org/pitest/coverage/analysis/Block.class
+org/pitest/mutationtest/engine/gregor/mutators/CustomMutatorAOR.class
 org/pitest/plugin/ToggleStatus.class
 org/pitest/functional/F3.class
 org/pitest/reflection/Reflection.class

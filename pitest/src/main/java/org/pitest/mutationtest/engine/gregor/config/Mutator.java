@@ -55,7 +55,7 @@ import org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveIncreme
 import org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutator;
 import org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutator;
 import org.pitest.mutationtest.engine.gregor.mutators.CustomMutatorROR;
-
+import org.pitest.mutationtest.engine.gregor.mutators.CustomMutatorAOR;
 
 
 public final class Mutator {
@@ -145,6 +145,7 @@ public final class Mutator {
         Choice.ORDER, false));
     addGroup("REMOVE_CONDITIONALS", RemoveConditionalMutator.makeMutators());
     add("CUSTOM_MUTATOR_ROR", CustomMutatorROR.CUSTOM_MUTATOR_ROR);
+    add("CUSTOM_MUTATOR_AOR", CustomMutatorAOR.CUSTOM_MUTATOR_AOR);
     add("TRUE_RETURNS", BooleanTrueReturnValsMutator.BOOLEAN_TRUE_RETURN);
     add("FALSE_RETURNS", BooleanFalseReturnValsMutator.BOOLEAN_FALSE_RETURN);
     add("PRIMITIVE_RETURNS", PrimitiveReturnsMutator.PRIMITIVE_RETURN_VALS_MUTATOR);

@@ -63,7 +63,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldIdentifyGroovyObjects" classname="org.pitest.mutationtest.engine.gregor.ClassInfoTest" time="0.001"/>
+  <testcase name="shouldIdentifyGroovyObjects" classname="org.pitest.mutationtest.engine.gregor.ClassInfoTest" time="0"/>
   <testcase name="shouldIdentifyGroovyClosures" classname="org.pitest.mutationtest.engine.gregor.ClassInfoTest" time="0"/>
-  <testcase name="shouldIdentifyEnumsFromSuperClass" classname="org.pitest.mutationtest.engine.gregor.ClassInfoTest" time="0"/>
+  <testcase name="shouldIdentifyEnumsFromSuperClass" classname="org.pitest.mutationtest.engine.gregor.ClassInfoTest" time="0.001"/>
 </testsuite>

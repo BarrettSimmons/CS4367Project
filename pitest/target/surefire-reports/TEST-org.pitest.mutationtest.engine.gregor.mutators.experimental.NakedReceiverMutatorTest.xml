@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.145" tests="6" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.14" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -64,9 +64,9 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldNotReplaceMethodCallWhenDifferentReturnType" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.012"/>
-  <testcase name="shouldNotMutateVoidMethodCall" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.012"/>
+  <testcase name="shouldNotMutateVoidMethodCall" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.011"/>
   <testcase name="shouldRemoveDslMethods" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.03"/>
-  <testcase name="willReplaceCallToMethodWithDifferentGenericTypeDueToTypeErasure" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.046"/>
-  <testcase name="shouldReplaceMethodCallOnString" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.033"/>
-  <testcase name="shouldNotMutateStaticMethodCall" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.012"/>
+  <testcase name="willReplaceCallToMethodWithDifferentGenericTypeDueToTypeErasure" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.05"/>
+  <testcase name="shouldReplaceMethodCallOnString" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.024"/>
+  <testcase name="shouldNotMutateStaticMethodCall" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.013"/>
 </testsuite>
