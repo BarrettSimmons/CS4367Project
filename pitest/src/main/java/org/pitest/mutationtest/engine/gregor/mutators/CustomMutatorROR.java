@@ -53,14 +53,14 @@ public enum CustomMutatorROR implements MethodMutatorFactory {
 class ConditionalsBoundaryMethodVisitor extends AbstractJumpMutator {
 
     private static final String DESCRIPTION = "Replaced relational operator with another";
-    private static final Map<Integer, Substitution> MUTATIONS = new HashMap<>();
+    private static final Map<Integer, Substitution> MUTATIONS = new HashMap<Integer, Substitution>();
 
     static {
        
         
-        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFLE, DESCRIPTION));
-        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFGE , DESCRIPTION));
-        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFNE , DESCRIPTION));
+        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFLE, "Replace less than with less than equal to"));
+        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFGE , "Replace less than with greater than equal to"));
+        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFNE , "Replace less than with if not equal to"));
        
     }
 

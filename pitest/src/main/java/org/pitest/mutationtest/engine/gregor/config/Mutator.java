@@ -54,12 +54,18 @@ import org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiver
 import org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveIncrementsMutator;
 import org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutator;
 import org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutator;
+import org.pitest.mutationtest.engine.gregor.mutators.CustomMutatorROR;
+
+
 
 public final class Mutator {
 
   private static final Map<String, Iterable<MethodMutatorFactory>> MUTATORS = new LinkedHashMap<>();
 
   static {
+
+		add("CONDITIONALS_BOUNDARY_MUTATOR", CustomMutatorROR.CONDITIONALS_BOUNDARY_MUTATOR);
+
 
     /**
      * Default mutator that inverts the negation of integer and floating point
