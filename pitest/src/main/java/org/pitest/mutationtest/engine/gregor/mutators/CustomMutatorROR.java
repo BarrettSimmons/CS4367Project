@@ -35,7 +35,7 @@ public enum CustomMutatorROR implements MethodMutatorFactory {
     @Override
     public MethodVisitor create(final MutationContext context,
             final MethodInfo methodInfo, final MethodVisitor methodVisitor) {
-        return new ConditionalsBoundaryMethodVisitor(this, context, methodVisitor);
+        return new CustomMutatorRORVisitor(this, context, methodVisitor);
     }
 
     @Override
