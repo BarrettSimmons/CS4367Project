@@ -66,6 +66,6 @@
   <testcase name="shouldCreateSingleUnitPerClassWhenUnitSizeIsLessThanZero" classname="org.pitest.mutationtest.build.MutationTestBuilderTest" time="0.024"/>
   <testcase name="shouldCreateNoUnitsWhenNoMutationsFound" classname="org.pitest.mutationtest.build.MutationTestBuilderTest" time="0.001"/>
   <testcase name="shouldCreateMultipleTestUnitsWhenUnitSizeIsLessThanNumberOfMutations" classname="org.pitest.mutationtest.build.MutationTestBuilderTest" time="0.001"/>
-  <testcase name="shouldOrderLargestUnitFirst" classname="org.pitest.mutationtest.build.MutationTestBuilderTest" time="0.001"/>
-  <testcase name="shouldCreateSingleUnitPerClassWhenUnitSizeIsZero" classname="org.pitest.mutationtest.build.MutationTestBuilderTest" time="0.002"/>
+  <testcase name="shouldOrderLargestUnitFirst" classname="org.pitest.mutationtest.build.MutationTestBuilderTest" time="0.002"/>
+  <testcase name="shouldCreateSingleUnitPerClassWhenUnitSizeIsZero" classname="org.pitest.mutationtest.build.MutationTestBuilderTest" time="0.001"/>
 </testsuite>

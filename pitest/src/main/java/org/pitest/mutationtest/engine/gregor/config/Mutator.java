@@ -56,7 +56,7 @@ import org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchM
 import org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutator;
 import org.pitest.mutationtest.engine.gregor.mutators.CustomMutatorROR;
 import org.pitest.mutationtest.engine.gregor.mutators.CustomMutatorAOR;
-
+import org.pitest.mutationtest.engine.gregor.mutators.CustomMutatorAOD;
 
 public final class Mutator {
 
@@ -146,6 +146,7 @@ public final class Mutator {
     addGroup("REMOVE_CONDITIONALS", RemoveConditionalMutator.makeMutators());
     add("CUSTOM_MUTATOR_ROR", CustomMutatorROR.CUSTOM_MUTATOR_ROR);
     add("CUSTOM_MUTATOR_AOR", CustomMutatorAOR.CUSTOM_MUTATOR_AOR);
+    add("CUSTOM_MUTATOR_AOD", CustomMutatorAOD.CUSTOM_MUTATOR_AOD);
     add("TRUE_RETURNS", BooleanTrueReturnValsMutator.BOOLEAN_TRUE_RETURN);
     add("FALSE_RETURNS", BooleanFalseReturnValsMutator.BOOLEAN_FALSE_RETURN);
     add("PRIMITIVE_RETURNS", PrimitiveReturnsMutator.PRIMITIVE_RETURN_VALS_MUTATOR);

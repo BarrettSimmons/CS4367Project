@@ -64,6 +64,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="coverButDoNotTestReturnsThree" classname="com.example.PartCoveredTest" time="0.002"/>
-  <testcase name="fullyTestReturnsOne" classname="com.example.PartCoveredTest" time="0"/>
+  <testcase name="coverButDoNotTestReturnsThree" classname="com.example.PartCoveredTest" time="0.001"/>
+  <testcase name="fullyTestReturnsOne" classname="com.example.PartCoveredTest" time="0.001"/>
 </testsuite>

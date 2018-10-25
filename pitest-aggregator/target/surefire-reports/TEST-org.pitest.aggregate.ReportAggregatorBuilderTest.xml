@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.045" tests="18" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.055" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,22 +63,22 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testCompiledCodeDirectories_withFake" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.012"/>
-  <testcase name="testCompiledCodeDirectories_withFile" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.018"/>
+  <testcase name="testCompiledCodeDirectories_withFake" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.015"/>
+  <testcase name="testCompiledCodeDirectories_withFile" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.024"/>
   <testcase name="testCompiledCodeDirectories_withNull" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.001"/>
-  <testcase name="testLineCoverageFiles_withDir" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0"/>
+  <testcase name="testLineCoverageFiles_withDir" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.001"/>
   <testcase name="testBuild" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.002"/>
-  <testcase name="testBuild_missingSourceCodeDirectories" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.002"/>
-  <testcase name="testMutationResultsFiles_withDir" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0"/>
+  <testcase name="testBuild_missingSourceCodeDirectories" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.001"/>
+  <testcase name="testMutationResultsFiles_withDir" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.001"/>
   <testcase name="testBuild_missingMutationResultsFiles" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.001"/>
-  <testcase name="testBuild_missingCompiledCodeDirectories" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.001"/>
-  <testcase name="testSourceCodeDirectories_withFake" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.001"/>
-  <testcase name="testSourceCodeDirectories_withFile" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.001"/>
-  <testcase name="testSourceCodeDirectories_withNull" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.002"/>
-  <testcase name="testLineCoverageFiles_withFake" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0"/>
-  <testcase name="testLineCoverageFiles_withNull" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0"/>
-  <testcase name="testBuild_missingCoverageFiles" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.001"/>
-  <testcase name="testMutationResultsFiles_withFake" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.002"/>
+  <testcase name="testBuild_missingCompiledCodeDirectories" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0"/>
+  <testcase name="testSourceCodeDirectories_withFake" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0"/>
+  <testcase name="testSourceCodeDirectories_withFile" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.003"/>
+  <testcase name="testSourceCodeDirectories_withNull" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.001"/>
+  <testcase name="testLineCoverageFiles_withFake" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.001"/>
+  <testcase name="testLineCoverageFiles_withNull" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.001"/>
+  <testcase name="testBuild_missingCoverageFiles" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.002"/>
+  <testcase name="testMutationResultsFiles_withFake" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0"/>
   <testcase name="testMutationResultsFiles_withNull" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0"/>
   <testcase name="testBuild_missingOutputStrategy" classname="org.pitest.aggregate.ReportAggregatorBuilderTest" time="0.001"/>
 </testsuite>

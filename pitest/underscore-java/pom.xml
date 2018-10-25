@@ -54,6 +54,7 @@
 							<mutators>
 								<mutator>CUSTOM_MUTATOR_ROR</mutator>
 								<mutator>CUSTOM_MUTATOR_AOR</mutator>
+								<mutator>CUSTOM_MUTATOR_AOD</mutator>
 							</mutators>
 						</configuration>
 	  </plugin>

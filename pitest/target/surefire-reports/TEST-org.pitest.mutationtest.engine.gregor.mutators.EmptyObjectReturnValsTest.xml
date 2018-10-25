@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.437" tests="20" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.495" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,24 +63,24 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="describesMutationsToShorts" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.035"/>
-  <testcase name="describesMutationsToString" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.017"/>
-  <testcase name="mutatesBoxedLongsToZero" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.03"/>
-  <testcase name="mutatesBoxedCharsToZero" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.029"/>
-  <testcase name="mutatesBoxedIntegersToZeroWhenAnnotatedNotNull" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.026"/>
-  <testcase name="mutatesToEmptyString" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.024"/>
-  <testcase name="mutatesBoxedShortsToZero" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.021"/>
-  <testcase name="mutatesCollectionsToEmptyList" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.03"/>
-  <testcase name="mutatesBoxedDoublesToZero" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.024"/>
+  <testcase name="describesMutationsToShorts" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.042"/>
+  <testcase name="describesMutationsToString" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.013"/>
+  <testcase name="mutatesBoxedLongsToZero" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.022"/>
+  <testcase name="mutatesBoxedCharsToZero" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.036"/>
+  <testcase name="mutatesBoxedIntegersToZeroWhenAnnotatedNotNull" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.033"/>
+  <testcase name="mutatesToEmptyString" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.037"/>
+  <testcase name="mutatesBoxedShortsToZero" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.029"/>
+  <testcase name="mutatesCollectionsToEmptyList" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.029"/>
+  <testcase name="mutatesBoxedDoublesToZero" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.027"/>
   <testcase name="describesMutationsToDoubles" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.012"/>
-  <testcase name="mutatesBoxedFloatsToZero" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.024"/>
-  <testcase name="mutatesSetToEmptySet" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.023"/>
-  <testcase name="mutatesListToEmptyList" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.03"/>
-  <testcase name="describesMutationsToIntegers" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.012"/>
-  <testcase name="describesMutationsToChars" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.011"/>
-  <testcase name="describesMutationsToLongs" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.012"/>
-  <testcase name="mutatesBoxedIntegersToZero" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.028"/>
+  <testcase name="mutatesBoxedFloatsToZero" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.029"/>
+  <testcase name="mutatesSetToEmptySet" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.031"/>
+  <testcase name="mutatesListToEmptyList" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.033"/>
+  <testcase name="describesMutationsToIntegers" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.017"/>
+  <testcase name="describesMutationsToChars" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.015"/>
+  <testcase name="describesMutationsToLongs" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.016"/>
+  <testcase name="mutatesBoxedIntegersToZero" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.03"/>
   <testcase name="doesNotMutateObjectReturnValuesWithNoEmptyValueOption" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.018"/>
-  <testcase name="doesNotMutateBoolean" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.017"/>
+  <testcase name="doesNotMutateBoolean" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.012"/>
   <testcase name="describesMutationsToFloats" classname="org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsTest" time="0.014"/>
 </testsuite>

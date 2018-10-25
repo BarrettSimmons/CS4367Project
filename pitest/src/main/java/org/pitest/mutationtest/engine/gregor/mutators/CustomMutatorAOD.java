@@ -62,16 +62,16 @@ class CustomAODMethodVisitor extends MethodVisitor {
 
     @Override
     public void visitInsn(final int opcode) {
-        if (opcode == Opcodes.IADD) {
+        if ((opcode == Opcodes.IADD) || (opcode == Opcodes.ISUB))  {
             final MutationIdentifier newId = this.context.registerMutation(this.factory, "-> KILLED");
             if (this.context.shouldMutate(newId)) {
                 super.visitInsn(Opcodes.SWAP);
                 super.visitInsn(Opcodes.POP);
             } else {
                 super.visitInsn(opcode);
-            }
+            } 
         } else {
-            super.visitInsn(opcode);
+           super.visitInsn(opcode);
         }
         //still have to do IADD
 

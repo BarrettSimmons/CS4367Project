@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.classinfo.ClassNameTest" time="0.399" tests="22" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.classinfo.ClassNameTest" time="0.384" tests="22" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -65,24 +65,24 @@
   </properties>
   <testcase name="shouldTreatDifferentClassesAsNotEqual" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
   <testcase name="shouldTreatSameClassAsEqual" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="shouldUseCachedInstancesForObject" classname="org.pitest.classinfo.ClassNameTest" time="0.272"/>
-  <testcase name="withoutPrefeixCharsShouldReturnPacakgeAndClassWithoutPrefixChars" classname="org.pitest.classinfo.ClassNameTest" time="0.001"/>
+  <testcase name="shouldUseCachedInstancesForObject" classname="org.pitest.classinfo.ClassNameTest" time="0.267"/>
+  <testcase name="withoutPrefeixCharsShouldReturnPacakgeAndClassWithoutPrefixChars" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
   <testcase name="shouldUseCachedInstancesForString" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="shouldConvertStringToClassName" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
+  <testcase name="shouldConvertStringToClassName" classname="org.pitest.classinfo.ClassNameTest" time="0.001"/>
   <testcase name="getNameWithoutPackageShouldReturnNameOnlyWhenClassIsOuterClass" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
   <testcase name="shouldConvertJavaNamesToInternalNames" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
   <testcase name="getNameWithoutPackageShouldReturnNameWhenClassInPackageDefault" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="shouldObeyHashcodeEqualsContract" classname="org.pitest.classinfo.ClassNameTest" time="0.056"/>
+  <testcase name="shouldObeyHashcodeEqualsContract" classname="org.pitest.classinfo.ClassNameTest" time="0.079"/>
   <testcase name="getPackageShouldReturnEmptyPackageWhenClassInPackageDefault" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="shouldConvertInternalNamesToJavaNames" classname="org.pitest.classinfo.ClassNameTest" time="0.001"/>
-  <testcase name="getPackageShouldReturnPackageWhenClassWithinAPackage" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
+  <testcase name="shouldConvertInternalNamesToJavaNames" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
+  <testcase name="getPackageShouldReturnPackageWhenClassWithinAPackage" classname="org.pitest.classinfo.ClassNameTest" time="0.001"/>
   <testcase name="shouldTreatSameClassNameAsEqual" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
   <testcase name="withoutSuffixCharsShouldReturnPacakgeAndClassWithoutSuffixChars" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
   <testcase name="shouldDisplayJavaNameInToString" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="getNameWithoutPackageShouldReturnNameWhenClassIsInnerClass" classname="org.pitest.classinfo.ClassNameTest" time="0.002"/>
+  <testcase name="getNameWithoutPackageShouldReturnNameWhenClassIsInnerClass" classname="org.pitest.classinfo.ClassNameTest" time="0.003"/>
   <testcase name="shouldProduceDifferentHashCodeForDifferentClasses" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="stringToClassShouldReturnEmptyWhenClassNotKnownToLoader" classname="org.pitest.classinfo.ClassNameTest" time="0.061"/>
-  <testcase name="shouldSortByName" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
+  <testcase name="stringToClassShouldReturnEmptyWhenClassNotKnownToLoader" classname="org.pitest.classinfo.ClassNameTest" time="0.029"/>
+  <testcase name="shouldSortByName" classname="org.pitest.classinfo.ClassNameTest" time="0.001"/>
   <testcase name="shouldProduceSameHashCodeForSameClass" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="nameToClassShouldReturnClassWhenKnownToLoader" classname="org.pitest.classinfo.ClassNameTest" time="0.006"/>
+  <testcase name="nameToClassShouldReturnClassWhenKnownToLoader" classname="org.pitest.classinfo.ClassNameTest" time="0.003"/>
 </testsuite>

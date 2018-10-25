@@ -64,8 +64,8 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldReturnNoneWhenValueAbsent" classname="org.pitest.mutationtest.build.InterceptorParametersTest" time="0.001"/>
-  <testcase name="shouldReturnStringParamsWhenPresent" classname="org.pitest.mutationtest.build.InterceptorParametersTest" time="0"/>
+  <testcase name="shouldReturnStringParamsWhenPresent" classname="org.pitest.mutationtest.build.InterceptorParametersTest" time="0.001"/>
   <testcase name="shouldReturnListsOfStringsWhenPresent" classname="org.pitest.mutationtest.build.InterceptorParametersTest" time="0"/>
   <testcase name="shouldReturnNoneWhenFeatureSettingsAbsent" classname="org.pitest.mutationtest.build.InterceptorParametersTest" time="0"/>
-  <testcase name="shouldReturnIntegerWhenPresent" classname="org.pitest.mutationtest.build.InterceptorParametersTest" time="0.001"/>
+  <testcase name="shouldReturnIntegerWhenPresent" classname="org.pitest.mutationtest.build.InterceptorParametersTest" time="0"/>
 </testsuite>

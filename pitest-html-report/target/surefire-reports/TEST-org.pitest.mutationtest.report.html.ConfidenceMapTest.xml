@@ -63,12 +63,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldHaveHighConfidenceForSurvived" classname="org.pitest.mutationtest.report.html.ConfidenceMapTest" time="0.001"/>
+  <testcase name="shouldHaveHighConfidenceForSurvived" classname="org.pitest.mutationtest.report.html.ConfidenceMapTest" time="0"/>
   <testcase name="shouldHaveHighConfidenceForNonViable" classname="org.pitest.mutationtest.report.html.ConfidenceMapTest" time="0"/>
   <testcase name="shouldHaveLowConfidenceForStarted" classname="org.pitest.mutationtest.report.html.ConfidenceMapTest" time="0"/>
   <testcase name="shouldHaveHighConfidenceForKilled" classname="org.pitest.mutationtest.report.html.ConfidenceMapTest" time="0"/>
   <testcase name="shouldHaveLowConfidenceForMemoryError" classname="org.pitest.mutationtest.report.html.ConfidenceMapTest" time="0"/>
-  <testcase name="shouldHaveLowConfidenceForRunError" classname="org.pitest.mutationtest.report.html.ConfidenceMapTest" time="0"/>
+  <testcase name="shouldHaveLowConfidenceForRunError" classname="org.pitest.mutationtest.report.html.ConfidenceMapTest" time="0.001"/>
   <testcase name="shouldHaveLowConfidenceForNotStarted" classname="org.pitest.mutationtest.report.html.ConfidenceMapTest" time="0"/>
   <testcase name="shouldHaveLowConfidenceForTimedOut" classname="org.pitest.mutationtest.report.html.ConfidenceMapTest" time="0"/>
   <testcase name="shouldHaveHighConfidenceForNoCoverage" classname="org.pitest.mutationtest.report.html.ConfidenceMapTest" time="0"/>

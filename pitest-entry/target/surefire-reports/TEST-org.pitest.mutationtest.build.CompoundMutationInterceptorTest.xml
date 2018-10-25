@@ -63,7 +63,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldChainModifiedMutantListsThroughChildrenInCorrectOrder" classname="org.pitest.mutationtest.build.CompoundMutationInterceptorTest" time="0.027"/>
+  <testcase name="shouldChainModifiedMutantListsThroughChildrenInCorrectOrder" classname="org.pitest.mutationtest.build.CompoundMutationInterceptorTest" time="0.029"/>
   <testcase name="shouldNotifyAllChildrenOfNewClass" classname="org.pitest.mutationtest.build.CompoundMutationInterceptorTest" time="0.001"/>
-  <testcase name="shouldNotifyAllChildrenOfEnd" classname="org.pitest.mutationtest.build.CompoundMutationInterceptorTest" time="0.002"/>
+  <testcase name="shouldNotifyAllChildrenOfEnd" classname="org.pitest.mutationtest.build.CompoundMutationInterceptorTest" time="0"/>
 </testsuite>

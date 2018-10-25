@@ -67,6 +67,6 @@
   <testcase name="shouldSelectFeaturesThatAreOffByDefault" classname="org.pitest.plugin.FeatureSelectorTest" time="0"/>
   <testcase name="shouldProvideConfigurationForFeatureWhenProvided" classname="org.pitest.plugin.FeatureSelectorTest" time="0"/>
   <testcase name="shouldSelectFeaturesThatAreOnByDefault" classname="org.pitest.plugin.FeatureSelectorTest" time="0"/>
-  <testcase name="shouldDisableFeaturesWhenRequested" classname="org.pitest.plugin.FeatureSelectorTest" time="0.001"/>
-  <testcase name="shouldEnableFeaturesWhenRequested" classname="org.pitest.plugin.FeatureSelectorTest" time="0"/>
+  <testcase name="shouldDisableFeaturesWhenRequested" classname="org.pitest.plugin.FeatureSelectorTest" time="0"/>
+  <testcase name="shouldEnableFeaturesWhenRequested" classname="org.pitest.plugin.FeatureSelectorTest" time="0.001"/>
 </testsuite>

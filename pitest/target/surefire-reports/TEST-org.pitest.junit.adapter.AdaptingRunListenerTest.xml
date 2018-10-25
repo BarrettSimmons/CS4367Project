@@ -63,10 +63,10 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldReportStartedTests" classname="org.pitest.junit.adapter.AdaptingRunListenerTest" time="0.01"/>
+  <testcase name="shouldReportStartedTests" classname="org.pitest.junit.adapter.AdaptingRunListenerTest" time="0.009"/>
   <testcase name="shouldRunStoppedByUserExceptionIfMoreTestsRunAfterAFailure" classname="org.pitest.junit.adapter.AdaptingRunListenerTest" time="0.001"/>
-  <testcase name="shouldTreatAssumptionFailureAsSuccess" classname="org.pitest.junit.adapter.AdaptingRunListenerTest" time="0.001"/>
-  <testcase name="shouldNotReportTestEndWithoutErrorAfterFailure" classname="org.pitest.junit.adapter.AdaptingRunListenerTest" time="0.001"/>
-  <testcase name="shouldReportExceptionOnFailure" classname="org.pitest.junit.adapter.AdaptingRunListenerTest" time="0"/>
+  <testcase name="shouldTreatAssumptionFailureAsSuccess" classname="org.pitest.junit.adapter.AdaptingRunListenerTest" time="0"/>
+  <testcase name="shouldNotReportTestEndWithoutErrorAfterFailure" classname="org.pitest.junit.adapter.AdaptingRunListenerTest" time="0.002"/>
+  <testcase name="shouldReportExceptionOnFailure" classname="org.pitest.junit.adapter.AdaptingRunListenerTest" time="0.001"/>
   <testcase name="shouldReportIgnoredTestsAsSkipped" classname="org.pitest.junit.adapter.AdaptingRunListenerTest" time="0.001"/>
 </testsuite>

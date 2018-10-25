@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.maven.MojoToReportOptionsConverterTest" time="4.206" tests="45" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.maven.MojoToReportOptionsConverterTest" time="3.757" tests="45" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -64,49 +64,49 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testParsesCustomProperties" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.687"/>
-  <testcase name="testUsesSourceDirectoriesFromProject" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.179"/>
-  <testcase name="testParsesDetectInlineCodeFlag" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.327"/>
-  <testcase name="testParsesSurefireConfigWhenFlagSet" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.079"/>
-  <testcase name="testParsesMutationUnitSize" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.093"/>
-  <testcase name="testParsesTimeOutConstant" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.067"/>
-  <testcase name="testParsesHistoryInputFile" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.065"/>
-  <testcase name="testParsesExcludedClasspathElements" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.131"/>
-  <testcase name="testParsesListOfJVMArgs" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.116"/>
-  <testcase name="testObeysFailWhenNoMutationsFlagWhenPackagingTypeIsNotPOM" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.057"/>
-  <testcase name="testParsesMaxDependencyDistance" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.064"/>
-  <testcase name="testParsesHistoryOutputFile" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.071"/>
-  <testcase name="testParsesListOfExcludedTestClassGlobs" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.081"/>
-  <testcase name="testParsesTestGroupsToInclude" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.102"/>
-  <testcase name="testParsesTimeStampedReports" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.05"/>
-  <testcase name="testCreatesPredicateFromListOfTargetClassGlobs" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.08"/>
-  <testcase name="testParsesTestPlugin" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.165"/>
-  <testcase name="testParsesFullMutationMatrix" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.065"/>
-  <testcase name="testParsesTestMethodsToInclude" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.081"/>
-  <testcase name="testParsesTimeOutFactor" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.076"/>
-  <testcase name="testParsesListOfTargetTestClassGlobs" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.074"/>
-  <testcase name="testParsesLineCoverageExportFlagWhenNotSet" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.073"/>
-  <testcase name="testParsesLineCoverageExportFlagWhenSet" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.057"/>
-  <testcase name="testIgnoreSurefireConfigWhenFlagNotSet" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.059"/>
-  <testcase name="testParsesTestGroupsToExclude" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.068"/>
-  <testcase name="testParsesVerboseFlag" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.068"/>
-  <testcase name="testParsesListOfMutationOperators" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.054"/>
-  <testcase name="testParsesCommaListOfExcludedMethods" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.102"/>
-  <testcase name="testParsesNumberOfThreads" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.048"/>
-  <testcase name="testParsesExcludedRunners" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.06"/>
-  <testcase name="testParsesUseClasspathJar" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.044"/>
-  <testcase name="testDefaultsToHtmlReportWhenNoOutputFormatsSpecified" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.047"/>
-  <testcase name="testParsesListOfFeatures" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.048"/>
-  <testcase name="testParsesJavaExecutable" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.05"/>
+  <testcase name="testParsesCustomProperties" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.71"/>
+  <testcase name="testUsesSourceDirectoriesFromProject" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.104"/>
+  <testcase name="testParsesDetectInlineCodeFlag" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.103"/>
+  <testcase name="testParsesSurefireConfigWhenFlagSet" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.071"/>
+  <testcase name="testParsesMutationUnitSize" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.071"/>
+  <testcase name="testParsesTimeOutConstant" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.078"/>
+  <testcase name="testParsesHistoryInputFile" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.063"/>
+  <testcase name="testParsesExcludedClasspathElements" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.093"/>
+  <testcase name="testParsesListOfJVMArgs" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.092"/>
+  <testcase name="testObeysFailWhenNoMutationsFlagWhenPackagingTypeIsNotPOM" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.062"/>
+  <testcase name="testParsesMaxDependencyDistance" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.061"/>
+  <testcase name="testParsesHistoryOutputFile" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.054"/>
+  <testcase name="testParsesListOfExcludedTestClassGlobs" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.062"/>
+  <testcase name="testParsesTestGroupsToInclude" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.069"/>
+  <testcase name="testParsesTimeStampedReports" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.049"/>
+  <testcase name="testCreatesPredicateFromListOfTargetClassGlobs" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.075"/>
+  <testcase name="testParsesTestPlugin" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.089"/>
+  <testcase name="testParsesFullMutationMatrix" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.058"/>
+  <testcase name="testParsesTestMethodsToInclude" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.091"/>
+  <testcase name="testParsesTimeOutFactor" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.077"/>
+  <testcase name="testParsesListOfTargetTestClassGlobs" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.091"/>
+  <testcase name="testParsesLineCoverageExportFlagWhenNotSet" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.078"/>
+  <testcase name="testParsesLineCoverageExportFlagWhenSet" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.051"/>
+  <testcase name="testIgnoreSurefireConfigWhenFlagNotSet" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.054"/>
+  <testcase name="testParsesTestGroupsToExclude" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.056"/>
+  <testcase name="testParsesVerboseFlag" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.045"/>
+  <testcase name="testParsesListOfMutationOperators" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.041"/>
+  <testcase name="testParsesCommaListOfExcludedMethods" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.108"/>
+  <testcase name="testParsesNumberOfThreads" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.039"/>
+  <testcase name="testParsesExcludedRunners" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.069"/>
+  <testcase name="testParsesUseClasspathJar" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.043"/>
+  <testcase name="testDefaultsToHtmlReportWhenNoOutputFormatsSpecified" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.06"/>
+  <testcase name="testParsesListOfFeatures" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.05"/>
+  <testcase name="testParsesJavaExecutable" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.04"/>
   <testcase name="testParsesListOfOutputFormatsWhenSupplied" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.047"/>
-  <testcase name="testDefaultsLoggingPackagesToDefaultsDefinedByDefaultMutationConfigFactory" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.045"/>
-  <testcase name="testParsesEngineWhenSet" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.045"/>
-  <testcase name="testParsesLocalHistoryFlag" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.099"/>
-  <testcase name="testParsesListOfClassesToAvoidCallTo" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.065"/>
-  <testcase name="testDefaultsJavaExecutableToNull" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.083"/>
-  <testcase name="testDefaultsMutationUnitSizeToCorrectValue" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.147"/>
-  <testcase name="testParsesListOfExcludedClassGlobsAndApplyTheseToTargets" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.057"/>
-  <testcase name="testMaintainsOrderOfClassPath" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.046"/>
+  <testcase name="testDefaultsLoggingPackagesToDefaultsDefinedByDefaultMutationConfigFactory" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.042"/>
+  <testcase name="testParsesEngineWhenSet" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.038"/>
+  <testcase name="testParsesLocalHistoryFlag" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.117"/>
+  <testcase name="testParsesListOfClassesToAvoidCallTo" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.105"/>
+  <testcase name="testDefaultsJavaExecutableToNull" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.088"/>
+  <testcase name="testDefaultsMutationUnitSizeToCorrectValue" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.162"/>
+  <testcase name="testParsesListOfExcludedClassGlobsAndApplyTheseToTargets" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.056"/>
+  <testcase name="testMaintainsOrderOfClassPath" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.06"/>
   <testcase name="testDoesNotUseClasspathJarByDefault" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.043"/>
-  <testcase name="testsParsesReportDir" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.041"/>
+  <testcase name="testsParsesReportDir" classname="org.pitest.maven.MojoToReportOptionsConverterTest" time="0.042"/>
 </testsuite>

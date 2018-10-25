@@ -42,7 +42,7 @@ class CustomMutatorAORVisitor extends AbstractInsnMutator {
 
    static {
 
-    MUTATIONS.put(Opcodes.IADD, new InsnSubstitution(Opcodes.ISUB, "replaced int addition with subtraction (AOR)"));
+    MUTATIONS.put(Opcodes.IADD, new InsnSubstitution(Opcodes.IMUL, "replaced int addition with subtraction (AOR)"));
 
     MUTATIONS.put(Opcodes.ISUB, new InsnSubstitution(Opcodes.IADD, "replaced int sub with add (AOR)"));
 

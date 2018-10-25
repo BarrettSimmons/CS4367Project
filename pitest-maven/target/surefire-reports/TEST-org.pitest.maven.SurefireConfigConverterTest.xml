@@ -65,12 +65,12 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldIgnoreNullSurefireConfiguration" classname="org.pitest.maven.SurefireConfigConverterTest" time="0"/>
-  <testcase name="shouldConvertSingleSurefireGroups" classname="org.pitest.maven.SurefireConfigConverterTest" time="0"/>
-  <testcase name="shouldNotUseSurefireGroupsWhenPitestExcludesSpecified" classname="org.pitest.maven.SurefireConfigConverterTest" time="0.004"/>
-  <testcase name="shouldCreatePredicateForEachExclude" classname="org.pitest.maven.SurefireConfigConverterTest" time="0"/>
+  <testcase name="shouldConvertSingleSurefireGroups" classname="org.pitest.maven.SurefireConfigConverterTest" time="0.002"/>
+  <testcase name="shouldNotUseSurefireGroupsWhenPitestExcludesSpecified" classname="org.pitest.maven.SurefireConfigConverterTest" time="0"/>
+  <testcase name="shouldCreatePredicateForEachExclude" classname="org.pitest.maven.SurefireConfigConverterTest" time="0.001"/>
   <testcase name="shouldConvertMultipleSurefireGroupExcludes" classname="org.pitest.maven.SurefireConfigConverterTest" time="0"/>
-  <testcase name="shouldNotUseSurefireGroupsWhenPitestIncludesSpecified" classname="org.pitest.maven.SurefireConfigConverterTest" time="0.002"/>
-  <testcase name="shouldKeepExistingExclusions" classname="org.pitest.maven.SurefireConfigConverterTest" time="0"/>
-  <testcase name="shouldConvertSurefireExclusionsToPackagePredicates" classname="org.pitest.maven.SurefireConfigConverterTest" time="0"/>
+  <testcase name="shouldNotUseSurefireGroupsWhenPitestIncludesSpecified" classname="org.pitest.maven.SurefireConfigConverterTest" time="0"/>
+  <testcase name="shouldKeepExistingExclusions" classname="org.pitest.maven.SurefireConfigConverterTest" time="0.001"/>
+  <testcase name="shouldConvertSurefireExclusionsToPackagePredicates" classname="org.pitest.maven.SurefireConfigConverterTest" time="0.002"/>
   <testcase name="shouldConvertMultipleSurefireGroups" classname="org.pitest.maven.SurefireConfigConverterTest" time="0"/>
 </testsuite>

@@ -63,8 +63,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldBeTrueWhenGivenTrue" classname="org.pitest.functional.predicate.AndTest" time="0.001"/>
-  <testcase name="shouldBeTrueWhenGivenTrueAndTrue" classname="org.pitest.functional.predicate.AndTest" time="0.001"/>
+  <testcase name="shouldBeTrueWhenGivenTrue" classname="org.pitest.functional.predicate.AndTest" time="0"/>
+  <testcase name="shouldBeTrueWhenGivenTrueAndTrue" classname="org.pitest.functional.predicate.AndTest" time="0.002"/>
   <testcase name="shouldBeFalseWhenGivenFalse" classname="org.pitest.functional.predicate.AndTest" time="0"/>
   <testcase name="shouldReturnFalseWhenSuppliedNoPredicate" classname="org.pitest.functional.predicate.AndTest" time="0"/>
   <testcase name="shouldBeFalseWhenGivenFalseAndFalse" classname="org.pitest.functional.predicate.AndTest" time="0"/>

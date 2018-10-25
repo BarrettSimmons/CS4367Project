@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.624" tests="61" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.607" tests="61" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -64,50 +64,50 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldIncludeLaunchClasspathByDefault" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.341"/>
-  <testcase name="shouldFailWhenNoMutationsSetByDefault" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.008"/>
-  <testcase name="shouldDefaultMutationUnitSizeToCorrectValue" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
-  <testcase name="shouldIncludeLaunchClasspathWhenFlag" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
-  <testcase name="shouldDefaultToHtmlReportWhenNoOutputFormatsSpecified" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.006"/>
-  <testcase name="shouldParseVerboseFlag" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
+  <testcase name="shouldIncludeLaunchClasspathByDefault" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.344"/>
+  <testcase name="shouldFailWhenNoMutationsSetByDefault" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.004"/>
+  <testcase name="shouldDefaultMutationUnitSizeToCorrectValue" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.005"/>
+  <testcase name="shouldIncludeLaunchClasspathWhenFlag" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.004"/>
+  <testcase name="shouldDefaultToHtmlReportWhenNoOutputFormatsSpecified" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.005"/>
+  <testcase name="shouldParseVerboseFlag" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.004"/>
   <testcase name="shouldDefaultToGregorEngineWhenNoOptionSupplied" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.005"/>
-  <testcase name="shouldParseHistoryOutputLocation" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
-  <testcase name="shouldParseCommaSeparatedListOfTargetTestClassGlobs" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.007"/>
-  <testcase name="shouldDefaultMatrixFlagToFalse" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0"/>
-  <testcase name="shouldDetermineIfInlinedCodeFlagIsSetWhenFalseSupplied" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.004"/>
-  <testcase name="shouldNotIncludeLaunchClasspathWhenFlagUnset" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.007"/>
-  <testcase name="shouldParseTimeOutConstant" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.007"/>
-  <testcase name="shouldParseTestPlugin" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.005"/>
-  <testcase name="shouldParseCoverageThreshold" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.006"/>
-  <testcase name="shouldParseCommaSeparatedListOfIncludedTestMethods" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.004"/>
-  <testcase name="shouldDetermineIfFailWhenNoMutationsFlagIsSet" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
-  <testcase name="shouldParseCommaSeparatedListOfSourceDirectories" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.004"/>
-  <testcase name="shouldParseCommaSeparatedListOfClassesToAvoidCallTo" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
-  <testcase name="shouldDetermineIfSuppressTimestampedReportsFlagIsSetWhenFalseSupplied" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.004"/>
-  <testcase name="shouldParseCommaSeparatedListOfExcludedTestClassGlobs" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.008"/>
-  <testcase name="shouldCreateEmptyPluginPropertiesWhenNoneSupplied" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0"/>
-  <testcase name="shouldParseReportDir" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.001"/>
+  <testcase name="shouldParseHistoryOutputLocation" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.004"/>
+  <testcase name="shouldParseCommaSeparatedListOfTargetTestClassGlobs" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.011"/>
+  <testcase name="shouldDefaultMatrixFlagToFalse" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.004"/>
+  <testcase name="shouldDetermineIfInlinedCodeFlagIsSetWhenFalseSupplied" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
+  <testcase name="shouldNotIncludeLaunchClasspathWhenFlagUnset" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.006"/>
+  <testcase name="shouldParseTimeOutConstant" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
+  <testcase name="shouldParseTestPlugin" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.006"/>
+  <testcase name="shouldParseCoverageThreshold" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.004"/>
+  <testcase name="shouldParseCommaSeparatedListOfIncludedTestMethods" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.006"/>
+  <testcase name="shouldDetermineIfFailWhenNoMutationsFlagIsSet" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
+  <testcase name="shouldParseCommaSeparatedListOfSourceDirectories" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
+  <testcase name="shouldParseCommaSeparatedListOfClassesToAvoidCallTo" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.007"/>
+  <testcase name="shouldDetermineIfSuppressTimestampedReportsFlagIsSetWhenFalseSupplied" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
+  <testcase name="shouldParseCommaSeparatedListOfExcludedTestClassGlobs" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
+  <testcase name="shouldCreateEmptyPluginPropertiesWhenNoneSupplied" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
+  <testcase name="shouldParseReportDir" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
   <testcase name="shouldParseMatrixFlag" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
-  <testcase name="shouldParseJVM" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
-  <testcase name="shouldHandleNotCanonicalLaunchClasspathElements" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.096"/>
+  <testcase name="shouldParseJVM" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
+  <testcase name="shouldHandleNotCanonicalLaunchClasspathElements" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.075"/>
   <testcase name="shouldParseMutationUnitSize" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
-  <testcase name="shouldParseCommaSeparatedListOfExcludedMethods" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.006"/>
-  <testcase name="shouldUseTargetClassesFilterForTestsWhenNoTargetTestsFilterSupplied" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
-  <testcase name="shouldParseCommaSeparatedListOfMutableCodePaths" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
+  <testcase name="shouldParseCommaSeparatedListOfExcludedMethods" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.005"/>
+  <testcase name="shouldUseTargetClassesFilterForTestsWhenNoTargetTestsFilterSupplied" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.005"/>
+  <testcase name="shouldParseCommaSeparatedListOfMutableCodePaths" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
   <testcase name="shouldIncludePluginPropertyValuesWhenMultipleKeys" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
   <testcase name="shouldDefaultLoggingPackagesToDefaultsDefinedByDefaultMutationConfigFactory" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
   <testcase name="shouldNotExportLineCoverageWhenFlagNotSet" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
-  <testcase name="shouldParseExportLineCoverageFlag" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
+  <testcase name="shouldParseExportLineCoverageFlag" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
   <testcase name="shouldNotDetectInlinedCodeByDefault" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
-  <testcase name="shouldUseClasspathJarWhenFlagSet" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
+  <testcase name="shouldUseClasspathJarWhenFlagSet" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
   <testcase name="shouldCreateTimestampedReportsByDefault" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
   <testcase name="shouldCreatePredicateFromCommaSeparatedListOfTargetClassGlobs" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
-  <testcase name="shouldParseCommaSeparatedListOfIncludedTestGroups" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
+  <testcase name="shouldParseCommaSeparatedListOfIncludedTestGroups" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
   <testcase name="shouldParseMutationEnigne" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
-  <testcase name="shouldDefaultToNotUsingAClasspathJar" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
-  <testcase name="shouldParseTimeOutFactor" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
+  <testcase name="shouldDefaultToNotUsingAClasspathJar" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.001"/>
+  <testcase name="shouldParseTimeOutFactor" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
   <testcase name="shouldParseCommaSeparatedListOfMutationOperators" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.006"/>
-  <testcase name="shouldParseNumberOfThreads" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.004"/>
+  <testcase name="shouldParseNumberOfThreads" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
   <testcase name="shouldParseCommaSeparatedListOfJVMArgs" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
   <testcase name="shouldParseCommaSeparatedListOfExcludedTestGroups" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
   <testcase name="shouldDetermineIfInlinedCodeFlagIsSet" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
@@ -119,10 +119,10 @@
   <testcase name="shouldParseMutationThreshold" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
   <testcase name="shouldDetermineIfSuppressTimestampedReportsFlagIsSet" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
   <testcase name="shouldParseCommaSeparatedListOfTargetTestClassGlobAsRegex" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
-  <testcase name="shouldDefaultJVMToNull" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.001"/>
+  <testcase name="shouldDefaultJVMToNull" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
   <testcase name="shouldAcceptCommaSeparatedListOfAdditionalClassPathElements" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
-  <testcase name="shouldParseCommaSeparatedListOfExcludedClassGlobsAndApplyTheseToTargets" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
-  <testcase name="shouldParseHistoryInputLocation" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
+  <testcase name="shouldParseCommaSeparatedListOfExcludedClassGlobsAndApplyTheseToTargets" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.003"/>
+  <testcase name="shouldParseHistoryInputLocation" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.001"/>
   <testcase name="shouldAcceptFileWithListOfAdditionalClassPathElements" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.005"/>
-  <testcase name="shouldParseMaxDepenencyDistance" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.002"/>
+  <testcase name="shouldParseMaxDepenencyDistance" classname="org.pitest.mutationtest.commandline.OptionsParserTest" time="0.001"/>
 </testsuite>

@@ -65,14 +65,14 @@
   </properties>
   <testcase name="shouldBeAbleToCallStaticTestMethods" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
   <testcase name="shouldReportSuccessIfExpectedExceptionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.004"/>
-  <testcase name="shouldNotifyListenerOfRunEnd" classname="org.pitest.testapi.execute.TestPitest" time="0.003"/>
-  <testcase name="shouldReportFailureWhenThrownExceptionDifferentFromExpectedException" classname="org.pitest.testapi.execute.TestPitest" time="0.004"/>
-  <testcase name="shouldNotifyListenerOfRunStart" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
+  <testcase name="shouldNotifyListenerOfRunEnd" classname="org.pitest.testapi.execute.TestPitest" time="0.004"/>
+  <testcase name="shouldReportFailureWhenThrownExceptionDifferentFromExpectedException" classname="org.pitest.testapi.execute.TestPitest" time="0.005"/>
+  <testcase name="shouldNotifyListenerOfRunStart" classname="org.pitest.testapi.execute.TestPitest" time="0"/>
   <testcase name="shouldNotifyListenerOfTestSuccess" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
-  <testcase name="shouldReportSuccessWhenSubclassOfExpectedExceptionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.003"/>
+  <testcase name="shouldReportSuccessWhenSubclassOfExpectedExceptionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.002"/>
   <testcase name="shouldNotifyListenerOfTestStart" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
   <testcase name="shouldReportFailureIfExpectedExceptionNotThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.004"/>
   <testcase name="shouldReportsSuccessIfNoExceptionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0"/>
-  <testcase name="shouldReportedAsFailureIfAssertionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.004"/>
-  <testcase name="shouldReportFailureWhenExceptionThrownAndNoExpectationSet" classname="org.pitest.testapi.execute.TestPitest" time="0.005"/>
+  <testcase name="shouldReportedAsFailureIfAssertionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.005"/>
+  <testcase name="shouldReportFailureWhenExceptionThrownAndNoExpectationSet" classname="org.pitest.testapi.execute.TestPitest" time="0.004"/>
 </testsuite>

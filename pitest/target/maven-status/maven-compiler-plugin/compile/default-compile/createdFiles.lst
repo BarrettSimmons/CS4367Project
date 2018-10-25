@@ -51,6 +51,7 @@ org/pitest/junit/JUnitCompatibleConfiguration.class
 org/pitest/mutationtest/execute/MutationTestWorker$1.class
 org/pitest/mutationtest/mocksupport/BendJavassistToMyWillTransformer.class
 org/pitest/junit/JUnitTestPlugin.class
+org/pitest/mutationtest/engine/gregor/mutators/CustomMutatorAOD.class
 org/pitest/testng/MutableTestListenerWrapper.class
 org/pitest/functional/SideEffect.class
 org/pitest/junit/JUnit4SuiteFinder.class
@@ -92,6 +93,7 @@ org/pitest/mutationtest/engine/gregor/mutators/PrimitivesReturnValsMethodVisitor
 org/pitest/testapi/TestUnitFinder.class
 org/pitest/mutationtest/EngineArguments.class
 org/pitest/mutationtest/engine/gregor/mutators/ConditionalsBoundaryMutator.class
+org/pitest/mutationtest/engine/gregor/mutators/CustomAODMethodVisitor.class
 org/pitest/coverage/LineMap.class
 org/pitest/mutationtest/engine/gregor/mutators/experimental/ReturnValuesMutator$1.class
 org/pitest/classinfo/HierarchicalClassId.class

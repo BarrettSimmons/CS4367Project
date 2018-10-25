@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.tooling.MutationCoverageReportTest" time="0.086" tests="6" errors="0" skipped="1" failures="0">
+<testsuite name="org.pitest.mutationtest.tooling.MutationCoverageReportTest" time="0.085" tests="6" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,12 +63,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldRecordClassPath" classname="org.pitest.mutationtest.tooling.MutationCoverageReportTest" time="0.053"/>
+  <testcase name="shouldRecordClassPath" classname="org.pitest.mutationtest.tooling.MutationCoverageReportTest" time="0.059"/>
   <testcase name="shouldReportMutationsFoundWhenSomeDetected" classname="org.pitest.mutationtest.tooling.MutationCoverageReportTest" time="0">
     <skipped message="is triggering filter with fake classes"/>
   </testcase>
-  <testcase name="shouldCheckBuildSuitableForMutationTesting" classname="org.pitest.mutationtest.tooling.MutationCoverageReportTest" time="0.009"/>
-  <testcase name="shouldReportErrorWhenNoMutationsFoundAndFlagSet" classname="org.pitest.mutationtest.tooling.MutationCoverageReportTest" time="0.005"/>
-  <testcase name="shouldReportNoMutationsFoundWhenNoneDetected" classname="org.pitest.mutationtest.tooling.MutationCoverageReportTest" time="0.007"/>
-  <testcase name="shouldNotReportErrorWhenNoMutationsFoundAndFlagNotSet" classname="org.pitest.mutationtest.tooling.MutationCoverageReportTest" time="0.012"/>
+  <testcase name="shouldCheckBuildSuitableForMutationTesting" classname="org.pitest.mutationtest.tooling.MutationCoverageReportTest" time="0.007"/>
+  <testcase name="shouldReportErrorWhenNoMutationsFoundAndFlagSet" classname="org.pitest.mutationtest.tooling.MutationCoverageReportTest" time="0.006"/>
+  <testcase name="shouldReportNoMutationsFoundWhenNoneDetected" classname="org.pitest.mutationtest.tooling.MutationCoverageReportTest" time="0.006"/>
+  <testcase name="shouldNotReportErrorWhenNoMutationsFoundAndFlagNotSet" classname="org.pitest.mutationtest.tooling.MutationCoverageReportTest" time="0.007"/>
 </testsuite>

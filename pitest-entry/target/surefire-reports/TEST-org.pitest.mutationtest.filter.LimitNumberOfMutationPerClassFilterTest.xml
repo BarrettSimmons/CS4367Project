@@ -64,7 +64,7 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldTrimCollectionToMaximumAllowedNumber" classname="org.pitest.mutationtest.filter.LimitNumberOfMutationPerClassFilterTest" time="0.001"/>
-  <testcase name="shouldUseEvenDistributionOfMutations" classname="org.pitest.mutationtest.filter.LimitNumberOfMutationPerClassFilterTest" time="0.001"/>
-  <testcase name="shouldReturnUnalteredCollectionIfCollectionContainsExactlyMaxMutations" classname="org.pitest.mutationtest.filter.LimitNumberOfMutationPerClassFilterTest" time="0.001"/>
+  <testcase name="shouldUseEvenDistributionOfMutations" classname="org.pitest.mutationtest.filter.LimitNumberOfMutationPerClassFilterTest" time="0.002"/>
+  <testcase name="shouldReturnUnalteredCollectionIfCollectionContainsExactlyMaxMutations" classname="org.pitest.mutationtest.filter.LimitNumberOfMutationPerClassFilterTest" time="0"/>
   <testcase name="shouldReturnUnalteredCollectionIfCollectionContainsLessThenMaxMutations" classname="org.pitest.mutationtest.filter.LimitNumberOfMutationPerClassFilterTest" time="0.001"/>
 </testsuite>

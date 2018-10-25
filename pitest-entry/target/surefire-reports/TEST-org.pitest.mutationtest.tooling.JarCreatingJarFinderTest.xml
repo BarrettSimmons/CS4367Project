@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.062" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.047" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,13 +63,13 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldCreateJarFile" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.016"/>
-  <testcase name="shouldAddPITToTheBootClassPath" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.007"/>
+  <testcase name="shouldCreateJarFile" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.012"/>
+  <testcase name="shouldAddPITToTheBootClassPath" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.005"/>
   <testcase name="shouldSetPreMainClassAttribute" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.006"/>
-  <testcase name="shouldFailOnUnreadableRessources" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.003"/>
-  <testcase name="shouldCreateJarFileInSystemTempDirectory" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.005"/>
-  <testcase name="shouldSetCanRedefineClasses" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.009"/>
-  <testcase name="shouldConstructWithoutError" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.009"/>
-  <testcase name="shouldCloseWithoutErrorWhenNoLocationSet" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.001"/>
+  <testcase name="shouldFailOnUnreadableRessources" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.002"/>
+  <testcase name="shouldCreateJarFileInSystemTempDirectory" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.002"/>
+  <testcase name="shouldSetCanRedefineClasses" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.006"/>
+  <testcase name="shouldConstructWithoutError" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.008"/>
+  <testcase name="shouldCloseWithoutErrorWhenNoLocationSet" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0"/>
   <testcase name="shouldSetNativeMethodPrefix" classname="org.pitest.mutationtest.tooling.JarCreatingJarFinderTest" time="0.006"/>
 </testsuite>
