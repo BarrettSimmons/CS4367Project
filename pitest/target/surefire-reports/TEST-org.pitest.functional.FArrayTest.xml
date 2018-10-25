@@ -6,7 +6,7 @@
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -63,13 +63,13 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="containsShouldReturnFalseWhenPredicateNotMet" classname="org.pitest.functional.FArrayTest" time="0.002"/>
+  <testcase name="containsShouldReturnFalseWhenPredicateNotMet" classname="org.pitest.functional.FArrayTest" time="0"/>
   <testcase name="shouldReturnEmptyListWhenGivenNull" classname="org.pitest.functional.FArrayTest" time="0.001"/>
   <testcase name="shouldApplyFlatMapToAllItems" classname="org.pitest.functional.FArrayTest" time="0.001"/>
   <testcase name="containsShouldStopProcessingOnFirstMatch" classname="org.pitest.functional.FArrayTest" time="0"/>
   <testcase name="shouldReturnEmptyListWhenFilteredOnFalse" classname="org.pitest.functional.FArrayTest" time="0"/>
   <testcase name="shouldReturnAllEntriesWhenFilteredOnTrue" classname="org.pitest.functional.FArrayTest" time="0.001"/>
-  <testcase name="containsShouldReturnTrueWhenPredicateMet" classname="org.pitest.functional.FArrayTest" time="0"/>
-  <testcase name="flatMapShouldTreatNullAsEmptyIterable" classname="org.pitest.functional.FArrayTest" time="0"/>
+  <testcase name="containsShouldReturnTrueWhenPredicateMet" classname="org.pitest.functional.FArrayTest" time="0.001"/>
+  <testcase name="flatMapShouldTreatNullAsEmptyIterable" classname="org.pitest.functional.FArrayTest" time="0.001"/>
   <testcase name="shouldReturnOnlyMatchesToPredicate" classname="org.pitest.functional.FArrayTest" time="0.001"/>
 </testsuite>

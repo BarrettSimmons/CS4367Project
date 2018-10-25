@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.PitMojoIT" time="248.163" tests="19" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.PitMojoIT" time="205.021" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -64,23 +64,23 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldReadExclusionsFromSurefireConfig" classname="org.pitest.PitMojoIT" time="12.612"/>
-  <testcase name="shouldFailIfNoPITReportAvailable" classname="org.pitest.PitMojoIT" time="15.211"/>
-  <testcase name="shouldGenerateSiteReportWithSingleTimestampedHtmlReport" classname="org.pitest.PitMojoIT" time="8.028"/>
-  <testcase name="shouldNotHangWhenLargeAmountsOfConsoleOutput" classname="org.pitest.PitMojoIT" time="11.053"/>
-  <testcase name="shouldCopyLatestTimestampedReportWhenMultipleTimestampedReportsExist" classname="org.pitest.PitMojoIT" time="7.332"/>
-  <testcase name="shouldWorkWithGWTMockito" classname="org.pitest.PitMojoIT" time="39.979"/>
-  <testcase name="shouldGenerateSiteReportWithNonTimestampedHtmlReport" classname="org.pitest.PitMojoIT" time="7.548"/>
-  <testcase name="shouldWorkWithTestNG" classname="org.pitest.PitMojoIT" time="12.861"/>
-  <testcase name="shouldSetUserDirToArtefactWorkingDirectory" classname="org.pitest.PitMojoIT" time="5.239"/>
-  <testcase name="shouldWorkWithTestNGAndJMockit" classname="org.pitest.PitMojoIT" time="14.174"/>
-  <testcase name="shouldComputeReportOfTheSubModule" classname="org.pitest.PitMojoIT" time="14.703"/>
-  <testcase name="shouldExcludeSpecifiedJUnitCategories" classname="org.pitest.PitMojoIT" time="10.099"/>
-  <testcase name="shouldWorkWithYatspec" classname="org.pitest.PitMojoIT" time="15.702"/>
-  <testcase name="shouldWorkWithPowerMock" classname="org.pitest.PitMojoIT" time="23"/>
-  <testcase name="shouldCorrectlyTargetTestsWhenMultipleBlocksIncludeALine" classname="org.pitest.PitMojoIT" time="11.064"/>
-  <testcase name="shouldCorrectlyHandleOverrides" classname="org.pitest.PitMojoIT" time="7.347"/>
-  <testcase name="shouldSkipSiteReportGeneration" classname="org.pitest.PitMojoIT" time="5.387"/>
-  <testcase name="shouldProduceConsistantCoverageData" classname="org.pitest.PitMojoIT" time="20.625"/>
-  <testcase name="shouldCopyLatestTimestampedOrNonTimestampedReportWhenBothExist" classname="org.pitest.PitMojoIT" time="6.199"/>
+  <testcase name="shouldReadExclusionsFromSurefireConfig" classname="org.pitest.PitMojoIT" time="10.584"/>
+  <testcase name="shouldFailIfNoPITReportAvailable" classname="org.pitest.PitMojoIT" time="6.477"/>
+  <testcase name="shouldGenerateSiteReportWithSingleTimestampedHtmlReport" classname="org.pitest.PitMojoIT" time="6.304"/>
+  <testcase name="shouldNotHangWhenLargeAmountsOfConsoleOutput" classname="org.pitest.PitMojoIT" time="10.441"/>
+  <testcase name="shouldCopyLatestTimestampedReportWhenMultipleTimestampedReportsExist" classname="org.pitest.PitMojoIT" time="7.242"/>
+  <testcase name="shouldWorkWithGWTMockito" classname="org.pitest.PitMojoIT" time="20.004"/>
+  <testcase name="shouldGenerateSiteReportWithNonTimestampedHtmlReport" classname="org.pitest.PitMojoIT" time="7.765"/>
+  <testcase name="shouldWorkWithTestNG" classname="org.pitest.PitMojoIT" time="12.118"/>
+  <testcase name="shouldSetUserDirToArtefactWorkingDirectory" classname="org.pitest.PitMojoIT" time="4.364"/>
+  <testcase name="shouldWorkWithTestNGAndJMockit" classname="org.pitest.PitMojoIT" time="14.447"/>
+  <testcase name="shouldComputeReportOfTheSubModule" classname="org.pitest.PitMojoIT" time="15.178"/>
+  <testcase name="shouldExcludeSpecifiedJUnitCategories" classname="org.pitest.PitMojoIT" time="9.46"/>
+  <testcase name="shouldWorkWithYatspec" classname="org.pitest.PitMojoIT" time="9.912"/>
+  <testcase name="shouldWorkWithPowerMock" classname="org.pitest.PitMojoIT" time="21.383"/>
+  <testcase name="shouldCorrectlyTargetTestsWhenMultipleBlocksIncludeALine" classname="org.pitest.PitMojoIT" time="10.434"/>
+  <testcase name="shouldCorrectlyHandleOverrides" classname="org.pitest.PitMojoIT" time="7.584"/>
+  <testcase name="shouldSkipSiteReportGeneration" classname="org.pitest.PitMojoIT" time="5.501"/>
+  <testcase name="shouldProduceConsistantCoverageData" classname="org.pitest.PitMojoIT" time="20.147"/>
+  <testcase name="shouldCopyLatestTimestampedOrNonTimestampedReportWhenBothExist" classname="org.pitest.PitMojoIT" time="5.676"/>
 </testsuite>

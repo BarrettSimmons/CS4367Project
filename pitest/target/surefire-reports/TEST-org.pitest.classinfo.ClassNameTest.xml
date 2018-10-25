@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.classinfo.ClassNameTest" time="0.321" tests="22" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.classinfo.ClassNameTest" time="0.303" tests="22" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -65,23 +65,23 @@
   </properties>
   <testcase name="shouldTreatDifferentClassesAsNotEqual" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
   <testcase name="shouldTreatSameClassAsEqual" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="shouldUseCachedInstancesForObject" classname="org.pitest.classinfo.ClassNameTest" time="0.194"/>
+  <testcase name="shouldUseCachedInstancesForObject" classname="org.pitest.classinfo.ClassNameTest" time="0.192"/>
   <testcase name="withoutPrefeixCharsShouldReturnPacakgeAndClassWithoutPrefixChars" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
   <testcase name="shouldUseCachedInstancesForString" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="shouldConvertStringToClassName" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
+  <testcase name="shouldConvertStringToClassName" classname="org.pitest.classinfo.ClassNameTest" time="0.001"/>
   <testcase name="getNameWithoutPackageShouldReturnNameOnlyWhenClassIsOuterClass" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="shouldConvertJavaNamesToInternalNames" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
+  <testcase name="shouldConvertJavaNamesToInternalNames" classname="org.pitest.classinfo.ClassNameTest" time="0.001"/>
   <testcase name="getNameWithoutPackageShouldReturnNameWhenClassInPackageDefault" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="shouldObeyHashcodeEqualsContract" classname="org.pitest.classinfo.ClassNameTest" time="0.06"/>
+  <testcase name="shouldObeyHashcodeEqualsContract" classname="org.pitest.classinfo.ClassNameTest" time="0.056"/>
   <testcase name="getPackageShouldReturnEmptyPackageWhenClassInPackageDefault" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
   <testcase name="shouldConvertInternalNamesToJavaNames" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="getPackageShouldReturnPackageWhenClassWithinAPackage" classname="org.pitest.classinfo.ClassNameTest" time="0.001"/>
+  <testcase name="getPackageShouldReturnPackageWhenClassWithinAPackage" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
   <testcase name="shouldTreatSameClassNameAsEqual" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
   <testcase name="withoutSuffixCharsShouldReturnPacakgeAndClassWithoutSuffixChars" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="shouldDisplayJavaNameInToString" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
-  <testcase name="getNameWithoutPackageShouldReturnNameWhenClassIsInnerClass" classname="org.pitest.classinfo.ClassNameTest" time="0.002"/>
-  <testcase name="shouldProduceDifferentHashCodeForDifferentClasses" classname="org.pitest.classinfo.ClassNameTest" time="0.001"/>
-  <testcase name="stringToClassShouldReturnEmptyWhenClassNotKnownToLoader" classname="org.pitest.classinfo.ClassNameTest" time="0.059"/>
+  <testcase name="shouldDisplayJavaNameInToString" classname="org.pitest.classinfo.ClassNameTest" time="0.001"/>
+  <testcase name="getNameWithoutPackageShouldReturnNameWhenClassIsInnerClass" classname="org.pitest.classinfo.ClassNameTest" time="0.001"/>
+  <testcase name="shouldProduceDifferentHashCodeForDifferentClasses" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
+  <testcase name="stringToClassShouldReturnEmptyWhenClassNotKnownToLoader" classname="org.pitest.classinfo.ClassNameTest" time="0.047"/>
   <testcase name="shouldSortByName" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
   <testcase name="shouldProduceSameHashCodeForSameClass" classname="org.pitest.classinfo.ClassNameTest" time="0"/>
   <testcase name="nameToClassShouldReturnClassWhenKnownToLoader" classname="org.pitest.classinfo.ClassNameTest" time="0.004"/>

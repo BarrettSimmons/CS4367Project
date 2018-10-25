@@ -1,7 +1,7 @@
-/Users/carlosortiz/Desktop/Fall18/pitest/pitest-aggregator/src/main/java/org/pitest/aggregate/ReportAggregator.java
-/Users/carlosortiz/Desktop/Fall18/pitest/pitest-aggregator/src/main/java/org/pitest/aggregate/MutationResultDataLoader.java
-/Users/carlosortiz/Desktop/Fall18/pitest/pitest-aggregator/src/main/java/org/pitest/aggregate/ReportAggregationException.java
-/Users/carlosortiz/Desktop/Fall18/pitest/pitest-aggregator/src/main/java/org/pitest/aggregate/DataLoader.java
-/Users/carlosortiz/Desktop/Fall18/pitest/pitest-aggregator/src/main/java/org/pitest/aggregate/MutatorUtil.java
-/Users/carlosortiz/Desktop/Fall18/pitest/pitest-aggregator/src/main/java/org/pitest/aggregate/BlockCoverageDataLoader.java
-/Users/carlosortiz/Desktop/Fall18/pitest/pitest-aggregator/src/main/java/org/pitest/aggregate/CodeSourceAggregator.java
+/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest-aggregator/src/main/java/org/pitest/aggregate/ReportAggregationException.java
+/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest-aggregator/src/main/java/org/pitest/aggregate/DataLoader.java
+/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest-aggregator/src/main/java/org/pitest/aggregate/CodeSourceAggregator.java
+/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest-aggregator/src/main/java/org/pitest/aggregate/MutationResultDataLoader.java
+/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest-aggregator/src/main/java/org/pitest/aggregate/ReportAggregator.java
+/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest-aggregator/src/main/java/org/pitest/aggregate/MutatorUtil.java
+/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest-aggregator/src/main/java/org/pitest/aggregate/BlockCoverageDataLoader.java

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.ant.PitestTaskTest" time="0.143" tests="50" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.ant.PitestTaskTest" time="0.148" tests="50" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -64,54 +64,54 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldPassMutateInlinedCodeOptionToJavaTaskWhenValueIsFalse" classname="org.pitest.ant.PitestTaskTest" time="0.057"/>
-  <testcase name="shouldPassHistoryOutputLocationToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
-  <testcase name="shouldPassMutableCodePathsToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
-  <testcase name="shouldPassCoverageThresholdToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
+  <testcase name="shouldPassMutateInlinedCodeOptionToJavaTaskWhenValueIsFalse" classname="org.pitest.ant.PitestTaskTest" time="0.055"/>
+  <testcase name="shouldPassHistoryOutputLocationToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
+  <testcase name="shouldPassMutableCodePathsToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.005"/>
+  <testcase name="shouldPassCoverageThresholdToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0"/>
   <testcase name="shouldPassHistoryInputLocationToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
-  <testcase name="shouldPassTimeoutConstsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
-  <testcase name="shouldPassClasspathJarFlagToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
+  <testcase name="shouldPassTimeoutConstsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
+  <testcase name="shouldPassClasspathJarFlagToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.003"/>
   <testcase name="shouldPassThreadsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
   <testcase name="shouldPassExcludedGroupsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
   <testcase name="shouldPassFeaturesOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
   <testcase name="shouldPassIncludedTestMethodsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
   <testcase name="shouldExecute" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
   <testcase name="shouldPassReportDirOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
-  <testcase name="shouldPassTargetClassesOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
+  <testcase name="shouldPassTargetClassesOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.004"/>
   <testcase name="shouldPassClasspathAntReferenceToPit" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
-  <testcase name="shouldPassDetectInlinedCodeOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
+  <testcase name="shouldPassDetectInlinedCodeOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.004"/>
   <testcase name="shouldFailWhenNoTargetClassesSupplied" classname="org.pitest.ant.PitestTaskTest" time="0.009"/>
-  <testcase name="shouldSetPitClasspathOnJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.006"/>
+  <testcase name="shouldSetPitClasspathOnJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.008"/>
   <testcase name="shouldOnlyPassTheSpecifiedOptions" classname="org.pitest.ant.PitestTaskTest" time="0.005"/>
-  <testcase name="shouldPassAvoidCallsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
-  <testcase name="shouldFailtOnError" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
-  <testcase name="shouldPassAnalysisClassPathToPit" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
+  <testcase name="shouldPassAvoidCallsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.003"/>
+  <testcase name="shouldFailtOnError" classname="org.pitest.ant.PitestTaskTest" time="0"/>
+  <testcase name="shouldPassAnalysisClassPathToPit" classname="org.pitest.ant.PitestTaskTest" time="0"/>
   <testcase name="shouldSetPitClasspathAntReferenceOnJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
-  <testcase name="shouldPassExcludedClassesOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
+  <testcase name="shouldPassExcludedClassesOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
   <testcase name="shouldPassMutatorsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
-  <testcase name="shouldExecutePitMainClass" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
-  <testcase name="shouldPassMutationEngineToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
-  <testcase name="shouldPassDependencyDistanceOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
-  <testcase name="shouldPassJVMToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
-  <testcase name="shouldPassIncludedGroupsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.008"/>
-  <testcase name="shouldForkWhenExecuted" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
-  <testcase name="shouldNotPassMutateStaticInitsOptionToJavaTaskWhenNoValueSet" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
-  <testcase name="shouldPassExcludedMethodsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0"/>
+  <testcase name="shouldExecutePitMainClass" classname="org.pitest.ant.PitestTaskTest" time="0.004"/>
+  <testcase name="shouldPassMutationEngineToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.008"/>
+  <testcase name="shouldPassDependencyDistanceOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
+  <testcase name="shouldPassJVMToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
+  <testcase name="shouldPassIncludedGroupsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
+  <testcase name="shouldForkWhenExecuted" classname="org.pitest.ant.PitestTaskTest" time="0"/>
+  <testcase name="shouldNotPassMutateStaticInitsOptionToJavaTaskWhenNoValueSet" classname="org.pitest.ant.PitestTaskTest" time="0"/>
+  <testcase name="shouldPassExcludedMethodsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
   <testcase name="shouldFailWhenNoReportDirSupplied" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
-  <testcase name="shouldPassTimestampedDirectoryFlagToJavaTaskWhenValueIsFalse" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
-  <testcase name="shouldPassTimeoutFactorOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0"/>
+  <testcase name="shouldPassTimestampedDirectoryFlagToJavaTaskWhenValueIsFalse" classname="org.pitest.ant.PitestTaskTest" time="0"/>
+  <testcase name="shouldPassTimeoutFactorOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
   <testcase name="shouldFailWhenNoClasspathSupplied" classname="org.pitest.ant.PitestTaskTest" time="0"/>
-  <testcase name="shouldFailWhenNoSourceDirSupplied" classname="org.pitest.ant.PitestTaskTest" time="0"/>
-  <testcase name="shouldPassMutationThresholdToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0"/>
-  <testcase name="shouldNotPassInlinedCodeOptionToJavaTaskWhenNoValueSet" classname="org.pitest.ant.PitestTaskTest" time="0"/>
-  <testcase name="shouldPassJvmArgsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
+  <testcase name="shouldFailWhenNoSourceDirSupplied" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
+  <testcase name="shouldPassMutationThresholdToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
+  <testcase name="shouldNotPassInlinedCodeOptionToJavaTaskWhenNoValueSet" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
+  <testcase name="shouldPassJvmArgsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0"/>
   <testcase name="shouldPassExcludedTestClassesOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
   <testcase name="shouldPassMaxSurvivorsToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
   <testcase name="shouldIgnoreEmptyListOfExcludedClasses" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
-  <testcase name="shouldPassVerboseFlagToJavaTaskWhenValueIsTrue" classname="org.pitest.ant.PitestTaskTest" time="0.002"/>
+  <testcase name="shouldPassVerboseFlagToJavaTaskWhenValueIsTrue" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
   <testcase name="shouldPassTargetTestsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
   <testcase name="shouldPassTimestampedDirectoryFlagToJavaTaskWhenValueIsTrue" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
   <testcase name="shouldPassOutputFormatsOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
   <testcase name="shouldPassVerboseFlagToJavaTaskWhenValueIsFalse" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
-  <testcase name="shouldPassMaxMutationsPerClassOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0.001"/>
+  <testcase name="shouldPassMaxMutationsPerClassOptionToJavaTask" classname="org.pitest.ant.PitestTaskTest" time="0"/>
 </testsuite>

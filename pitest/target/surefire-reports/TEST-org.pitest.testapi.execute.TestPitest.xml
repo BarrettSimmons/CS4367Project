@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.testapi.execute.TestPitest" time="0.028" tests="12" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.testapi.execute.TestPitest" time="0.01" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -64,15 +64,15 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldBeAbleToCallStaticTestMethods" classname="org.pitest.testapi.execute.TestPitest" time="0"/>
-  <testcase name="shouldReportSuccessIfExpectedExceptionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.002"/>
-  <testcase name="shouldNotifyListenerOfRunEnd" classname="org.pitest.testapi.execute.TestPitest" time="0.005"/>
-  <testcase name="shouldReportFailureWhenThrownExceptionDifferentFromExpectedException" classname="org.pitest.testapi.execute.TestPitest" time="0.006"/>
-  <testcase name="shouldNotifyListenerOfRunStart" classname="org.pitest.testapi.execute.TestPitest" time="0"/>
-  <testcase name="shouldNotifyListenerOfTestSuccess" classname="org.pitest.testapi.execute.TestPitest" time="0"/>
-  <testcase name="shouldReportSuccessWhenSubclassOfExpectedExceptionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.005"/>
-  <testcase name="shouldNotifyListenerOfTestStart" classname="org.pitest.testapi.execute.TestPitest" time="0"/>
-  <testcase name="shouldReportFailureIfExpectedExceptionNotThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.002"/>
-  <testcase name="shouldReportsSuccessIfNoExceptionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
-  <testcase name="shouldReportedAsFailureIfAssertionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.004"/>
-  <testcase name="shouldReportFailureWhenExceptionThrownAndNoExpectationSet" classname="org.pitest.testapi.execute.TestPitest" time="0.003"/>
+  <testcase name="shouldReportSuccessIfExpectedExceptionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
+  <testcase name="shouldNotifyListenerOfRunEnd" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
+  <testcase name="shouldReportFailureWhenThrownExceptionDifferentFromExpectedException" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
+  <testcase name="shouldNotifyListenerOfRunStart" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
+  <testcase name="shouldNotifyListenerOfTestSuccess" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
+  <testcase name="shouldReportSuccessWhenSubclassOfExpectedExceptionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
+  <testcase name="shouldNotifyListenerOfTestStart" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
+  <testcase name="shouldReportFailureIfExpectedExceptionNotThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
+  <testcase name="shouldReportsSuccessIfNoExceptionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0"/>
+  <testcase name="shouldReportedAsFailureIfAssertionThrown" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
+  <testcase name="shouldReportFailureWhenExceptionThrownAndNoExpectationSet" classname="org.pitest.testapi.execute.TestPitest" time="0.001"/>
 </testsuite>

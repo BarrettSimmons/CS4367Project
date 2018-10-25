@@ -1,6 +1,6 @@
-/Users/carlosortiz/Desktop/Fall18/pitest/pitest-aggregator/src/test/java/org/pitest/aggregate/BlockCoverageDataLoaderTest.java
-/Users/carlosortiz/Desktop/Fall18/pitest/pitest-aggregator/src/test/java/org/pitest/aggregate/CodeSourceAggregatorTest.java
-/Users/carlosortiz/Desktop/Fall18/pitest/pitest-aggregator/src/test/java/org/pitest/aggregate/TestInvocationHelper.java
-/Users/carlosortiz/Desktop/Fall18/pitest/pitest-aggregator/src/test/java/org/pitest/aggregate/MutationResultDataLoaderTest.java
-/Users/carlosortiz/Desktop/Fall18/pitest/pitest-aggregator/src/test/java/org/pitest/aggregate/DataLoaderTest.java
-/Users/carlosortiz/Desktop/Fall18/pitest/pitest-aggregator/src/test/java/org/pitest/aggregate/ReportAggregatorBuilderTest.java
+/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest-aggregator/src/test/java/org/pitest/aggregate/BlockCoverageDataLoaderTest.java
+/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest-aggregator/src/test/java/org/pitest/aggregate/CodeSourceAggregatorTest.java
+/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest-aggregator/src/test/java/org/pitest/aggregate/DataLoaderTest.java
+/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest-aggregator/src/test/java/org/pitest/aggregate/TestInvocationHelper.java
+/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest-aggregator/src/test/java/org/pitest/aggregate/ReportAggregatorBuilderTest.java
+/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest-aggregator/src/test/java/org/pitest/aggregate/MutationResultDataLoaderTest.java

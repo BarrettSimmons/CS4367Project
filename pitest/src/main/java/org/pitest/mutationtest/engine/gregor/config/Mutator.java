@@ -64,8 +64,6 @@ public final class Mutator {
 
   static {
 
-		add("CONDITIONALS_BOUNDARY_MUTATOR", CustomMutatorROR.CONDITIONALS_BOUNDARY_MUTATOR);
-
 
     /**
      * Default mutator that inverts the negation of integer and floating point
@@ -146,7 +144,7 @@ public final class Mutator {
     add("REMOVE_CONDITIONALS_ORD_ELSE", new RemoveConditionalMutator(
         Choice.ORDER, false));
     addGroup("REMOVE_CONDITIONALS", RemoveConditionalMutator.makeMutators());
-
+    add("CUSTOM_MUTATOR_ROR", CustomMutatorROR.CUSTOM_MUTATOR_ROR);
     add("TRUE_RETURNS", BooleanTrueReturnValsMutator.BOOLEAN_TRUE_RETURN);
     add("FALSE_RETURNS", BooleanFalseReturnValsMutator.BOOLEAN_FALSE_RETURN);
     add("PRIMITIVE_RETURNS", PrimitiveReturnsMutator.PRIMITIVE_RETURN_VALS_MUTATOR);

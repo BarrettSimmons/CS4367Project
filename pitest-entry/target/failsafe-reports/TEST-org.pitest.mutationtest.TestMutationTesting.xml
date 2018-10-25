@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.TestMutationTesting" time="12.104" tests="10" errors="0" skipped="3" failures="0">
+<testsuite name="org.pitest.mutationtest.TestMutationTesting" time="12.026" tests="10" errors="0" skipped="3" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -66,17 +66,17 @@
   <testcase name="shouldRecordCorrectLineNumberForMutations" classname="org.pitest.mutationtest.TestMutationTesting" time="0">
     <skipped message="too brittle"/>
   </testcase>
-  <testcase name="shouldReportNoResultsIfNoMutationsPossible" classname="org.pitest.mutationtest.TestMutationTesting" time="0.609"/>
-  <testcase name="shouldDetectAndEscapeFromInfiniteLoopsCausedByMutations" classname="org.pitest.mutationtest.TestMutationTesting" time="5.756"/>
-  <testcase name="shouldIsolateMutationsFromNestedClasses" classname="org.pitest.mutationtest.TestMutationTesting" time="1.73"/>
+  <testcase name="shouldReportNoResultsIfNoMutationsPossible" classname="org.pitest.mutationtest.TestMutationTesting" time="0.583"/>
+  <testcase name="shouldDetectAndEscapeFromInfiniteLoopsCausedByMutations" classname="org.pitest.mutationtest.TestMutationTesting" time="5.796"/>
+  <testcase name="shouldIsolateMutationsFromNestedClasses" classname="org.pitest.mutationtest.TestMutationTesting" time="1.742"/>
   <testcase name="shouldDetectUnviableMutations" classname="org.pitest.mutationtest.TestMutationTesting" time="0">
     <skipped message="no longer possible to serialize arbritrary mutators to child"/>
   </testcase>
-  <testcase name="shouldDetectedMixOfSurvivingAndKilledMutations" classname="org.pitest.mutationtest.TestMutationTesting" time="1.195"/>
-  <testcase name="shouldKillAllCoveredMutations" classname="org.pitest.mutationtest.TestMutationTesting" time="1.199"/>
+  <testcase name="shouldDetectedMixOfSurvivingAndKilledMutations" classname="org.pitest.mutationtest.TestMutationTesting" time="1.167"/>
+  <testcase name="shouldKillAllCoveredMutations" classname="org.pitest.mutationtest.TestMutationTesting" time="1.137"/>
   <testcase name="shouldRecoverFromOutOfMemoryError" classname="org.pitest.mutationtest.TestMutationTesting" time="0">
     <skipped message="flakey"/>
   </testcase>
-  <testcase name="shouldExportSystemPropertiesToMinionProcess" classname="org.pitest.mutationtest.TestMutationTesting" time="1.156"/>
-  <testcase name="shouldReportStatusOfNoCoverageWhenNoTestsAvailable" classname="org.pitest.mutationtest.TestMutationTesting" time="0.459"/>
+  <testcase name="shouldExportSystemPropertiesToMinionProcess" classname="org.pitest.mutationtest.TestMutationTesting" time="1.146"/>
+  <testcase name="shouldReportStatusOfNoCoverageWhenNoTestsAvailable" classname="org.pitest.mutationtest.TestMutationTesting" time="0.455"/>
 </testsuite>

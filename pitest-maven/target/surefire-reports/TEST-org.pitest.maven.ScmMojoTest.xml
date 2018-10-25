@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.maven.ScmMojoTest" time="0.464" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.maven.ScmMojoTest" time="0.477" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -64,13 +64,13 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testThrowsAnExceptionWhenNoScmConfigured" classname="org.pitest.maven.ScmMojoTest" time="0.082"/>
-  <testcase name="testLastCommitIsMutationTested" classname="org.pitest.maven.ScmMojoTest" time="0.048"/>
-  <testcase name="testUsesCorrectConnectionWhenDeveloperConnectionSet" classname="org.pitest.maven.ScmMojoTest" time="0.041"/>
-  <testcase name="testClassesAddedToScmAreMutationTested" classname="org.pitest.maven.ScmMojoTest" time="0.036"/>
+  <testcase name="testThrowsAnExceptionWhenNoScmConfigured" classname="org.pitest.maven.ScmMojoTest" time="0.067"/>
+  <testcase name="testLastCommitIsMutationTested" classname="org.pitest.maven.ScmMojoTest" time="0.058"/>
+  <testcase name="testUsesCorrectConnectionWhenDeveloperConnectionSet" classname="org.pitest.maven.ScmMojoTest" time="0.053"/>
+  <testcase name="testClassesAddedToScmAreMutationTested" classname="org.pitest.maven.ScmMojoTest" time="0.05"/>
   <testcase name="testUnknownAndDeletedClassesAreNotMutationTested" classname="org.pitest.maven.ScmMojoTest" time="0.046"/>
-  <testcase name="testDoesNotAnalysePomProjects" classname="org.pitest.maven.ScmMojoTest" time="0.036"/>
-  <testcase name="testCanOverrideInspectedStatus" classname="org.pitest.maven.ScmMojoTest" time="0.054"/>
-  <testcase name="testModifiedClassesAreMutationTested" classname="org.pitest.maven.ScmMojoTest" time="0.059"/>
-  <testcase name="testUsesCorrectConnectionWhenNonDeveloperConnectionSet" classname="org.pitest.maven.ScmMojoTest" time="0.062"/>
+  <testcase name="testDoesNotAnalysePomProjects" classname="org.pitest.maven.ScmMojoTest" time="0.045"/>
+  <testcase name="testCanOverrideInspectedStatus" classname="org.pitest.maven.ScmMojoTest" time="0.047"/>
+  <testcase name="testModifiedClassesAreMutationTested" classname="org.pitest.maven.ScmMojoTest" time="0.052"/>
+  <testcase name="testUsesCorrectConnectionWhenNonDeveloperConnectionSet" classname="org.pitest.maven.ScmMojoTest" time="0.059"/>
 </testsuite>

@@ -184,6 +184,7 @@ org/pitest/mutationtest/engine/gregor/mutators/ReturnValsMethodVisitor$1.class
 org/pitest/classpath/ClassPath.class
 org/pitest/plugin/ProvidesFeature.class
 org/pitest/testapi/execute/MultipleTestGroup.class
+org/pitest/mutationtest/engine/gregor/mutators/CustomMutatorROR.class
 org/pitest/mutationtest/engine/gregor/ClassInfo.class
 org/pitest/mutationtest/execute/HotSwap.class
 org/pitest/coverage/CoverageClassVisitor.class
@@ -291,6 +292,7 @@ org/pitest/extension/common/NoTestSuiteFinder.class
 org/pitest/mutationtest/mocksupport/JavassistInputStreamInterceptorAdapater.class
 org/pitest/classinfo/HashFunction.class
 org/pitest/classinfo/Repository.class
+org/pitest/mutationtest/engine/gregor/mutators/CustomMutatorRORVisitor.class
 org/pitest/bytecode/FrameOptions.class
 org/pitest/testapi/TestResult.class
 org/pitest/coverage/CoverageResult.class

@@ -30,7 +30,7 @@ import org.pitest.mutationtest.engine.gregor.MutationContext;
  */
 public enum CustomMutatorROR implements MethodMutatorFactory {
 
-    CONDITIONALS_BOUNDARY_MUTATOR;
+    CUSTOM_MUTATOR_ROR;
 
     @Override
     public MethodVisitor create(final MutationContext context,
@@ -50,7 +50,7 @@ public enum CustomMutatorROR implements MethodMutatorFactory {
 
 }
 
-class ConditionalsBoundaryMethodVisitor extends AbstractJumpMutator {
+class CustomMutatorRORVisitor extends AbstractJumpMutator {
 
     private static final String DESCRIPTION = "Replaced relational operator with another";
     private static final Map<Integer, Substitution> MUTATIONS = new HashMap<Integer, Substitution>();
@@ -64,7 +64,7 @@ class ConditionalsBoundaryMethodVisitor extends AbstractJumpMutator {
        
     }
 
-    ConditionalsBoundaryMethodVisitor(final MethodMutatorFactory factory,
+    CustomMutatorRORVisitor(final MethodMutatorFactory factory,
             final MutationContext context, final MethodVisitor delegateMethodVisitor) {
         super(factory, context, delegateMethodVisitor);
     }

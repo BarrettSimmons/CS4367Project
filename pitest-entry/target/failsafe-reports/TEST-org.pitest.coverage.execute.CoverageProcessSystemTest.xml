@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.coverage.execute.CoverageProcessSystemTest" time="16.911" tests="24" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.coverage.execute.CoverageProcessSystemTest" time="17.184" tests="24" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -63,28 +63,28 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldFailWithExitCode" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.686"/>
-  <testcase name="shouldCalculateCoverageFor14BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.863"/>
-  <testcase name="shouldCalculateCoverageOfClassesRunInDifferentClassLoader" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.955"/>
-  <testcase name="shouldCalculateCoverageFor13BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.769"/>
-  <testcase name="shouldCalculateCoverageFor12BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.752"/>
-  <testcase name="shouldRecordSomeCoverage" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.7"/>
-  <testcase name="shouldCalculateCoverageFor11BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.697"/>
-  <testcase name="shouldCalculateCoverageForMethodThatThrowsExceptionWithFinallyBlock" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.631"/>
-  <testcase name="shouldCalculateCoverageFor10BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.714"/>
-  <testcase name="shouldCalculateCoverageForAllRelevantClasses" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.639"/>
-  <testcase name="shouldCalculateCoverageForConstructors" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.69"/>
-  <testcase name="shouldCalculateCoverageForSingleBlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.684"/>
-  <testcase name="shouldCalculateCoverageFor9BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.713"/>
-  <testcase name="shouldCalculateCoverageForLargeMethodThatThrowsException" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.65"/>
-  <testcase name="shouldCalculateCoverageFor8BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.684"/>
-  <testcase name="shouldCalculateCoverageForLargeBlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.685"/>
-  <testcase name="shouldCalculateCoverageFor7BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.693"/>
-  <testcase name="shouldCalculateCoverageForSmallMethodThatThrowsException" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.66"/>
-  <testcase name="shouldCalculateCoverageFor5BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.701"/>
-  <testcase name="shouldCalculateCoverageFor4BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.709"/>
-  <testcase name="shouldCalculateCoverageForBlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.676"/>
-  <testcase name="shouldCalculateCoverageFor3BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.704"/>
-  <testcase name="shouldNotCorruptedTheSystemNewLineProperty" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.56"/>
-  <testcase name="shouldCalculateCoverageFor15BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.696"/>
+  <testcase name="shouldFailWithExitCode" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.64"/>
+  <testcase name="shouldCalculateCoverageFor14BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.785"/>
+  <testcase name="shouldCalculateCoverageOfClassesRunInDifferentClassLoader" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="1.038"/>
+  <testcase name="shouldCalculateCoverageFor13BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.697"/>
+  <testcase name="shouldCalculateCoverageFor12BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.71"/>
+  <testcase name="shouldRecordSomeCoverage" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.686"/>
+  <testcase name="shouldCalculateCoverageFor11BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.723"/>
+  <testcase name="shouldCalculateCoverageForMethodThatThrowsExceptionWithFinallyBlock" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.641"/>
+  <testcase name="shouldCalculateCoverageFor10BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.688"/>
+  <testcase name="shouldCalculateCoverageForAllRelevantClasses" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.66"/>
+  <testcase name="shouldCalculateCoverageForConstructors" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.653"/>
+  <testcase name="shouldCalculateCoverageForSingleBlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.795"/>
+  <testcase name="shouldCalculateCoverageFor9BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.732"/>
+  <testcase name="shouldCalculateCoverageForLargeMethodThatThrowsException" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.647"/>
+  <testcase name="shouldCalculateCoverageFor8BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.714"/>
+  <testcase name="shouldCalculateCoverageForLargeBlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.695"/>
+  <testcase name="shouldCalculateCoverageFor7BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.765"/>
+  <testcase name="shouldCalculateCoverageForSmallMethodThatThrowsException" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.685"/>
+  <testcase name="shouldCalculateCoverageFor5BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.716"/>
+  <testcase name="shouldCalculateCoverageFor4BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.722"/>
+  <testcase name="shouldCalculateCoverageForBlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.771"/>
+  <testcase name="shouldCalculateCoverageFor3BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.695"/>
+  <testcase name="shouldNotCorruptedTheSystemNewLineProperty" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.606"/>
+  <testcase name="shouldCalculateCoverageFor15BlockMethods" classname="org.pitest.coverage.execute.CoverageProcessSystemTest" time="0.72"/>
 </testsuite>

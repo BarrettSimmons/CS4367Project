@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.functional.FCollectionTest" time="0.017" tests="18" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.functional.FCollectionTest" time="0.009" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -64,21 +64,21 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldSplitCollectionIntoManyBucketsWhenListManyTimesGreaterThanBucketSize" classname="org.pitest.functional.FCollectionTest" time="0"/>
-  <testcase name="mapShouldTreatNullAsAnEmptyIterable" classname="org.pitest.functional.FCollectionTest" time="0"/>
+  <testcase name="mapShouldTreatNullAsAnEmptyIterable" classname="org.pitest.functional.FCollectionTest" time="0.001"/>
   <testcase name="containsShouldReturnFalseWhenPredicateNotMet" classname="org.pitest.functional.FCollectionTest" time="0"/>
   <testcase name="shouldApplyMapToAllItems" classname="org.pitest.functional.FCollectionTest" time="0"/>
   <testcase name="shouldSplitIntoMultipleBuckets" classname="org.pitest.functional.FCollectionTest" time="0"/>
   <testcase name="shouldApplyFlatMapToAllItems" classname="org.pitest.functional.FCollectionTest" time="0.001"/>
-  <testcase name="shouldReturnsAllEntriesWhenFilteredOnTrue" classname="org.pitest.functional.FCollectionTest" time="0"/>
+  <testcase name="shouldReturnsAllEntriesWhenFilteredOnTrue" classname="org.pitest.functional.FCollectionTest" time="0.001"/>
   <testcase name="containsShouldStopProcessingOnFirstMatch" classname="org.pitest.functional.FCollectionTest" time="0.001"/>
-  <testcase name="foldShouldFoldValues" classname="org.pitest.functional.FCollectionTest" time="0.001"/>
-  <testcase name="shouldApplyForEachToAllItems" classname="org.pitest.functional.FCollectionTest" time="0.001"/>
+  <testcase name="foldShouldFoldValues" classname="org.pitest.functional.FCollectionTest" time="0"/>
+  <testcase name="shouldApplyForEachToAllItems" classname="org.pitest.functional.FCollectionTest" time="0"/>
   <testcase name="shouldSplitCollectionIntoTwoBucketsWhenListSizeOneGreaterThanBucketSize" classname="org.pitest.functional.FCollectionTest" time="0"/>
-  <testcase name="shouldReturnEmptyListWhenFilteredOnFalse" classname="org.pitest.functional.FCollectionTest" time="0.001"/>
-  <testcase name="shouldSplitIntoSingleBucketWhenAllItemsMeetsCriteria" classname="org.pitest.functional.FCollectionTest" time="0"/>
-  <testcase name="flattenShouldReturnCollectionContainingAllSuppliedValues" classname="org.pitest.functional.FCollectionTest" time="0.001"/>
-  <testcase name="shouldSplitCollectionIntoOneBucketWhenListSizeEqualToBucketSize" classname="org.pitest.functional.FCollectionTest" time="0"/>
-  <testcase name="containsShouldReturnTrueWhenPredicateMet" classname="org.pitest.functional.FCollectionTest" time="0.011"/>
+  <testcase name="shouldReturnEmptyListWhenFilteredOnFalse" classname="org.pitest.functional.FCollectionTest" time="0"/>
+  <testcase name="shouldSplitIntoSingleBucketWhenAllItemsMeetsCriteria" classname="org.pitest.functional.FCollectionTest" time="0.001"/>
+  <testcase name="flattenShouldReturnCollectionContainingAllSuppliedValues" classname="org.pitest.functional.FCollectionTest" time="0"/>
+  <testcase name="shouldSplitCollectionIntoOneBucketWhenListSizeEqualToBucketSize" classname="org.pitest.functional.FCollectionTest" time="0.001"/>
+  <testcase name="containsShouldReturnTrueWhenPredicateMet" classname="org.pitest.functional.FCollectionTest" time="0.001"/>
   <testcase name="flatMapShouldTreatNullAsEmptyIterable" classname="org.pitest.functional.FCollectionTest" time="0"/>
-  <testcase name="shouldReturnOnlyMatchesToPredicate" classname="org.pitest.functional.FCollectionTest" time="0"/>
+  <testcase name="shouldReturnOnlyMatchesToPredicate" classname="org.pitest.functional.FCollectionTest" time="0.002"/>
 </testsuite>

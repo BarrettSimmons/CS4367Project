@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="1.19" tests="13" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="1.308" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -63,17 +63,17 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="alsoReplaceCallToMethodWhenReturnValueIsNotUsed" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.64"/>
-  <testcase name="willSubstituteCollectionsOfDifferentTypesDueToTypeErasure" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.027"/>
-  <testcase name="shouldNotMutateMethodThatReturnsDifferentType" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.011"/>
-  <testcase name="shouldReplaceMethodsReturningArraysMatchingArgumentType" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.035"/>
-  <testcase name="shouldNotReplaceMethodsReturningArraysOfUnmatchedType" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.018"/>
-  <testcase name="shouldReplaceStaticMethodCallThatIsUsedAsArgumentForCallToOtherObject" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.029"/>
-  <testcase name="shouldReplaceMethodCallWithStringArgument" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.032"/>
-  <testcase name="shouldReplaceInstanceMethodCallWithSeveralArgumentsThatIsUsedAsArgumentForCallToOtherObject" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.033"/>
-  <testcase name="shouldReplaceInstanceMethodCallThatIsUsedAsArgumentForCallToOtherObject" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.105"/>
-  <testcase name="continuesUntilMatchingArgumentTypeIsFound" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.082"/>
-  <testcase name="usesLastArgumentOfMatchingTypeToReplaceMethod" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.087"/>
-  <testcase name="shouldReplaceMethodCallWithLongArgument" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.031"/>
-  <testcase name="shouldReplaceMethodCallWithIntArgument" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.06"/>
+  <testcase name="alsoReplaceCallToMethodWhenReturnValueIsNotUsed" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.704"/>
+  <testcase name="willSubstituteCollectionsOfDifferentTypesDueToTypeErasure" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.03"/>
+  <testcase name="shouldNotMutateMethodThatReturnsDifferentType" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.019"/>
+  <testcase name="shouldReplaceMethodsReturningArraysMatchingArgumentType" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.037"/>
+  <testcase name="shouldNotReplaceMethodsReturningArraysOfUnmatchedType" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.011"/>
+  <testcase name="shouldReplaceStaticMethodCallThatIsUsedAsArgumentForCallToOtherObject" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.033"/>
+  <testcase name="shouldReplaceMethodCallWithStringArgument" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.034"/>
+  <testcase name="shouldReplaceInstanceMethodCallWithSeveralArgumentsThatIsUsedAsArgumentForCallToOtherObject" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.035"/>
+  <testcase name="shouldReplaceInstanceMethodCallThatIsUsedAsArgumentForCallToOtherObject" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.098"/>
+  <testcase name="continuesUntilMatchingArgumentTypeIsFound" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.103"/>
+  <testcase name="usesLastArgumentOfMatchingTypeToReplaceMethod" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.114"/>
+  <testcase name="shouldReplaceMethodCallWithLongArgument" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.053"/>
+  <testcase name="shouldReplaceMethodCallWithIntArgument" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.037"/>
 </testsuite>

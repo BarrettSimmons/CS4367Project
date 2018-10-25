@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.693" tests="32" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.75" tests="32" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/pitest"/>
+    <property name="user.dir" value="/Users/carlosortiz/Desktop/Fall18/CS4367Project"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -63,36 +63,36 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldReplaceFloatWith1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.022"/>
-  <testcase name="shouldReplaceDouble0With1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.026"/>
-  <testcase name="shouldReplaceDouble1With2" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.018"/>
-  <testcase name="shouldReplaceFirstMutationPointOnly" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.019"/>
-  <testcase name="shouldReplaceFirstDoubleMutationPointOnly" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.058"/>
-  <testcase name="shouldReplaceDoubleWith1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.018"/>
-  <testcase name="shouldReplaceInteger0With1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.017"/>
-  <testcase name="shouldReplaceInteger1With0" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.018"/>
-  <testcase name="shouldReplaceInteger2With3" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.017"/>
-  <testcase name="shouldOverflowIntegerOnShortMaxValue" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.032"/>
-  <testcase name="shouldReplaceInteger3With4" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.023"/>
-  <testcase name="shouldReplaceInteger4With5" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.017"/>
-  <testcase name="shouldReplaceInteger5With6" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.017"/>
-  <testcase name="shouldReplaceLargeIntegerConstantsWithValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.017"/>
-  <testcase name="shouldOverflowOnShortMaxValue" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.027"/>
-  <testcase name="shouldReplaceLongWithValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.018"/>
-  <testcase name="shouldReplaceFirstFloatMutationPointOnly" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.028"/>
-  <testcase name="shouldOverflowOnByteMaxValue" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.03"/>
+  <testcase name="shouldReplaceFloatWith1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.021"/>
+  <testcase name="shouldReplaceDouble0With1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.023"/>
+  <testcase name="shouldReplaceDouble1With2" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.021"/>
+  <testcase name="shouldReplaceFirstMutationPointOnly" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.03"/>
+  <testcase name="shouldReplaceFirstDoubleMutationPointOnly" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.035"/>
+  <testcase name="shouldReplaceDoubleWith1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.022"/>
+  <testcase name="shouldReplaceInteger0With1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.02"/>
+  <testcase name="shouldReplaceInteger1With0" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.024"/>
+  <testcase name="shouldReplaceInteger2With3" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.021"/>
+  <testcase name="shouldOverflowIntegerOnShortMaxValue" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.03"/>
+  <testcase name="shouldReplaceInteger3With4" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.02"/>
+  <testcase name="shouldReplaceInteger4With5" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.02"/>
+  <testcase name="shouldReplaceInteger5With6" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.022"/>
+  <testcase name="shouldReplaceLargeIntegerConstantsWithValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.022"/>
+  <testcase name="shouldOverflowOnShortMaxValue" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.035"/>
+  <testcase name="shouldReplaceLongWithValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.021"/>
+  <testcase name="shouldReplaceFirstFloatMutationPointOnly" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.033"/>
+  <testcase name="shouldOverflowOnByteMaxValue" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.028"/>
   <testcase name="shouldReplaceIntegerMaxWithIntegerMin" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.017"/>
-  <testcase name="shouldReplaceIntegerMinus1With0" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.017"/>
-  <testcase name="shouldReplaceBooleanTrueWithFalse" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.018"/>
-  <testcase name="shouldReplaceMediumIntegerConstantsWithValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.018"/>
-  <testcase name="shouldReplaceLongMinus1With0" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.03"/>
-  <testcase name="shouldReplaceBooleanFalseWithTrue" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.023"/>
-  <testcase name="shouldProvideAMeaningfulName" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0"/>
-  <testcase name="shouldReplaceSmallIntegerConstantsWithValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.019"/>
-  <testcase name="shouldReplaceIntegerMinus2WithMinus1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.019"/>
-  <testcase name="shouldReplaceLong0With1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.018"/>
-  <testcase name="shouldReplaceLong1With2" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.017"/>
+  <testcase name="shouldReplaceIntegerMinus1With0" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.021"/>
+  <testcase name="shouldReplaceBooleanTrueWithFalse" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.021"/>
+  <testcase name="shouldReplaceMediumIntegerConstantsWithValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.022"/>
+  <testcase name="shouldReplaceLongMinus1With0" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.021"/>
+  <testcase name="shouldReplaceBooleanFalseWithTrue" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.024"/>
+  <testcase name="shouldProvideAMeaningfulName" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.001"/>
+  <testcase name="shouldReplaceSmallIntegerConstantsWithValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.024"/>
+  <testcase name="shouldReplaceIntegerMinus2WithMinus1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.033"/>
+  <testcase name="shouldReplaceLong0With1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.027"/>
+  <testcase name="shouldReplaceLong1With2" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.023"/>
   <testcase name="shouldReplaceFloat0With1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.021"/>
   <testcase name="shouldReplaceFloat1With2" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.021"/>
-  <testcase name="shouldReplaceFloat2With1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.033"/>
+  <testcase name="shouldReplaceFloat2With1" classname="org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutatorTest" time="0.026"/>
 </testsuite>

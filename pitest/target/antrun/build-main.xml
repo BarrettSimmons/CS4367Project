@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="maven-antrun-" default="main"  >
 <target name="main">
-  <delete file="/Users/carlosortiz/Desktop/Fall18/pitest/pitest/target/pitest-1.4.4-SNAPSHOT.jar"/>
+  <delete file="/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest/target/pitest-1.4.4-SNAPSHOT.jar"/>
 </target>
 </project>
