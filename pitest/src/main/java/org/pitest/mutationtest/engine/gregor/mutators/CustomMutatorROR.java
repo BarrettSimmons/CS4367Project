@@ -52,52 +52,52 @@ public enum CustomMutatorROR implements MethodMutatorFactory {
 
 class CustomMutatorRORVisitor extends AbstractJumpMutator {
 
-    private static final String DESCRIPTION = "Replaced relational operator with another";
+    private static final String DESCRIPTION = "Replaced relational operator with another(ROR)";
     private static final Map<Integer, Substitution> MUTATIONS = new HashMap<Integer, Substitution>();
 
     static {
        
         //<
-        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFLE, "Replace less than with less than equal to"));
-        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFGE , "Replace less than with greater than equal to"));
-        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFNE , "Replace less than with if not equal to"));
-        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFGT , "Replace less than with Greater than"));
-        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFEQ , "Replace less than with equal to"));
+        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFLE, "Replace less than with less than equal to(ROR"));
+        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFGE , "Replace less than with greater than equal to(ROR"));
+        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFNE , "Replace less than with if not equal to(ROR"));
+        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFGT , "Replace less than with Greater than(ROR"));
+        MUTATIONS.put(Opcodes.IFLT, new Substitution(Opcodes.IFEQ , "Replace less than with equal to(ROR"));
         
         // <=
-        MUTATIONS.put(Opcodes.IFLE, new Substitution(Opcodes.IFLT, "Replace less than or equal with less than"));
-        MUTATIONS.put(Opcodes.IFLE, new Substitution(Opcodes.IFGE , "Replace less than or equal with greater than equal to"));
-        MUTATIONS.put(Opcodes.IFLE, new Substitution(Opcodes.IFNE , "Replace less than or equal with if not equal to"));
-        MUTATIONS.put(Opcodes.IFLE, new Substitution(Opcodes.IFGT , "Replace less than or equal with Greater than"));
-        MUTATIONS.put(Opcodes.IFLE, new Substitution(Opcodes.IFEQ , "Replace less than or equal with equal to"));
+        MUTATIONS.put(Opcodes.IFLE, new Substitution(Opcodes.IFLT, "Replace less than or equal with less than(ROR"));
+        MUTATIONS.put(Opcodes.IFLE, new Substitution(Opcodes.IFGE , "Replace less than or equal with greater than equal to(ROR"));
+        MUTATIONS.put(Opcodes.IFLE, new Substitution(Opcodes.IFNE , "Replace less than or equal with if not equal to(ROR"));
+        MUTATIONS.put(Opcodes.IFLE, new Substitution(Opcodes.IFGT , "Replace less than or equal with Greater than(ROR"));
+        MUTATIONS.put(Opcodes.IFLE, new Substitution(Opcodes.IFEQ , "Replace less than or equal with equal to(ROR"));
         
         //>=
-        MUTATIONS.put(Opcodes.IFGE, new Substitution(Opcodes.IFLE, "Replace greater than or equal to with less than equal to"));
-        MUTATIONS.put(Opcodes.IFGE, new Substitution(Opcodes.IFLT , "Replace greater than or equal towith greater than equal to"));
-        MUTATIONS.put(Opcodes.IFGE, new Substitution(Opcodes.IFNE , "Replace greater than or equal to with not equal to"));
-        MUTATIONS.put(Opcodes.IFGE, new Substitution(Opcodes.IFGT , "Greater than or equal with greater than"));
-        MUTATIONS.put(Opcodes.IFGE, new Substitution(Opcodes.IFEQ , "Replace greater than or equal to with equal to"));
+        MUTATIONS.put(Opcodes.IFGE, new Substitution(Opcodes.IFLE, "Replace greater than or equal to with less than equal to(ROR"));
+        MUTATIONS.put(Opcodes.IFGE, new Substitution(Opcodes.IFLT , "Replace greater than or equal towith greater than equal to(ROR)"));
+        MUTATIONS.put(Opcodes.IFGE, new Substitution(Opcodes.IFNE , "Replace greater than or equal to with not equal to(ROR"));
+        MUTATIONS.put(Opcodes.IFGE, new Substitution(Opcodes.IFGT , "Greater than or equal with greater than(ROR"));
+        MUTATIONS.put(Opcodes.IFGE, new Substitution(Opcodes.IFEQ , "Replace greater than or equal to with equal to(ROR"));
         
         //>
-        MUTATIONS.put(Opcodes.IFGT, new Substitution(Opcodes.IFLE, "Replace greater than with less than equal to"));
-        MUTATIONS.put(Opcodes.IFGT, new Substitution(Opcodes.IFLT , "Replace greater than with greater than equal to"));
-        MUTATIONS.put(Opcodes.IFGT, new Substitution(Opcodes.IFNE , "Replace greater than with not equal to"));
-        MUTATIONS.put(Opcodes.IFGT, new Substitution(Opcodes.IFGE , "Replace greater than with greater than or equal"));
-        MUTATIONS.put(Opcodes.IFGT, new Substitution(Opcodes.IFEQ , "Replace greater than with equal to")); 
+        MUTATIONS.put(Opcodes.IFGT, new Substitution(Opcodes.IFLE, "Replace greater than with less than equal to(ROR"));
+        MUTATIONS.put(Opcodes.IFGT, new Substitution(Opcodes.IFLT , "Replace greater than with greater than equal to(ROR)"));
+        MUTATIONS.put(Opcodes.IFGT, new Substitution(Opcodes.IFNE , "Replace greater than with not equal to(ROR)"));
+        MUTATIONS.put(Opcodes.IFGT, new Substitution(Opcodes.IFGE , "Replace greater than with greater than or equal(ROR)"));
+        MUTATIONS.put(Opcodes.IFGT, new Substitution(Opcodes.IFEQ , "Replace greater than with equal to(ROR)")); 
         
         //!=
-        MUTATIONS.put(Opcodes.IFNE, new Substitution(Opcodes.IFLE, "Replace not equal to with less than equal to"));
-        MUTATIONS.put(Opcodes.IFNE, new Substitution(Opcodes.IFLT , "Replace not equal to with greater than equal to"));
-        MUTATIONS.put(Opcodes.IFNE, new Substitution(Opcodes.IFGT , "Replace not equal to with greater than"));
-        MUTATIONS.put(Opcodes.IFNE, new Substitution(Opcodes.IFGE , "Replace not equal to with greater than or equal"));
-        MUTATIONS.put(Opcodes.IFNE, new Substitution(Opcodes.IFEQ , "Replace not equal to with equal to")); 
+        MUTATIONS.put(Opcodes.IFNE, new Substitution(Opcodes.IFLE, "Replace not equal to with less than equal to(ROR)"));
+        MUTATIONS.put(Opcodes.IFNE, new Substitution(Opcodes.IFLT , "Replace not equal to with greater than equal to(ROR)"));
+        MUTATIONS.put(Opcodes.IFNE, new Substitution(Opcodes.IFGT , "Replace not equal to with greater than(ROR)"));
+        MUTATIONS.put(Opcodes.IFNE, new Substitution(Opcodes.IFGE , "Replace not equal to with greater than or equal(ROR)"));
+        MUTATIONS.put(Opcodes.IFNE, new Substitution(Opcodes.IFEQ , "Replace not equal to with equal to(ROR)")); 
         
         //==
-        MUTATIONS.put(Opcodes.IFEQ, new Substitution(Opcodes.IFLE, "Replace equal to with less than equal to"));
-        MUTATIONS.put(Opcodes.IFEQ, new Substitution(Opcodes.IFLT , "Replace equal to with greater than equal to"));
-        MUTATIONS.put(Opcodes.IFEQ, new Substitution(Opcodes.IFGT , "Replace equal to with greater than"));
-        MUTATIONS.put(Opcodes.IFEQ, new Substitution(Opcodes.IFGE , "Replace equal to with greater than or equal"));
-        MUTATIONS.put(Opcodes.IFEQ, new Substitution(Opcodes.IFNE , "Replace equal to with not equal to")); 
+        MUTATIONS.put(Opcodes.IFEQ, new Substitution(Opcodes.IFLE, "Replace equal to with less than equal to(ROR)"));
+        MUTATIONS.put(Opcodes.IFEQ, new Substitution(Opcodes.IFLT , "Replace equal to with greater than equal to(ROR)"));
+        MUTATIONS.put(Opcodes.IFEQ, new Substitution(Opcodes.IFGT , "Replace equal to with greater than(ROR)"));
+        MUTATIONS.put(Opcodes.IFEQ, new Substitution(Opcodes.IFGE , "Replace equal to with greater than or equal(ROR)"));
+        MUTATIONS.put(Opcodes.IFEQ, new Substitution(Opcodes.IFNE , "Replace equal to with not equal to(ROR)")); 
         
        
     }
