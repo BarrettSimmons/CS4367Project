@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="37.735" tests="31" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="46.361" tests="31" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,35 +63,35 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldLoadResoucesOffClassPathFromFolderWithSpaces" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.866"/>
-  <testcase name="shouldFailRunWithHelpfulMessageIfTestsNotGreen" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.751"/>
-  <testcase name="shouldMarkChildJVMCrashesAsRunErrors" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.483"/>
-  <testcase name="shouldKillMutationsWhenMutationsPreventsConstructionOfTestClass" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.469"/>
-  <testcase name="shouldNotMutateMethodsMatchingExclusionPredicate" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.753"/>
-  <testcase name="shouldCombineAndKillInlinedMutationsInFinallyBlocks" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.491"/>
-  <testcase name="shouldWorkWithEasyMock" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="2.069"/>
-  <testcase name="shouldExcludeFilteredTests" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.662"/>
-  <testcase name="shouldKillMutationsWhenKillingTestClassContainsAnIgnoreOnAnotherMethod" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.458"/>
-  <testcase name="shouldNotMutateClassesAnnotatedWithGenerated" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.63"/>
-  <testcase name="shouldExitAfterFirstFailureWhenTestClassAnnotatedWithBeforeClass" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.469"/>
-  <testcase name="shouldTerminateWhenThreadpoolCreated" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.448"/>
-  <testcase name="shouldReportSurvivingMutations" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.468"/>
-  <testcase name="willMutateStaticMethodsCalledFromInitializerAndElsewhere" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.671"/>
-  <testcase name="shouldPickRelevantTestsFromSuppliedTestSuites" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.53"/>
-  <testcase name="willAllowExcludedClassesToBeReIncludedViaSuite" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.507"/>
-  <testcase name="shouldReportCombinedCoveredButNotTestedMutationsInFinallyBlocksAsSurvived" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.393"/>
-  <testcase name="willMutatePriveMethodsCalledInChainFromInitializer" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.623"/>
-  <testcase name="computesFullMutationMatrix" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.373"/>
-  <testcase name="shouldPickRelevantTestsAndKillMutationsBasedOnCoverageDataWhenLimitedByClassReach" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.449"/>
-  <testcase name="shouldUseTestsDefinedInASuppliedJUnitThreeSuite" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.436"/>
-  <testcase name="shouldMutateClassesSuppliedToAlternateClassPath" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.39"/>
-  <testcase name="shouldReportUnCoveredMutations" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.448"/>
-  <testcase name="shouldMutateNonPrivateStaticMethodsCalledFromInitializerOnly" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.636"/>
-  <testcase name="shouldNotMutateStaticMethodsOnlyCalledFromInitializer" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.63"/>
-  <testcase name="shouldLimitNumberOfMutationsPerClass" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.71"/>
-  <testcase name="shouldReportHelpfulErrorIfNoMutationsFounds" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.459"/>
-  <testcase name="shouldPickRelevantTestsAndKillMutationsBasedOnCoverageData" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.459"/>
-  <testcase name="shouldExcludeFilteredClasses" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.548"/>
-  <testcase name="shouldWorkWithMockitoJUnitRunner" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.801"/>
-  <testcase name="shouldSupportTestNG" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.655"/>
+  <testcase name="shouldLoadResoucesOffClassPathFromFolderWithSpaces" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="2.395"/>
+  <testcase name="shouldFailRunWithHelpfulMessageIfTestsNotGreen" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.883"/>
+  <testcase name="shouldMarkChildJVMCrashesAsRunErrors" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.838"/>
+  <testcase name="shouldKillMutationsWhenMutationsPreventsConstructionOfTestClass" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.965"/>
+  <testcase name="shouldNotMutateMethodsMatchingExclusionPredicate" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.044"/>
+  <testcase name="shouldCombineAndKillInlinedMutationsInFinallyBlocks" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.869"/>
+  <testcase name="shouldWorkWithEasyMock" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="2.702"/>
+  <testcase name="shouldExcludeFilteredTests" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.989"/>
+  <testcase name="shouldKillMutationsWhenKillingTestClassContainsAnIgnoreOnAnotherMethod" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.732"/>
+  <testcase name="shouldNotMutateClassesAnnotatedWithGenerated" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.715"/>
+  <testcase name="shouldExitAfterFirstFailureWhenTestClassAnnotatedWithBeforeClass" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.736"/>
+  <testcase name="shouldTerminateWhenThreadpoolCreated" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.832"/>
+  <testcase name="shouldReportSurvivingMutations" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.808"/>
+  <testcase name="willMutateStaticMethodsCalledFromInitializerAndElsewhere" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.845"/>
+  <testcase name="shouldPickRelevantTestsFromSuppliedTestSuites" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.703"/>
+  <testcase name="willAllowExcludedClassesToBeReIncludedViaSuite" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.764"/>
+  <testcase name="shouldReportCombinedCoveredButNotTestedMutationsInFinallyBlocksAsSurvived" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.661"/>
+  <testcase name="willMutatePriveMethodsCalledInChainFromInitializer" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.807"/>
+  <testcase name="computesFullMutationMatrix" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.677"/>
+  <testcase name="shouldPickRelevantTestsAndKillMutationsBasedOnCoverageDataWhenLimitedByClassReach" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.815"/>
+  <testcase name="shouldUseTestsDefinedInASuppliedJUnitThreeSuite" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.743"/>
+  <testcase name="shouldMutateClassesSuppliedToAlternateClassPath" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.705"/>
+  <testcase name="shouldReportUnCoveredMutations" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.726"/>
+  <testcase name="shouldMutateNonPrivateStaticMethodsCalledFromInitializerOnly" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.843"/>
+  <testcase name="shouldNotMutateStaticMethodsOnlyCalledFromInitializer" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.715"/>
+  <testcase name="shouldLimitNumberOfMutationsPerClass" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.87"/>
+  <testcase name="shouldReportHelpfulErrorIfNoMutationsFounds" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.511"/>
+  <testcase name="shouldPickRelevantTestsAndKillMutationsBasedOnCoverageData" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.724"/>
+  <testcase name="shouldExcludeFilteredClasses" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="0.612"/>
+  <testcase name="shouldWorkWithMockitoJUnitRunner" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="2.163"/>
+  <testcase name="shouldSupportTestNG" classname="org.pitest.mutationtest.MutationCoverageReportSystemTest" time="1.969"/>
 </testsuite>

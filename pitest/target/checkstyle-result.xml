@@ -274,6 +274,10 @@
 </file>
 <file name="/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest/src/main/java/org/pitest/mutationtest/engine/gregor/mutators/CustomMutatorAOR.java">
 </file>
+<file name="/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest/src/main/java/org/pitest/mutationtest/engine/gregor/mutators/CustomMutatorLeftAOD.java">
+</file>
+<file name="/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest/src/main/java/org/pitest/mutationtest/engine/gregor/mutators/CustomMutatorRightAOD.java">
+</file>
 <file name="/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest/src/main/java/org/pitest/mutationtest/engine/gregor/mutators/CustomMutatorROR.java">
 </file>
 <file name="/Users/carlosortiz/Desktop/Fall18/CS4367Project/pitest/src/main/java/org/pitest/mutationtest/engine/gregor/mutators/customMutators/AOD/RemoveLeft.java">

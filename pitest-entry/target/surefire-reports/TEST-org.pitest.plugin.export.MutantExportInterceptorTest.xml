@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.plugin.export.MutantExportInterceptorTest" time="0.16" tests="6" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.plugin.export.MutantExportInterceptorTest" time="0.175" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,10 +63,10 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldCreateAMutantsDirectoryForEachClass" classname="org.pitest.plugin.export.MutantExportInterceptorTest" time="0.05"/>
-  <testcase name="shouldWriteDissasembledMutantBytecodeToDisk" classname="org.pitest.plugin.export.MutantExportInterceptorTest" time="0.018"/>
-  <testcase name="shouldWriteMutantBytesToDisk" classname="org.pitest.plugin.export.MutantExportInterceptorTest" time="0.028"/>
-  <testcase name="shouldWriteMutantDetailsToDisk" classname="org.pitest.plugin.export.MutantExportInterceptorTest" time="0.032"/>
-  <testcase name="shouldWriteDisassembledOriginalBytecodeToDisk" classname="org.pitest.plugin.export.MutantExportInterceptorTest" time="0.014"/>
+  <testcase name="shouldCreateAMutantsDirectoryForEachClass" classname="org.pitest.plugin.export.MutantExportInterceptorTest" time="0.049"/>
+  <testcase name="shouldWriteDissasembledMutantBytecodeToDisk" classname="org.pitest.plugin.export.MutantExportInterceptorTest" time="0.024"/>
+  <testcase name="shouldWriteMutantBytesToDisk" classname="org.pitest.plugin.export.MutantExportInterceptorTest" time="0.025"/>
+  <testcase name="shouldWriteMutantDetailsToDisk" classname="org.pitest.plugin.export.MutantExportInterceptorTest" time="0.044"/>
+  <testcase name="shouldWriteDisassembledOriginalBytecodeToDisk" classname="org.pitest.plugin.export.MutantExportInterceptorTest" time="0.015"/>
   <testcase name="shouldReturnMutantListUnmodified" classname="org.pitest.plugin.export.MutantExportInterceptorTest" time="0.018"/>
 </testsuite>

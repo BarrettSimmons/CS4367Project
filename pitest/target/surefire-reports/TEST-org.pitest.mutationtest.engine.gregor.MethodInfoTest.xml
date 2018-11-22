@@ -66,7 +66,7 @@
   <testcase name="isGeneratedEnumMethodReturnsTrueIfMethodIsStaticInitializerInEnum" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0"/>
   <testcase name="isGeneratedEnumMethodReturnsFalseForRegularEnumMethod" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0"/>
   <testcase name="isGeneratedEnumMethodReturnsFalseForNonEnumClasses" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0"/>
-  <testcase name="isStaticShouldReturnTrueWhenMethodIsStatic" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0"/>
+  <testcase name="isStaticShouldReturnTrueWhenMethodIsStatic" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0.001"/>
   <testcase name="takesNoParametersShouldReturnFalseWhenMethodTakesOneParameter" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0"/>
   <testcase name="getDescriptionReturnsQualifiedMethodName" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0"/>
   <testcase name="isGeneratedEnumMethodReturnsTrueIfMethodIsEnumValueOfMethod" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0"/>
@@ -79,6 +79,6 @@
   <testcase name="takesNoParametersShouldReturnTrueWhenMethodTakesNoParameters" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0"/>
   <testcase name="isVoidShouldReturnFalseWhenMethodIsNotVoid" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0"/>
   <testcase name="getReturnTypeReturnsCorrectReturnType" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0"/>
-  <testcase name="isStaticInitializerShouldReturnTrueWhenMethodIsStaticInitializer" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0.001"/>
+  <testcase name="isStaticInitializerShouldReturnTrueWhenMethodIsStaticInitializer" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0"/>
   <testcase name="isSyntheticShouldReturnFalseWhenNoSyntheticAccessFlagSet" classname="org.pitest.mutationtest.engine.gregor.MethodInfoTest" time="0"/>
 </testsuite>

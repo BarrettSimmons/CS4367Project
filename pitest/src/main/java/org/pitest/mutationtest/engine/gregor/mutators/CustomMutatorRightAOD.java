@@ -27,14 +27,15 @@ import org.pitest.mutationtest.engine.gregor.MethodMutatorFactory;
 import org.pitest.mutationtest.engine.gregor.MutationContext;
 import org.objectweb.asm.Opcodes;
 
+
 public enum CustomMutatorRightAOD implements MethodMutatorFactory {
 
-    CUSTOM_MUTATOR_AOD;
+    CUSTOM_MUTATOR_RIGHT_AOD;
 
     @Override
     public MethodVisitor create(final MutationContext context,
             final MethodInfo methodInfo, final MethodVisitor methodVisitor) {
-        return new IncrementsMethodVisitor(this, context, methodVisitor);
+        return new CustomRightAODMethodVisitor(this, context, methodVisitor);
     }
 
     @Override
@@ -48,12 +49,12 @@ public enum CustomMutatorRightAOD implements MethodMutatorFactory {
     }
 }
 
-class CustomAODMethodVisitor extends MethodVisitor {
+class CustomRightAODMethodVisitor extends MethodVisitor {
 
     private final MethodMutatorFactory factory;
     private final MutationContext context;
 
-    CustomAODMethodVisitor(final MethodMutatorFactory factory,
+    CustomRightAODMethodVisitor(final MethodMutatorFactory factory,
             final MutationContext context, final MethodVisitor delegateMethodVisitor) {
         super(ASMVersion.ASM_VERSION, delegateMethodVisitor);
         this.factory = factory;
@@ -63,8 +64,9 @@ class CustomAODMethodVisitor extends MethodVisitor {
     @Override
     public void visitInsn(final int opcode) {
         if ((opcode == Opcodes.IADD) || (opcode == Opcodes.ISUB))  {
-            final MutationIdentifier newId = this.context.registerMutation(this.factory, "->(AOD) KILLED");
+            final MutationIdentifier newId = this.context.registerMutation(this.factory, "->(AODright) KILLED");
             if (this.context.shouldMutate(newId)) {
+                super.visitInsn(Opcodes.POP);
                 super.visitInsn(Opcodes.SWAP);
                 super.visitInsn(Opcodes.POP);
             } else {

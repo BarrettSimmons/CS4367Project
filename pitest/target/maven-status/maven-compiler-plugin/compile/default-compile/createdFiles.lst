@@ -139,6 +139,7 @@ org/pitest/junit/RunnerSuiteFinder.class
 org/pitest/mutationtest/engine/gregor/mutators/AReturnMethodVisitor$6.class
 org/pitest/mutationtest/engine/gregor/mutators/MathMethodVisitor.class
 org/pitest/mutationtest/engine/gregor/mutators/InvertNegsMutator.class
+org/pitest/mutationtest/engine/gregor/mutators/CustomMutatorLeftAOD.class
 org/pitest/mutationtest/engine/gregor/analysis/DefaultInstructionCounter.class
 org/pitest/bytecode/NullVisitor$1.class
 org/pitest/mutationtest/engine/gregor/blocks/BlockCounter.class
@@ -185,6 +186,7 @@ org/pitest/testapi/TestGroupConfig.class
 org/pitest/mutationtest/engine/gregor/config/Mutator.class
 org/pitest/mutationtest/engine/gregor/mutators/ReturnValsMethodVisitor$1.class
 org/pitest/classpath/ClassPath.class
+org/pitest/mutationtest/engine/gregor/mutators/CustomLeftAODMethodVisitor.class
 org/pitest/plugin/ProvidesFeature.class
 org/pitest/testapi/execute/MultipleTestGroup.class
 org/pitest/mutationtest/engine/gregor/mutators/CustomMutatorROR.class
@@ -256,6 +258,7 @@ org/pitest/mutationtest/engine/gregor/mutators/ReturnValsMethodVisitor.class
 org/pitest/classinfo/ClassInfoVisitor$ClassAnnotationValueVisitor$1.class
 org/pitest/coverage/BlockCoverage.class
 org/pitest/mutationtest/engine/gregor/mutators/AReturnMethodVisitor$1.class
+org/pitest/mutationtest/engine/gregor/mutators/CustomRightAODMethodVisitor.class
 org/pitest/mutationtest/engine/gregor/GregorMutationEngine.class
 org/pitest/mutationtest/engine/gregor/LineTrackingMethodVisitor.class
 org/pitest/mutationtest/engine/gregor/mutators/experimental/BigIntegerMutator.class
@@ -323,6 +326,7 @@ org/pitest/classinfo/ClassPointer.class
 org/pitest/plugin/FeatureSetting.class
 org/pitest/testng/TestNGTestUnit.class
 org/pitest/sequence/SequenceQuery$Partial.class
+org/pitest/mutationtest/engine/gregor/mutators/CustomMutatorRightAOD.class
 org/pitest/sequence/SlotRead.class
 org/pitest/testapi/execute/ResultType$ResultToListenerSideEffect.class
 org/pitest/mutationtest/engine/gregor/mutators/ConstructorCallMutator.class

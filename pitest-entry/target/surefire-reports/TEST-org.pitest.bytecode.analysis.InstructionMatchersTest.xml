@@ -63,15 +63,15 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldMatchAllIntegerConstants" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0.006"/>
+  <testcase name="shouldMatchAllIntegerConstants" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0.007"/>
   <testcase name="shouldCaptureIStoreVariable" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0.005"/>
-  <testcase name="opCodeShouldMatchOnOpcode" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0"/>
-  <testcase name="shouldMatchAgainstCapturedILoadVariable" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0.003"/>
+  <testcase name="opCodeShouldMatchOnOpcode" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0.001"/>
+  <testcase name="shouldMatchAgainstCapturedILoadVariable" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0.002"/>
   <testcase name="isAShouldMatchOnType" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0"/>
   <testcase name="shouldMatchIncrementsToStoredLocalVariable" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0.001"/>
   <testcase name="shouldMatchAgainstCapturedIStoreVariable" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0"/>
   <testcase name="shouldCaptureLabels" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0.001"/>
-  <testcase name="shouldMatchJumps" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0.001"/>
+  <testcase name="shouldMatchJumps" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0"/>
   <testcase name="shouldMatchConditionalJumps" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0"/>
   <testcase name="anyInstructionShouldMatchAnything" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0.001"/>
   <testcase name="shouldNotMatchIncrementsToDifferentLocalVariable" classname="org.pitest.bytecode.analysis.InstructionMatchersTest" time="0"/>

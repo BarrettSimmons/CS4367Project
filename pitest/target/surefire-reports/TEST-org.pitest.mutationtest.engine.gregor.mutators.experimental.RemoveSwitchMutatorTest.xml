@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.535" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.727" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -64,11 +64,11 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldProvideAMeaningfulAggregatedName" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0"/>
-  <testcase name="shouldReplaceOtherCasesWithoutDefaultForInt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.074"/>
-  <testcase name="shouldNotTouchIt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.013"/>
-  <testcase name="shouldChangeLabelInt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.23"/>
-  <testcase name="shouldProvideAMeaningfulName" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.001"/>
-  <testcase name="shouldReplaceTableLabelsInt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.09"/>
-  <testcase name="shouldChangeLabelChar" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.063"/>
-  <testcase name="shouldChangeLabelEnum" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.064"/>
+  <testcase name="shouldReplaceOtherCasesWithoutDefaultForInt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.085"/>
+  <testcase name="shouldNotTouchIt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.014"/>
+  <testcase name="shouldChangeLabelInt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.099"/>
+  <testcase name="shouldProvideAMeaningfulName" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0"/>
+  <testcase name="shouldReplaceTableLabelsInt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.112"/>
+  <testcase name="shouldChangeLabelChar" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.343"/>
+  <testcase name="shouldChangeLabelEnum" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveSwitchMutatorTest" time="0.074"/>
 </testsuite>

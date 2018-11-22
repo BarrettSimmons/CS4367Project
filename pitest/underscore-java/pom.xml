@@ -52,9 +52,7 @@
 						    <version>1.4.4-SNAPSHOT</version>
 						<configuration> 
 							<mutators>
-								<mutator>CUSTOM_MUTATOR_ROR</mutator>
-								<mutator>CUSTOM_MUTATOR_AOR</mutator>
-								<mutator>CUSTOM_MUTATOR_AOD</mutator>
+								<mutator>CUSTOM_MUTATOR_RIGHT_AOD</mutator>
 							</mutators>
 						</configuration>
 	  </plugin>

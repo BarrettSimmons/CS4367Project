@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.657" tests="26" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="1.19" tests="26" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,30 +63,30 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldMutateReturnOfBooleanTrueToFalse" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.051"/>
-  <testcase name="shouldMutateReturnOfLongToValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.035"/>
-  <testcase name="shouldMutateReturnOfInteger1To0" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.031"/>
-  <testcase name="shouldMutateReturnsOfNonNullObjectsToNull" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.032"/>
-  <testcase name="cannotMutateReturnOfBooleanIfDeclaredAsObject" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.026"/>
-  <testcase name="shouldMutateReturnOfPrimitiveLongToValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.021"/>
-  <testcase name="shouldMutateReturnOfIntegerToValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.032"/>
-  <testcase name="shouldMutateReturnOfAnyNonZeroDoubleToInverseOfOnePlusTheValue" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.023"/>
-  <testcase name="shouldMutateReturnOfPrimitiveBooleanTrueToFalse" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.021"/>
-  <testcase name="shouldMutateReturnOfBooleanNullToTrue" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.025"/>
-  <testcase name="shouldMutateReturnOfAnyNonZeroFloatToInverseOfOnePlusTheValue" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.021"/>
-  <testcase name="cannotDetectGenericsStuff" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.03"/>
-  <testcase name="shouldMutateReturnOfBooleanFalseToTrue" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.03"/>
-  <testcase name="cannotMutateReturnOfIntegerIfDeclaredAsObject" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.025"/>
-  <testcase name="shouldMutateReturnOfLongNullToOne" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.027"/>
-  <testcase name="shouldMutateReturnOfPrimitiveBooleanFalseToTrue" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.019"/>
-  <testcase name="shouldMutateReturnOfPrimitiveFloatNANToMinusOne" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.019"/>
-  <testcase name="shouldMutateReturnOfPrimitiveIntegerToValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.022"/>
-  <testcase name="shouldMutateReturnsOfNonNullCustomObjectsToNull" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.03"/>
-  <testcase name="shouldMutateReturnsOfNullCustomObjectsToThrownRuntimeException" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.025"/>
-  <testcase name="shouldMutateReturnOfPrimitiveDoubleNANToMinusOne" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.019"/>
-  <testcase name="shouldMutateReturnOfIntegerNullToOne" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.028"/>
-  <testcase name="shouldProvideAMeaningfulName" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0"/>
-  <testcase name="shouldMutateReturnOfPrimitiveInteger0To1" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.019"/>
-  <testcase name="shouldMutateReturnOfPrimitiveInteger1To0" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.018"/>
-  <testcase name="shouldMutateReturnsOfNullObjectsToNewObject" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.028"/>
+  <testcase name="shouldMutateReturnOfBooleanTrueToFalse" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.048"/>
+  <testcase name="shouldMutateReturnOfLongToValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.037"/>
+  <testcase name="shouldMutateReturnOfInteger1To0" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.049"/>
+  <testcase name="shouldMutateReturnsOfNonNullObjectsToNull" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.044"/>
+  <testcase name="cannotMutateReturnOfBooleanIfDeclaredAsObject" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.08"/>
+  <testcase name="shouldMutateReturnOfPrimitiveLongToValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.035"/>
+  <testcase name="shouldMutateReturnOfIntegerToValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.042"/>
+  <testcase name="shouldMutateReturnOfAnyNonZeroDoubleToInverseOfOnePlusTheValue" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.048"/>
+  <testcase name="shouldMutateReturnOfPrimitiveBooleanTrueToFalse" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.049"/>
+  <testcase name="shouldMutateReturnOfBooleanNullToTrue" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.059"/>
+  <testcase name="shouldMutateReturnOfAnyNonZeroFloatToInverseOfOnePlusTheValue" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.035"/>
+  <testcase name="cannotDetectGenericsStuff" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.052"/>
+  <testcase name="shouldMutateReturnOfBooleanFalseToTrue" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.084"/>
+  <testcase name="cannotMutateReturnOfIntegerIfDeclaredAsObject" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.04"/>
+  <testcase name="shouldMutateReturnOfLongNullToOne" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.058"/>
+  <testcase name="shouldMutateReturnOfPrimitiveBooleanFalseToTrue" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.048"/>
+  <testcase name="shouldMutateReturnOfPrimitiveFloatNANToMinusOne" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.036"/>
+  <testcase name="shouldMutateReturnOfPrimitiveIntegerToValuePlus1" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.035"/>
+  <testcase name="shouldMutateReturnsOfNonNullCustomObjectsToNull" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.04"/>
+  <testcase name="shouldMutateReturnsOfNullCustomObjectsToThrownRuntimeException" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.057"/>
+  <testcase name="shouldMutateReturnOfPrimitiveDoubleNANToMinusOne" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.04"/>
+  <testcase name="shouldMutateReturnOfIntegerNullToOne" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.056"/>
+  <testcase name="shouldProvideAMeaningfulName" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.001"/>
+  <testcase name="shouldMutateReturnOfPrimitiveInteger0To1" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.033"/>
+  <testcase name="shouldMutateReturnOfPrimitiveInteger1To0" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.034"/>
+  <testcase name="shouldMutateReturnsOfNullObjectsToNewObject" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.ReturnValuesMutatorTest" time="0.05"/>
 </testsuite>

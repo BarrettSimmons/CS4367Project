@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="2.366" tests="69" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="2.278" tests="69" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,73 +63,73 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldNotReplaceIFLE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.01"/>
-  <testcase name="shouldNotReplaceIFLE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.009"/>
-  <testcase name="shouldReplaceIF_ACMPNE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.034"/>
-  <testcase name="shouldReplaceIF_ACMPNE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.034"/>
-  <testcase name="shouldReplaceIF_ICMPNE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.07"/>
-  <testcase name="shouldReplaceIF_ICMPNE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.053"/>
-  <testcase name="shouldReplaceIF_ACMPNE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.009"/>
-  <testcase name="shouldReplaceIF_ACMPNE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.009"/>
-  <testcase name="shouldReplaceIFEQ_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.033"/>
-  <testcase name="shouldReplaceIFEQ_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.029"/>
-  <testcase name="shouldDescribeReplacementOfOrderCheckWithFalse" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.008"/>
-  <testcase name="shouldReplaceIFGE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.03"/>
-  <testcase name="shouldReplaceIFGE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.026"/>
-  <testcase name="shouldReplaceIF_ICMPNE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.008"/>
-  <testcase name="shouldReplaceIF_ICMPNE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.008"/>
-  <testcase name="shouldReplaceIF_ICMPGT_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.057"/>
-  <testcase name="shouldReplaceIF_ICMPGT_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.048"/>
-  <testcase name="shouldNotReplaceIF_ICMPGE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.011"/>
-  <testcase name="shouldNotReplaceIF_ICMPGE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.007"/>
-  <testcase name="shouldReplaceIFNULL_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.031"/>
-  <testcase name="shouldReplaceIFNULL_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.027"/>
-  <testcase name="shouldNotReplaceIFGE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.008"/>
-  <testcase name="shouldNotReplaceIFGE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.009"/>
-  <testcase name="shouldReplaceIF_ICMPLE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.057"/>
-  <testcase name="shouldReplaceIF_ICMPLE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.064"/>
-  <testcase name="shouldReplaceIFNULL_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.013"/>
-  <testcase name="shouldReplaceIFNULL_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.012"/>
-  <testcase name="shouldNotReplaceIFEQ_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.008"/>
-  <testcase name="shouldNotReplaceIFEQ_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.015"/>
-  <testcase name="shouldReplaceIF_ACMPEQ_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.051"/>
-  <testcase name="shouldReplaceIF_ACMPEQ_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.038"/>
-  <testcase name="shouldReplaceIF_ICMPEQ_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.064"/>
-  <testcase name="shouldReplaceIF_ICMPEQ_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.063"/>
-  <testcase name="shouldReplaceIF_ACMPEQ_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.011"/>
+  <testcase name="shouldNotReplaceIFLE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.014"/>
+  <testcase name="shouldNotReplaceIFLE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.015"/>
+  <testcase name="shouldReplaceIF_ACMPNE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.051"/>
+  <testcase name="shouldReplaceIF_ACMPNE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.049"/>
+  <testcase name="shouldReplaceIF_ICMPNE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.078"/>
+  <testcase name="shouldReplaceIF_ICMPNE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.076"/>
+  <testcase name="shouldReplaceIF_ACMPNE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.013"/>
+  <testcase name="shouldReplaceIF_ACMPNE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.011"/>
+  <testcase name="shouldReplaceIFEQ_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.039"/>
+  <testcase name="shouldReplaceIFEQ_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.037"/>
+  <testcase name="shouldDescribeReplacementOfOrderCheckWithFalse" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.01"/>
+  <testcase name="shouldReplaceIFGE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.036"/>
+  <testcase name="shouldReplaceIFGE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.038"/>
+  <testcase name="shouldReplaceIF_ICMPNE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.014"/>
+  <testcase name="shouldReplaceIF_ICMPNE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.014"/>
+  <testcase name="shouldReplaceIF_ICMPGT_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.077"/>
+  <testcase name="shouldReplaceIF_ICMPGT_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.068"/>
+  <testcase name="shouldNotReplaceIF_ICMPGE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.012"/>
+  <testcase name="shouldNotReplaceIF_ICMPGE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.01"/>
+  <testcase name="shouldReplaceIFNULL_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.034"/>
+  <testcase name="shouldReplaceIFNULL_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.044"/>
+  <testcase name="shouldNotReplaceIFGE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.015"/>
+  <testcase name="shouldNotReplaceIFGE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.012"/>
+  <testcase name="shouldReplaceIF_ICMPLE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.061"/>
+  <testcase name="shouldReplaceIF_ICMPLE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.079"/>
+  <testcase name="shouldReplaceIFNULL_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.02"/>
+  <testcase name="shouldReplaceIFNULL_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.014"/>
+  <testcase name="shouldNotReplaceIFEQ_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.018"/>
+  <testcase name="shouldNotReplaceIFEQ_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.025"/>
+  <testcase name="shouldReplaceIF_ACMPEQ_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.06"/>
+  <testcase name="shouldReplaceIF_ACMPEQ_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.049"/>
+  <testcase name="shouldReplaceIF_ICMPEQ_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.083"/>
+  <testcase name="shouldReplaceIF_ICMPEQ_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.083"/>
+  <testcase name="shouldReplaceIF_ACMPEQ_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.017"/>
   <testcase name="shouldReplaceIF_ACMPEQ_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.012"/>
-  <testcase name="shouldReplaceIF_ICMPGE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.375"/>
-  <testcase name="shouldReplaceIF_ICMPGE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.084"/>
-  <testcase name="shouldReplaceIF_ICMPEQ_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.015"/>
-  <testcase name="shouldReplaceIF_ICMPEQ_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.062"/>
-  <testcase name="shouldReplaceIFLT_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.06"/>
-  <testcase name="shouldDescribeReplacementOfOrderCheckWithTrue" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.011"/>
-  <testcase name="shouldNotReplaceIF_ICMPLT_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.021"/>
-  <testcase name="shouldNotReplaceIF_ICMPLT_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.024"/>
-  <testcase name="shouldNotReplaceIFLT_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.018"/>
+  <testcase name="shouldReplaceIF_ICMPGE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.075"/>
+  <testcase name="shouldReplaceIF_ICMPGE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.076"/>
+  <testcase name="shouldReplaceIF_ICMPEQ_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.013"/>
+  <testcase name="shouldReplaceIF_ICMPEQ_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.013"/>
+  <testcase name="shouldReplaceIFLT_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.046"/>
+  <testcase name="shouldDescribeReplacementOfOrderCheckWithTrue" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.015"/>
+  <testcase name="shouldNotReplaceIF_ICMPLT_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.016"/>
+  <testcase name="shouldNotReplaceIF_ICMPLT_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.015"/>
+  <testcase name="shouldNotReplaceIFLT_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.013"/>
   <testcase name="shouldNotReplaceIFLT_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.011"/>
-  <testcase name="shouldReplaceIFNONNULL_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.038"/>
-  <testcase name="shouldReplaceIFNONNULL_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.038"/>
-  <testcase name="shouldReplaceIFNE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.034"/>
-  <testcase name="shouldReplaceIFNE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.029"/>
-  <testcase name="shouldDescribeReplacementOfEqualityChecksWithFalse" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.011"/>
-  <testcase name="shouldProvideAMeaningfulName" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0"/>
-  <testcase name="shouldReplaceIFNONNULL_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.009"/>
-  <testcase name="shouldReplaceIFNONNULL_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.01"/>
-  <testcase name="shouldReplaceIFNE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.022"/>
-  <testcase name="shouldReplaceIFNE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.033"/>
-  <testcase name="shouldReplaceIFGT_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.044"/>
-  <testcase name="shouldReplaceIFGT_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.039"/>
-  <testcase name="shouldNotReplaceIF_ICMPGT_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.013"/>
-  <testcase name="shouldNotReplaceIF_ICMPGT_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.014"/>
-  <testcase name="shouldReplaceIFLT_ORDER_T_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.032"/>
-  <testcase name="shouldReplaceIFLE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.034"/>
-  <testcase name="shouldReplaceIFLE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.05"/>
-  <testcase name="shouldNotReplaceIFGT_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.021"/>
+  <testcase name="shouldReplaceIFNONNULL_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.042"/>
+  <testcase name="shouldReplaceIFNONNULL_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.031"/>
+  <testcase name="shouldReplaceIFNE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.04"/>
+  <testcase name="shouldReplaceIFNE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.061"/>
+  <testcase name="shouldDescribeReplacementOfEqualityChecksWithFalse" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.017"/>
+  <testcase name="shouldProvideAMeaningfulName" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.001"/>
+  <testcase name="shouldReplaceIFNONNULL_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.015"/>
+  <testcase name="shouldReplaceIFNONNULL_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.014"/>
+  <testcase name="shouldReplaceIFNE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.01"/>
+  <testcase name="shouldReplaceIFNE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.008"/>
+  <testcase name="shouldReplaceIFGT_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.039"/>
+  <testcase name="shouldReplaceIFGT_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.04"/>
+  <testcase name="shouldNotReplaceIF_ICMPGT_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.011"/>
+  <testcase name="shouldNotReplaceIF_ICMPGT_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.01"/>
+  <testcase name="shouldReplaceIFLT_ORDER_T_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.036"/>
+  <testcase name="shouldReplaceIFLE_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.047"/>
+  <testcase name="shouldReplaceIFLE_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.055"/>
+  <testcase name="shouldNotReplaceIFGT_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.016"/>
   <testcase name="shouldNotReplaceIFGT_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.011"/>
-  <testcase name="shouldReplaceIF_ICMPLT_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.081"/>
-  <testcase name="shouldReplaceIF_ICMPLT_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.089"/>
-  <testcase name="shouldNotReplaceIF_ICMPLE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.022"/>
-  <testcase name="shouldNotReplaceIF_ICMPLE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.022"/>
-  <testcase name="shouldDescribeReplacementOfEqualityChecksWithTrue" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.013"/>
+  <testcase name="shouldReplaceIF_ICMPLT_ORDER_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.069"/>
+  <testcase name="shouldReplaceIF_ICMPLT_ORDER_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.078"/>
+  <testcase name="shouldNotReplaceIF_ICMPLE_EQUAL_F" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.016"/>
+  <testcase name="shouldNotReplaceIF_ICMPLE_EQUAL_T" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.015"/>
+  <testcase name="shouldDescribeReplacementOfEqualityChecksWithTrue" classname="org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutatorTest" time="0.015"/>
 </testsuite>

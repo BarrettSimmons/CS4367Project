@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.junit.TestInfoTest" time="0.02" tests="5" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.junit.TestInfoTest" time="0.027" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,9 +63,9 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="isATestShouldReturnTrueForJUnit3Suites" classname="org.pitest.junit.TestInfoTest" time="0.007"/>
-  <testcase name="isWithinATestClassShouldReturnTrueForNestedClassesWithinATest" classname="org.pitest.junit.TestInfoTest" time="0.004"/>
+  <testcase name="isATestShouldReturnTrueForJUnit3Suites" classname="org.pitest.junit.TestInfoTest" time="0.012"/>
+  <testcase name="isWithinATestClassShouldReturnTrueForNestedClassesWithinATest" classname="org.pitest.junit.TestInfoTest" time="0.007"/>
   <testcase name="isATestShouldReturnFalseForNonTests" classname="org.pitest.junit.TestInfoTest" time="0.003"/>
-  <testcase name="isATestShouldReturnTrueForJUnit3Tests" classname="org.pitest.junit.TestInfoTest" time="0.006"/>
-  <testcase name="isATestShouldReturnTrueForJUnit4Tests" classname="org.pitest.junit.TestInfoTest" time="0"/>
+  <testcase name="isATestShouldReturnTrueForJUnit3Tests" classname="org.pitest.junit.TestInfoTest" time="0.004"/>
+  <testcase name="isATestShouldReturnTrueForJUnit4Tests" classname="org.pitest.junit.TestInfoTest" time="0.001"/>
 </testsuite>

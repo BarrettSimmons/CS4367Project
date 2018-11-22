@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.101" tests="19" errors="0" skipped="4" failures="0">
+<testsuite name="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.106" tests="19" errors="0" skipped="4" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,30 +63,30 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldFilterMutationsThatRemoveForLoopIncrement" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.005"/>
-  <testcase name="shouldNotFindInfiniteLoopInHandCodedInteratorLoop" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.011"/>
-  <testcase name="shouldFindInfiniteLoopsInForLoopWithNoIncrementAndBranchedContents" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.011"/>
-  <testcase name="shouldFindInfiniteForLoopsWhenOtherBranchedCodePresent" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.004"/>
+  <testcase name="shouldFilterMutationsThatRemoveForLoopIncrement" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.006"/>
+  <testcase name="shouldNotFindInfiniteLoopInHandCodedInteratorLoop" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.012"/>
+  <testcase name="shouldFindInfiniteLoopsInForLoopWithNoIncrementAndBranchedContents" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.012"/>
+  <testcase name="shouldFindInfiniteForLoopsWhenOtherBranchedCodePresent" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.002"/>
   <testcase name="willFindInfiniteLoopsInForLoopWithConditionalReturn" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0">
     <skipped message="need thought"/>
   </testcase>
   <testcase name="mightTreatLoopsAsInifiniteDespitePotentialBreakByCondtional" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0">
     <skipped message="depends on compiler"/>
   </testcase>
-  <testcase name="cannotFindInfiniteLoopsInForWhenCounterDeclaredElsewhere" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.003"/>
+  <testcase name="cannotFindInfiniteLoopsInForWhenCounterDeclaredElsewhere" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.004"/>
   <testcase name="shouldNotFindInfiniteLoopsInForLoopWithConditionalBreak" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="shouldMatchRealInfiniteLoopFromJodaTimeMutants" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.036"/>
-  <testcase name="shouldNotFindInfiniteLoopsInWhileLoopWithIncrement" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.011"/>
+  <testcase name="shouldMatchRealInfiniteLoopFromJodaTimeMutants" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.032"/>
+  <testcase name="shouldNotFindInfiniteLoopsInWhileLoopWithIncrement" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.013"/>
   <testcase name="shouldNotFindInfiniteLoopInForEach" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.002"/>
-  <testcase name="shouldNotFindInfiniteLoopsInValidForLoop" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.002"/>
-  <testcase name="shouldNotFindInfiniteLoopsInForLoopWithNonConditionalIncrementInLoop" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.002"/>
-  <testcase name="shouldNotFindInfiniteLoopsInCodeWithNoLoops" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.001"/>
-  <testcase name="willNotFindInfiniteLoopsInInfiniteWhileLoop" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.002"/>
+  <testcase name="shouldNotFindInfiniteLoopsInValidForLoop" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.003"/>
+  <testcase name="shouldNotFindInfiniteLoopsInForLoopWithNonConditionalIncrementInLoop" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.003"/>
+  <testcase name="shouldNotFindInfiniteLoopsInCodeWithNoLoops" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.002"/>
+  <testcase name="willNotFindInfiniteLoopsInInfiniteWhileLoop" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.001"/>
   <testcase name="shouldNotFindInfiniteLoopsInDoWhileLoopWithIncrement" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.002"/>
-  <testcase name="shouldFindInfiniteLoopsInForLoopWithNoIncrement" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.004"/>
-  <testcase name="shouldNotFilterMutationsInMethodsThatAppearToAlreadyHaveInfiniteLoops" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.005"/>
+  <testcase name="shouldFindInfiniteLoopsInForLoopWithNoIncrement" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.005"/>
+  <testcase name="shouldNotFilterMutationsInMethodsThatAppearToAlreadyHaveInfiniteLoops" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0.007"/>
   <testcase name="shouldFindInfiniteLoopsInForLoopWithNoConditional" classname="org.pitest.mutationtest.build.intercept.timeout.InfiniteForLoopFilterFactoryTest" time="0">
     <skipped message="not implemented yet"/>
   </testcase>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.java7.HasIfOnAStringEqualityInsideSwitchTesteeTest" time="0.098" tests="5" errors="0" skipped="0" failures="0">
+<testsuite name="com.example.java7.HasIfOnAStringEqualityInsideSwitchTesteeTest" time="0.115" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -64,8 +64,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="stringSwitchShouldReturnA" classname="com.example.java7.HasIfOnAStringEqualityInsideSwitchTesteeTest" time="0.097"/>
-  <testcase name="stringSwitchShouldReturnB" classname="com.example.java7.HasIfOnAStringEqualityInsideSwitchTesteeTest" time="0.001"/>
+  <testcase name="stringSwitchShouldReturnA" classname="com.example.java7.HasIfOnAStringEqualityInsideSwitchTesteeTest" time="0.115"/>
+  <testcase name="stringSwitchShouldReturnB" classname="com.example.java7.HasIfOnAStringEqualityInsideSwitchTesteeTest" time="0"/>
   <testcase name="stringSwitchShouldReturnC" classname="com.example.java7.HasIfOnAStringEqualityInsideSwitchTesteeTest" time="0"/>
   <testcase name="stringSwitchShouldThrowIllegalArgumentException" classname="com.example.java7.HasIfOnAStringEqualityInsideSwitchTesteeTest" time="0"/>
   <testcase name="stringSwitchShouldReturnAX" classname="com.example.java7.HasIfOnAStringEqualityInsideSwitchTesteeTest" time="0"/>

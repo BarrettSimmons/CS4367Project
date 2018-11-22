@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.851" tests="25" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="1.055" tests="25" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,29 +63,29 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="filtersEquivalentStringMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.577"/>
+  <testcase name="filtersEquivalentStringMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.684"/>
   <testcase name="filtersEquivalentBoxedDoubleMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.005"/>
-  <testcase name="filtersEquivalentPrimitiveIntMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.005"/>
-  <testcase name="filtersEquivalentBoxedBooleanTrueMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.141"/>
-  <testcase name="filtersEquivalentPrimitiveIntMutantsInTryCatch" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.007"/>
-  <testcase name="filtersEquivalentListMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.022"/>
+  <testcase name="filtersEquivalentPrimitiveIntMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.008"/>
+  <testcase name="filtersEquivalentBoxedBooleanTrueMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.229"/>
+  <testcase name="filtersEquivalentPrimitiveIntMutantsInTryCatch" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.008"/>
+  <testcase name="filtersEquivalentListMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.011"/>
   <testcase name="filtersEquivalentStringMutantsWhenEmptyStringHeldAsField" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.005"/>
   <testcase name="filtersEquivalentPrimitiveBooleanTrueMutantsInTryCatch" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.006"/>
   <testcase name="filtersEquivalentBoxedShortMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.004"/>
-  <testcase name="filtersEquivalentPrimitiveBooleanMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.004"/>
-  <testcase name="filtersEquivalentPrimitiveFloatMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.007"/>
-  <testcase name="doesNotFilterOtherSingleParamStaticMethodCalls" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.006"/>
-  <testcase name="filtersEquivalentBoxedFloatMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.007"/>
-  <testcase name="filtersEquivalentOptionalMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.006"/>
-  <testcase name="filtersEquivalentBoxedLongMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.004"/>
-  <testcase name="filtersNullEquivalentMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.006"/>
-  <testcase name="filtersEquivalentPrimitiveDoubleMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.004"/>
-  <testcase name="filtersEquivalentBoxedBooleanMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.004"/>
-  <testcase name="filtersEquivalentListMutantsInTryCatch" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.006"/>
+  <testcase name="filtersEquivalentPrimitiveBooleanMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.005"/>
+  <testcase name="filtersEquivalentPrimitiveFloatMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.008"/>
+  <testcase name="doesNotFilterOtherSingleParamStaticMethodCalls" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.007"/>
+  <testcase name="filtersEquivalentBoxedFloatMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.004"/>
+  <testcase name="filtersEquivalentOptionalMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.005"/>
+  <testcase name="filtersEquivalentBoxedLongMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.006"/>
+  <testcase name="filtersNullEquivalentMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.007"/>
+  <testcase name="filtersEquivalentPrimitiveDoubleMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.005"/>
+  <testcase name="filtersEquivalentBoxedBooleanMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.009"/>
+  <testcase name="filtersEquivalentListMutantsInTryCatch" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.007"/>
   <testcase name="filtersEquivalentSetMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.004"/>
-  <testcase name="filtersEquivalentBoxedIntegerMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.005"/>
-  <testcase name="doesNotFilterNonEquivalents" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.004"/>
-  <testcase name="filtersEquivalentPrimitiveBooleanTrueMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.006"/>
-  <testcase name="shouldDeclareTypeAsFilter" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0"/>
-  <testcase name="filtersEquivalentPrimitiveLongMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.006"/>
+  <testcase name="filtersEquivalentBoxedIntegerMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.009"/>
+  <testcase name="doesNotFilterNonEquivalents" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.006"/>
+  <testcase name="filtersEquivalentPrimitiveBooleanTrueMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.007"/>
+  <testcase name="shouldDeclareTypeAsFilter" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.001"/>
+  <testcase name="filtersEquivalentPrimitiveLongMutants" classname="org.pitest.mutationtest.build.intercept.equivalent.EquivalentReturnMutationFilterTest" time="0.005"/>
 </testsuite>

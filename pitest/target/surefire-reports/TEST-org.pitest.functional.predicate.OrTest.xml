@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.functional.predicate.OrTest" time="0.003" tests="6" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.functional.predicate.OrTest" time="0.001" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -64,9 +64,9 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldBeTrueWhenTrueOrFalse" classname="org.pitest.functional.predicate.OrTest" time="0"/>
-  <testcase name="shouldBeTrueWhenGivenTrue" classname="org.pitest.functional.predicate.OrTest" time="0.001"/>
+  <testcase name="shouldBeTrueWhenGivenTrue" classname="org.pitest.functional.predicate.OrTest" time="0"/>
   <testcase name="shouldBeFalseWhenGivenFalse" classname="org.pitest.functional.predicate.OrTest" time="0"/>
-  <testcase name="shouldBeTrueWhenTrueOrTrue" classname="org.pitest.functional.predicate.OrTest" time="0.002"/>
+  <testcase name="shouldBeTrueWhenTrueOrTrue" classname="org.pitest.functional.predicate.OrTest" time="0.001"/>
   <testcase name="shouldBeFalseWhenGivenNoPredicates" classname="org.pitest.functional.predicate.OrTest" time="0"/>
   <testcase name="shouldeFalseWhenFalseOrFalse" classname="org.pitest.functional.predicate.OrTest" time="0"/>
 </testsuite>

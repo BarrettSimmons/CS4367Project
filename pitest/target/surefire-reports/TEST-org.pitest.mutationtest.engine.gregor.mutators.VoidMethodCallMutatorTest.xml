@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutatorTest" time="0.115" tests="5" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutatorTest" time="0.14" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -64,8 +64,8 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldNotRemoveConstructorCalls" classname="org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutatorTest" time="0.02"/>
-  <testcase name="shouldNotRemoveNonVoidMethods" classname="org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutatorTest" time="0.016"/>
-  <testcase name="shouldMaintainStackWhenCallIsStatic" classname="org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutatorTest" time="0.026"/>
-  <testcase name="shouldMaintainStack" classname="org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutatorTest" time="0.025"/>
-  <testcase name="shouldRemoveVoidMethodCalls" classname="org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutatorTest" time="0.028"/>
+  <testcase name="shouldNotRemoveNonVoidMethods" classname="org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutatorTest" time="0.02"/>
+  <testcase name="shouldMaintainStackWhenCallIsStatic" classname="org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutatorTest" time="0.04"/>
+  <testcase name="shouldMaintainStack" classname="org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutatorTest" time="0.033"/>
+  <testcase name="shouldRemoveVoidMethodCalls" classname="org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutatorTest" time="0.027"/>
 </testsuite>

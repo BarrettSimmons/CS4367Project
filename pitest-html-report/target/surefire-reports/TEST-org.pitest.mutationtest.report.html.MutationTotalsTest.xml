@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.report.html.MutationTotalsTest" time="0.001" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.report.html.MutationTotalsTest" time="0" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -66,7 +66,7 @@
   <testcase name="shouldCorrectlyCalculateMutationCoverageWhenSomeMutationUndetected" classname="org.pitest.mutationtest.report.html.MutationTotalsTest" time="0"/>
   <testcase name="shouldCorrectlyCalculateLineCoverageWhenPartiallyCovered" classname="org.pitest.mutationtest.report.html.MutationTotalsTest" time="0"/>
   <testcase name="shouldCorrectlyCalculateMutationCoverageWhenNoMutationsPresent" classname="org.pitest.mutationtest.report.html.MutationTotalsTest" time="0"/>
-  <testcase name="shouldCorrectlyCalculateLineCoverageWhenNoLinesCovered" classname="org.pitest.mutationtest.report.html.MutationTotalsTest" time="0.001"/>
+  <testcase name="shouldCorrectlyCalculateLineCoverageWhenNoLinesCovered" classname="org.pitest.mutationtest.report.html.MutationTotalsTest" time="0"/>
   <testcase name="shouldCorrectlyCalculateMutationCoverageWhenNoMutationsDetected" classname="org.pitest.mutationtest.report.html.MutationTotalsTest" time="0"/>
   <testcase name="shouldCorrectlyCalculateMutationsCoverageWhenAllMutationsDetected" classname="org.pitest.mutationtest.report.html.MutationTotalsTest" time="0"/>
   <testcase name="shouldCorrectlyCalculateLineCoverageWhenAllLinesCovered" classname="org.pitest.mutationtest.report.html.MutationTotalsTest" time="0"/>

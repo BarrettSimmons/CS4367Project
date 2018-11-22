@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.179" tests="16" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.194" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,20 +63,20 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldFilterMutantsInTryCatchFinallyCompiledWithJavaC" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.06"/>
-  <testcase name="shouldFilterMutantsInTryCatchFinallyCompiledWithAspectJ" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.006"/>
-  <testcase name="shouldNotFilterInlinedFinallyBlocksWhenFlagNotSet" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.01"/>
-  <testcase name="shouldFilterMutantsInTryWithResourcesClosableCompiledWithJavac" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.005"/>
-  <testcase name="shouldFilterMutantsInTryFinallyCompiledWithAspectJ" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.004"/>
-  <testcase name="shouldFilterMutantsInTryWithResourcesClosableCompiledWithEcj" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.003"/>
-  <testcase name="shouldFilterImplicitNullChecksInLambdas" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.025"/>
-  <testcase name="filtersEquivalentReturnValsMutants" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.003"/>
-  <testcase name="shouldNotMutateMethodsAnnotatedWithGenerated" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.009"/>
-  <testcase name="shouldFilterMutantsInTryFinallyCompiledWithEcj" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.008"/>
+  <testcase name="shouldFilterMutantsInTryCatchFinallyCompiledWithJavaC" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.061"/>
+  <testcase name="shouldFilterMutantsInTryCatchFinallyCompiledWithAspectJ" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.005"/>
+  <testcase name="shouldNotFilterInlinedFinallyBlocksWhenFlagNotSet" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.012"/>
+  <testcase name="shouldFilterMutantsInTryWithResourcesClosableCompiledWithJavac" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.003"/>
+  <testcase name="shouldFilterMutantsInTryFinallyCompiledWithAspectJ" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.007"/>
+  <testcase name="shouldFilterMutantsInTryWithResourcesClosableCompiledWithEcj" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.004"/>
+  <testcase name="shouldFilterImplicitNullChecksInLambdas" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.02"/>
+  <testcase name="filtersEquivalentReturnValsMutants" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.004"/>
+  <testcase name="shouldNotMutateMethodsAnnotatedWithGenerated" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.007"/>
+  <testcase name="shouldFilterMutantsInTryFinallyCompiledWithEcj" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.006"/>
   <testcase name="shouldFilterMutationsToForEachLoops" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.01"/>
-  <testcase name="shouldFilterMutantsInTryCatchFinallyCompiledWithEcj" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.007"/>
-  <testcase name="shouldFilterMutationsToForLoopIncrements" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.014"/>
-  <testcase name="shouldFilterMutantsInTryWithResourcesClosableCompiledWithApectj" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.004"/>
-  <testcase name="shouldFilterMutationsInLoggingCalls" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.005"/>
-  <testcase name="shouldFilterMutantsInTryFinallyCompiledWithJavaC" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.006"/>
+  <testcase name="shouldFilterMutantsInTryCatchFinallyCompiledWithEcj" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.009"/>
+  <testcase name="shouldFilterMutationsToForLoopIncrements" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.024"/>
+  <testcase name="shouldFilterMutantsInTryWithResourcesClosableCompiledWithApectj" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.003"/>
+  <testcase name="shouldFilterMutationsInLoggingCalls" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.01"/>
+  <testcase name="shouldFilterMutantsInTryFinallyCompiledWithJavaC" classname="org.pitest.mutationtest.build.MutationDiscoveryTest" time="0.009"/>
 </testsuite>

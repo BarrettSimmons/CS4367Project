@@ -65,7 +65,7 @@
   </properties>
   <testcase name="shouldNotifyChildOfTestSkipped" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0"/>
   <testcase name="shouldNotifyChildOfTestSuccess" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0"/>
-  <testcase name="shouldRequestStopOnTestFailure" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0.001"/>
-  <testcase name="shouldNotifyChildOfTestFailure" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0"/>
+  <testcase name="shouldRequestStopOnTestFailure" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0"/>
+  <testcase name="shouldNotifyChildOfTestFailure" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0.001"/>
   <testcase name="shouldNotifyChildOfTestStart" classname="org.pitest.testapi.execute.ExitingResultCollectorTest" time="0"/>
 </testsuite>

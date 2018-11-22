@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.java7.verification.VerifyJava7IT" time="6.117" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.java7.verification.VerifyJava7IT" time="7.311" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -64,7 +64,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldMutateIfElseOnAStringEqualityWithREMOVE_CONDITIONALS" classname="org.pitest.java7.verification.VerifyJava7IT" time="2.876"/>
-  <testcase name="shouldMutateIfElseOnAStringEqualityWithREMOVE_CONDITIONALSWhenInsideSwitchOnString" classname="org.pitest.java7.verification.VerifyJava7IT" time="2.006"/>
-  <testcase name="shouldNotMutateSwitchOnAStringWithREMOVE_CONDITIONALS" classname="org.pitest.java7.verification.VerifyJava7IT" time="1.235"/>
+  <testcase name="shouldMutateIfElseOnAStringEqualityWithREMOVE_CONDITIONALS" classname="org.pitest.java7.verification.VerifyJava7IT" time="3.296"/>
+  <testcase name="shouldMutateIfElseOnAStringEqualityWithREMOVE_CONDITIONALSWhenInsideSwitchOnString" classname="org.pitest.java7.verification.VerifyJava7IT" time="2.473"/>
+  <testcase name="shouldNotMutateSwitchOnAStringWithREMOVE_CONDITIONALS" classname="org.pitest.java7.verification.VerifyJava7IT" time="1.542"/>
 </testsuite>
