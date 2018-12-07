@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="1.064" tests="16" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="1.037" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,20 +63,20 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldReplaceHasIF_ICMPLTWithHasIF_ICMPGE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.132"/>
-  <testcase name="shouldReplaceIF_ICMPGEWithHasIF_ICMPLT" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.109"/>
-  <testcase name="shouldReplaceIFNEWithIFEQ" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.045"/>
-  <testcase name="shouldReplaceIFGTWithIFLE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.074"/>
+  <testcase name="shouldReplaceHasIF_ICMPLTWithHasIF_ICMPGE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.098"/>
+  <testcase name="shouldReplaceIF_ICMPGEWithHasIF_ICMPLT" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.075"/>
+  <testcase name="shouldReplaceIFNEWithIFEQ" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.037"/>
+  <testcase name="shouldReplaceIFGTWithIFLE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.041"/>
   <testcase name="shouldReplaceIFLEWithIGT" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.068"/>
-  <testcase name="shouldReplaceIFNONNULLWithIFNULL" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.035"/>
-  <testcase name="shouldReplaceHasIF_ICMPGTWithHasIF_ICMPLE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.076"/>
-  <testcase name="shouldReplaceIF_ACMPNEWithIF_CMPEQ" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.061"/>
-  <testcase name="shouldReplaceHasIF_ICMPLEWithHasIF_ICMPGT" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.115"/>
-  <testcase name="shouldReplaceIF_ICMPNEWithIF_CMPEQ" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.054"/>
-  <testcase name="shouldReplaceIFGEWithIFLT" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.052"/>
-  <testcase name="shouldReplaceIFEQWithIFNE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.053"/>
-  <testcase name="shouldReplaceIF_ACMPEQWithIF_CMPNE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.044"/>
-  <testcase name="shouldReplaceIF_ICMPEQWithIF_CMPNE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.059"/>
-  <testcase name="shouldReplaceIFNULLWithIFNONNULL" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.034"/>
-  <testcase name="shouldReplaceIFLTWithIFGE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.053"/>
+  <testcase name="shouldReplaceIFNONNULLWithIFNULL" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.039"/>
+  <testcase name="shouldReplaceHasIF_ICMPGTWithHasIF_ICMPLE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.084"/>
+  <testcase name="shouldReplaceIF_ACMPNEWithIF_CMPEQ" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.047"/>
+  <testcase name="shouldReplaceHasIF_ICMPLEWithHasIF_ICMPGT" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.11"/>
+  <testcase name="shouldReplaceIF_ICMPNEWithIF_CMPEQ" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.066"/>
+  <testcase name="shouldReplaceIFGEWithIFLT" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.054"/>
+  <testcase name="shouldReplaceIFEQWithIFNE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.119"/>
+  <testcase name="shouldReplaceIF_ACMPEQWithIF_CMPNE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.054"/>
+  <testcase name="shouldReplaceIF_ICMPEQWithIF_CMPNE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.061"/>
+  <testcase name="shouldReplaceIFNULLWithIFNONNULL" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.032"/>
+  <testcase name="shouldReplaceIFLTWithIFGE" classname="org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatorTest" time="0.052"/>
 </testsuite>

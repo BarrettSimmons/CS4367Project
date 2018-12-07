@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="1.465" tests="13" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="1.547" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,17 +63,17 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="alsoReplaceCallToMethodWhenReturnValueIsNotUsed" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.826"/>
-  <testcase name="willSubstituteCollectionsOfDifferentTypesDueToTypeErasure" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.026"/>
-  <testcase name="shouldNotMutateMethodThatReturnsDifferentType" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.018"/>
-  <testcase name="shouldReplaceMethodsReturningArraysMatchingArgumentType" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.046"/>
-  <testcase name="shouldNotReplaceMethodsReturningArraysOfUnmatchedType" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.016"/>
-  <testcase name="shouldReplaceStaticMethodCallThatIsUsedAsArgumentForCallToOtherObject" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.043"/>
-  <testcase name="shouldReplaceMethodCallWithStringArgument" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.039"/>
-  <testcase name="shouldReplaceInstanceMethodCallWithSeveralArgumentsThatIsUsedAsArgumentForCallToOtherObject" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.034"/>
-  <testcase name="shouldReplaceInstanceMethodCallThatIsUsedAsArgumentForCallToOtherObject" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.107"/>
-  <testcase name="continuesUntilMatchingArgumentTypeIsFound" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.114"/>
-  <testcase name="usesLastArgumentOfMatchingTypeToReplaceMethod" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.106"/>
-  <testcase name="shouldReplaceMethodCallWithLongArgument" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.035"/>
-  <testcase name="shouldReplaceMethodCallWithIntArgument" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.055"/>
+  <testcase name="alsoReplaceCallToMethodWhenReturnValueIsNotUsed" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.861"/>
+  <testcase name="willSubstituteCollectionsOfDifferentTypesDueToTypeErasure" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.038"/>
+  <testcase name="shouldNotMutateMethodThatReturnsDifferentType" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.017"/>
+  <testcase name="shouldReplaceMethodsReturningArraysMatchingArgumentType" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.059"/>
+  <testcase name="shouldNotReplaceMethodsReturningArraysOfUnmatchedType" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.022"/>
+  <testcase name="shouldReplaceStaticMethodCallThatIsUsedAsArgumentForCallToOtherObject" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.046"/>
+  <testcase name="shouldReplaceMethodCallWithStringArgument" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.038"/>
+  <testcase name="shouldReplaceInstanceMethodCallWithSeveralArgumentsThatIsUsedAsArgumentForCallToOtherObject" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.044"/>
+  <testcase name="shouldReplaceInstanceMethodCallThatIsUsedAsArgumentForCallToOtherObject" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.123"/>
+  <testcase name="continuesUntilMatchingArgumentTypeIsFound" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.103"/>
+  <testcase name="usesLastArgumentOfMatchingTypeToReplaceMethod" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.109"/>
+  <testcase name="shouldReplaceMethodCallWithLongArgument" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.041"/>
+  <testcase name="shouldReplaceMethodCallWithIntArgument" classname="org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutatorTest" time="0.046"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.util.FunctionsTest" time="0.005" tests="6" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.util.FunctionsTest" time="0.004" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -65,8 +65,8 @@
   </properties>
   <testcase name="startWithShouldReturnTrueIfGivenStringStartsWithParameter" classname="org.pitest.util.FunctionsTest" time="0"/>
   <testcase name="startWithShouldReturnFalseIfGivenStringDoesNotStartsWithParameter" classname="org.pitest.util.FunctionsTest" time="0"/>
-  <testcase name="jvmClassToClassNameShouldConvertSlashesToDots" classname="org.pitest.util.FunctionsTest" time="0.001"/>
-  <testcase name="stringToEnumShouldConvertStringsToEnumValues" classname="org.pitest.util.FunctionsTest" time="0.002"/>
-  <testcase name="classToNameShouldReturnClassName" classname="org.pitest.util.FunctionsTest" time="0.001"/>
-  <testcase name="classNameToJVMClassNameShouldConvertDotsToSlashes" classname="org.pitest.util.FunctionsTest" time="0.001"/>
+  <testcase name="jvmClassToClassNameShouldConvertSlashesToDots" classname="org.pitest.util.FunctionsTest" time="0"/>
+  <testcase name="stringToEnumShouldConvertStringsToEnumValues" classname="org.pitest.util.FunctionsTest" time="0.004"/>
+  <testcase name="classToNameShouldReturnClassName" classname="org.pitest.util.FunctionsTest" time="0"/>
+  <testcase name="classNameToJVMClassNameShouldConvertDotsToSlashes" classname="org.pitest.util.FunctionsTest" time="0"/>
 </testsuite>

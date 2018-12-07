@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.051" tests="40" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.028" tests="40" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,44 +63,44 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldRegisterNewBlockForAReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.009"/>
-  <testcase name="shouldRegisterNewBlockForFReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.002"/>
+  <testcase name="shouldRegisterNewBlockForAReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.002"/>
+  <testcase name="shouldRegisterNewBlockForFReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
   <testcase name="shouldRegisiterNewBlockForJumpInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
-  <testcase name="shouldRegisterFinallyBlockEndForIReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
-  <testcase name="shouldRegisterFinallyBlockStartWhenHitsLabelFromNullExceptionHandler" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.003"/>
-  <testcase name="shouldNotRegisterFinallyBlockEndForOtherInsn" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldRegisterFinallyBlockEndForIReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldRegisterFinallyBlockStartWhenHitsLabelFromNullExceptionHandler" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldNotRegisterFinallyBlockEndForOtherInsn" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
   <testcase name="shouldRegisterNewBlockForIReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
-  <testcase name="shouldNotRegisterFinallyBlockStartWhenHitsLabelFromNonNullExceptionHandler" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldNotRegisterFinallyBlockStartWhenHitsLabelFromNonNullExceptionHandler" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
   <testcase name="shouldNotRegisterFinallyBlockStartWhenHitsOtherLabelsFromNonNullExceptionHandler" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
-  <testcase name="shouldRegisterFinallyBlockEndForAThrowInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldRegisterFinallyBlockEndForAThrowInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
   <testcase name="shouldRegisterNewBlockForAThrowInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
-  <testcase name="shouldRegisterFinallyBlockEndForLReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
-  <testcase name="shouldRegisterFinallyBlockEndForAReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.002"/>
+  <testcase name="shouldRegisterFinallyBlockEndForLReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldRegisterFinallyBlockEndForAReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
   <testcase name="shouldRegisterFinallyBlockEndForFReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
-  <testcase name="shouldRegisterFinallyBlockEndForReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldRegisterFinallyBlockEndForReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
   <testcase name="shouldRegisterNewBlockForLReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
   <testcase name="shouldNotRegisterANewBlockForOtherInsn" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
-  <testcase name="shouldRegisterNewBlockForReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
-  <testcase name="shouldForwardVisitLdcInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldRegisterNewBlockForReturnInstructions" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitLdcInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
   <testcase name="shouldForwardVisitCodeCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
   <testcase name="shouldForwardVisitParameterAnnotationToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
   <testcase name="shouldForwardVisitLocalVariableToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
   <testcase name="shouldForwardVisitIntInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
-  <testcase name="shouldForwardVisitFrameCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
-  <testcase name="shouldForwardVisitJumpInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.008"/>
-  <testcase name="shouldForwardVisitLookupSwitchInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitFrameCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitJumpInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitLookupSwitchInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
   <testcase name="shouldForwardVisitTryCatchBlockToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
-  <testcase name="shouldForwardVisitAnnotationDefaultCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.002"/>
-  <testcase name="shouldForwardVisitMethodInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
-  <testcase name="shouldForwardVisitAnnotationCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
-  <testcase name="shouldForwardVisitEndCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitAnnotationDefaultCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitMethodInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitAnnotationCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitEndCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
   <testcase name="shouldForwardVisitTableSwitchInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
   <testcase name="shouldForwardVisitAttributeCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
-  <testcase name="shouldForwardVisitMaxsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
+  <testcase name="shouldForwardVisitMaxsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.002"/>
   <testcase name="shouldForwardVisitFieldInsnCallsToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
-  <testcase name="shouldForwardVisitLineNumberToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitLineNumberToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
   <testcase name="shouldForwardVisitMultiANewArrayInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
   <testcase name="shouldForwardVisitInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
   <testcase name="shouldForwardVisitIincInsnToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
-  <testcase name="shouldForwardVisitLabelToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0.001"/>
+  <testcase name="shouldForwardVisitLabelToChild" classname="org.pitest.mutationtest.engine.gregor.blocks.BlockTrackingMethodDecoratorTest" time="0"/>
 </testsuite>

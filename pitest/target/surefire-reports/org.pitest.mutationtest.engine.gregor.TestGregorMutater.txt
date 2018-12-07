@@ -1,4 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: org.pitest.mutationtest.engine.gregor.TestGregorMutater
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.281 sec - in org.pitest.mutationtest.engine.gregor.TestGregorMutater
+Tests run: 19, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.306 sec <<< FAILURE! - in org.pitest.mutationtest.engine.gregor.TestGregorMutater
+shouldNotMutateGroovyClosures(org.pitest.mutationtest.engine.gregor.TestGregorMutater)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.pitest.mutationtest.engine.gregor.TestGregorMutater.shouldNotMutateGroovyClosures(TestGregorMutater.java:164)
+
+shouldNotMutateGroovyClasses(org.pitest.mutationtest.engine.gregor.TestGregorMutater)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.pitest.mutationtest.engine.gregor.TestGregorMutater.shouldNotMutateGroovyClasses(TestGregorMutater.java:156)
+

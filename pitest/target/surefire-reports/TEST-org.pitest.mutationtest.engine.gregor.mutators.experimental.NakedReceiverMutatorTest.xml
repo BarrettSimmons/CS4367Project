@@ -63,10 +63,10 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldNotReplaceMethodCallWhenDifferentReturnType" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.013"/>
-  <testcase name="shouldNotMutateVoidMethodCall" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.017"/>
-  <testcase name="shouldRemoveDslMethods" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.029"/>
-  <testcase name="willReplaceCallToMethodWithDifferentGenericTypeDueToTypeErasure" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.048"/>
-  <testcase name="shouldReplaceMethodCallOnString" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.029"/>
-  <testcase name="shouldNotMutateStaticMethodCall" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.012"/>
+  <testcase name="shouldNotReplaceMethodCallWhenDifferentReturnType" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.008"/>
+  <testcase name="shouldNotMutateVoidMethodCall" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.012"/>
+  <testcase name="shouldRemoveDslMethods" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.034"/>
+  <testcase name="willReplaceCallToMethodWithDifferentGenericTypeDueToTypeErasure" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.061"/>
+  <testcase name="shouldReplaceMethodCallOnString" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.022"/>
+  <testcase name="shouldNotMutateStaticMethodCall" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutatorTest" time="0.011"/>
 </testsuite>

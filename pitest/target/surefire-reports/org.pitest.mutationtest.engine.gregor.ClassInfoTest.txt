@@ -1,4 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: org.pitest.mutationtest.engine.gregor.ClassInfoTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.pitest.mutationtest.engine.gregor.ClassInfoTest
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE! - in org.pitest.mutationtest.engine.gregor.ClassInfoTest
+shouldIdentifyGroovyObjects(org.pitest.mutationtest.engine.gregor.ClassInfoTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.pitest.mutationtest.engine.gregor.ClassInfoTest.shouldIdentifyGroovyObjects(ClassInfoTest.java:34)
+
+shouldIdentifyGroovyClosures(org.pitest.mutationtest.engine.gregor.ClassInfoTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.pitest.mutationtest.engine.gregor.ClassInfoTest.shouldIdentifyGroovyClosures(ClassInfoTest.java:42)
+

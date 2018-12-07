@@ -64,11 +64,11 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldExcludeExcludedClasses" classname="org.pitest.coverage.execute.CoverageOptionsTest" time="0.007"/>
-  <testcase name="shouldNotCoverJDKClassesWhenFilterIsBroad" classname="org.pitest.coverage.execute.CoverageOptionsTest" time="0"/>
-  <testcase name="shouldNotCoverPitestBootWhenFilterIsBroad" classname="org.pitest.coverage.execute.CoverageOptionsTest" time="0"/>
+  <testcase name="shouldNotCoverJDKClassesWhenFilterIsBroad" classname="org.pitest.coverage.execute.CoverageOptionsTest" time="0.001"/>
+  <testcase name="shouldNotCoverPitestBootWhenFilterIsBroad" classname="org.pitest.coverage.execute.CoverageOptionsTest" time="0.001"/>
   <testcase name="shouldNotCoverPitestCoverageWhenFilterIsBroad" classname="org.pitest.coverage.execute.CoverageOptionsTest" time="0.001"/>
-  <testcase name="shouldIncludeTargettedClasses" classname="org.pitest.coverage.execute.CoverageOptionsTest" time="0.001"/>
+  <testcase name="shouldIncludeTargettedClasses" classname="org.pitest.coverage.execute.CoverageOptionsTest" time="0"/>
   <testcase name="shouldNotCoverSunClassesWhenFilterIsBroad" classname="org.pitest.coverage.execute.CoverageOptionsTest" time="0"/>
-  <testcase name="shouldNotCoverJUnitWhenFilterIsBroad" classname="org.pitest.coverage.execute.CoverageOptionsTest" time="0.001"/>
+  <testcase name="shouldNotCoverJUnitWhenFilterIsBroad" classname="org.pitest.coverage.execute.CoverageOptionsTest" time="0"/>
   <testcase name="shouldNotCoverPitestRelocWhenFilterIsBroad" classname="org.pitest.coverage.execute.CoverageOptionsTest" time="0"/>
 </testsuite>
