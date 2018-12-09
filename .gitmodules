@@ -1,3 +1,6 @@
 [submodule "underscore-java"]
 	path = underscore-java
 	url = https://github.com/javadev/underscore-java.git
+[submodule "RxJava"]
+	path = RxJava
+	url = https://github.com/ReactiveX/RxJava.git
