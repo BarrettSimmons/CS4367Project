@@ -4,3 +4,6 @@
 [submodule "RxJava"]
 	path = RxJava
 	url = https://github.com/ReactiveX/RxJava.git
+[submodule "pitest/pitest/groot"]
+	path = pitest/pitest/groot
+	url = https://github.com/Hanksha/groot.git
